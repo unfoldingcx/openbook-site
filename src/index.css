@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#010101] text-white antialiased;
+  }
+
+  ::selection {
+    @apply bg-[#9f7423]/40 text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#010101];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#9f7423]/50 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#9f7423];
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#9f7423] to-[#d4a84b] bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply px-8 py-4 bg-[#9f7423] text-white font-medium rounded-full hover:bg-[#b8862a] transition-all;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 text-white/80 font-medium rounded-full border border-white/20 hover:bg-white/5 transition-all;
+  }
+
+  .card-glass {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl;
+  }
+
+  .section-padding {
+    @apply py-24 px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+}

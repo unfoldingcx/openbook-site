@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "technologies": "Technologies",
+    "clients": "Clients",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Accounting and Financial Advisory",
+    "title": "Transparency that drives",
+    "titleHighlight": "results",
+    "subtitle": "Personalized accounting and financial solutions for the sustainable growth of your business in Brazil and abroad.",
+    "cta": "Contact Us",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Why choose Open-Book?",
+    "subtitle": "Over 13 years of experience delivering personalized solutions",
+    "transparency": {
+      "title": "Total Transparency",
+      "description": "We operate with ethics and clarity in all operations, ensuring your trust."
+    },
+    "expertise": {
+      "title": "International Expertise",
+      "description": "Specialists in national and international accounting standards for global companies."
+    },
+    "technology": {
+      "title": "Advanced Technology",
+      "description": "Modern tools that ensure agility, precision, and security."
+    },
+    "personalized": {
+      "title": "Personalized Service",
+      "description": "Tailored solutions for your business's specific needs."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "intro": {
+      "title": "Introduction",
+      "subtitle": "Accounting and Financial Solutions That Drive Results",
+      "text": "In an increasingly competitive market, having personalized accounting and financial advisory services is essential for sustainable business growth. Our approach goes beyond regulatory compliance - we deliver strategic insights, organization, and reliable support to help each client make informed decisions, minimize risks, and maximize opportunities. We work closely with your business, tailoring solutions to meet your specific needs."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "To be recognized nationally and internationally as a reference in strategic, transparent and humane accounting, especially supporting international companies in their journey of sustainable growth and compliance in Brazil. Open Book aims to build a legacy of longevity, being remembered for having a deep knowledge of its clients' business, anticipating their needs and acting as a reliable partner in business development, succession planning and business continuity, with ethics, transparency and commitment to the long term.",
+      "points": [
+        "Reference in clear and human-centered accounting",
+        "Support for international companies in Brazil",
+        "Partnership that understands and anticipates needs",
+        "Focus on leadership, ethics, and business continuity"
+      ]
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "Our mission is to support our clients in the sustainable planning of their businesses, through the provision of regular accounting and tax services, with the delivery of analytical accounting and financial reports and statements, reliable, comparable and in line with legality, transparency and compliance standards, effectively contributing to strategic decision-making and the growth of their managers and organizations.",
+      "points": [
+        "Support clients' sustainable growth",
+        "Ensure transparent accounting and tax services",
+        "Assist in strategic decision-making"
+      ]
+    },
+    "values": {
+      "title": "Values",
+      "text": "Open Book operates based on transparency, ethics and commitment to the client, seeking to deeply understand their business. It values innovation responsibly, combining technology with the human dimension, and continuously invests in the development of its team. Its decisions are guided by data, always focusing on sustainable and long-term results.",
+      "items": [
+        { "title": "Transparency", "value": "30%" },
+        { "title": "Development", "value": "20%" },
+        { "title": "Results", "value": "20%" },
+        { "title": "Commitment", "value": "15%" },
+        { "title": "Innovation", "value": "15%" }
+      ],
+      "commitments": [
+        "Transparency, ethics, and client focus",
+        "Deep understanding of each business",
+        "Data-driven decisions and sustainable results"
+      ]
+    },
+    "workStyle": {
+      "title": "Differentiated Way of Working",
+      "subtitle": "Hybrid Work: Balancing Flexibility, Productivity, and Engagement",
+      "text": "Since the pandemic, Open Book has adopted a hybrid work model, combining technology with personalized, human-centered service. This structure brings benefits for everyone.",
+      "benefits": {
+        "employees": "Employees gain better quality of life, flexibility, and increased productivity.",
+        "clients": "Clients enjoy faster service, easier access, and tailor-made solutions."
+      },
+      "conclusion": "With a solid technological foundation, we maintain transparent, secure, and efficient services. We continue to grow with a focus on trust, innovation, and close relationships with our clients."
+    },
+    "partners": {
+      "title": "Message from the Partners",
+      "text": "With more than 13 years of experience, Open-Book Accounting and Financial Advisory offers customized accounting and financial solutions for companies of different sizes, operating in Brazil and abroad. The company has a team specialized in national and international accounting standards, taxes and financial management, providing complete and strategic service.",
+      "text2": "In addition to traditional accounting services, Open-Book also outsources financial management, with a focus on planning, control, and performance. Its performance is based on transparency, reliability and results orientation, supporting decisions with accurate and up-to-date data, always aligned with the principles of open accounting.",
+      "founders": "Liliane Segura & Leni Segura"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete solutions for your business growth",
+    "bpoContabil": {
+      "title": "Accounting BPO",
+      "description": "Area dedicated to the outsourcing of accounting and labor processes, ensuring legal compliance and administrative optimization.",
+      "fiscal": {
+        "title": "Tax",
+        "description": "Performs tax calculation, accessory obligations and monitors tax legislation to ensure correct compliance with tax requirements."
+      },
+      "payroll": {
+        "title": "Payroll (HR)",
+        "description": "Takes care of all personnel management: admissions, dismissals, payroll, social charges, vacations and labor obligations."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Performs bookkeeping, generation of financial statements, reconciliations and management analysis, supporting strategic decision-making."
+      }
+    },
+    "bpoFinanceiro": {
+      "title": "Financial BPO",
+      "description": "Responsible for the financial management of customers, offering services ranging from account control to foreign exchange operations.",
+      "accounts": {
+        "title": "Accounts Payable/Receivable",
+        "description": "Control and organization of accounts payable and receivable, bank reconciliation, cash flow and financial planning."
+      },
+      "exchange": {
+        "title": "Exchange Services",
+        "description": "Intermediates and manages foreign exchange operations, advising companies that carry out international transactions safely and compliantly."
+      }
+    },
+    "legal": {
+      "title": "Legal",
+      "description": "Offers specialized legal support for the structuring and operation of companies, with a focus on security and legal expansion.",
+      "corporate": "Corporate Services",
+      "consulting": "Structuring and Consulting",
+      "litigation": "Litigation"
+    },
+    "administrative": {
+      "title": "Administrative Services",
+      "description": "Offers infrastructure and operational support to domestic and foreign companies in need of local representation and support.",
+      "coworking": {
+        "title": "Coworking",
+        "description": "Shared physical space, with structure for companies that need to operate in Brazil without maintaining their own headquarters."
+      },
+      "representation": {
+        "title": "Representation",
+        "description": "Legal and administrative representation of the company before public and private bodies in Brazil."
+      },
+      "taxRecovery": {
+        "title": "Tax Recovery",
+        "description": "Identification of tax credits and execution of recovery processes of amounts unduly paid or overpaid."
+      }
+    },
+    "training": {
+      "title": "Training",
+      "description": "Area focused on team training, promoting technical knowledge and development of corporate skills.",
+      "corporate": {
+        "title": "Corporate",
+        "description": "Customized training programs for companies, focusing on accounting, finance, legislation and administrative processes."
+      },
+      "onDemand": {
+        "title": "On Demand",
+        "description": "On-demand training, developed according to the specific needs of the client, with flexibility of format and content."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Technologies and Tools",
+    "subtitle": "Technology as an ally of excellence",
+    "description": "Open-Book Accounting and Financial Advisory bets on technology as an ally of excellence. To this end, it continuously invests in process automation and integrated platforms that ensure agility, accuracy, and safety in service. With solutions such as Domain, Jetax, Econet and the Onvio package, the company offers modern, transparent accounting management in full compliance with the LGPD.",
+    "benefits": {
+      "title": "Benefits",
+      "items": [
+        "Automated execution of tax and labor routines",
+        "Secure tax deliveries",
+        "Quick decisions with technical backing",
+        "Protected digital channels for communication and document submission",
+        "Agile service with fewer operational failures",
+        "Greater data security",
+        "More fluid and efficient digital experience"
+      ]
+    },
+    "quote": "Technology is crucial for business growth, as it enables greater efficiency, accuracy, and speed in processes. In an accounting firm, it ensures secure data management, automates repetitive tasks, and provides strategic insights, allowing our team to focus on what truly matters: delivering high-quality, strategic services to our clients."
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Trust relationships built with excellence",
+    "description": "For us, at our accounting and financial advisory firm, our clients are at the center of everything we do. Each company we serve brings unique challenges, growth opportunities, and the trust that allows us to act strategically. We value our clients by providing accurate and efficient solutions while building strong relationships based on transparency, respect, and a commitment to their financial and accounting success.",
+    "industries": {
+      "industrial": "National industrial operation with accounting needs aligned to global standards.",
+      "agribusiness": "Multinational agribusiness with a complex tax structure, global presence, and strict compliance requirements.",
+      "financial": "Advisory and asset management institutions that require discretion, transparency, and technical rigor at an international level.",
+      "entertainment": "Global reference in the management of arenas and sports and cultural events.",
+      "creative": "Entertainment and artistic production company with accounting management focused on the dynamics of the creative market.",
+      "technology": "Technology and digital advertising giant with international operations and high compliance requirements."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Strategic Partnership for Business Growth and Stability",
+    "description": "Having accounting and financial advisory services that align with the reality of your business makes all the difference in building solid and lasting results. We are ready to go beyond being just a service provider - our goal is to be a strategic partner in the growth of your company.",
+    "tagline": "More than an office: your strategic business partner.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    },
+    "info": {
+      "phone": "+55 (11) 4883-0103",
+      "email": "contato@opbo.com.br",
+      "website": "www.opbo.com.br",
+      "address": "Rua do Bosque, 1589 - Sao Paulo - SP"
+    }
+  },
+  "footer": {
+    "description": "Transparency that drives accounting and financial results.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "title": "Ready to transform your accounting and financial management?",
+    "subtitle": "Contact us and discover how we can help your business grow.",
+    "button": "Contact Us"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Nos",
+    "services": "Servicos",
+    "technologies": "Tecnologias",
+    "clients": "Clientes",
+    "contact": "Contato"
+  },
+  "hero": {
+    "tagline": "Assessoria Contabil e Financeira",
+    "title": "Transparencia que impulsiona",
+    "titleHighlight": "resultados",
+    "subtitle": "Solucoes contabeis e financeiras personalizadas para o crescimento sustentavel do seu negocio no Brasil e no exterior.",
+    "cta": "Fale Conosco",
+    "learnMore": "Saiba Mais"
+  },
+  "features": {
+    "title": "Por que escolher a Open-Book?",
+    "subtitle": "Mais de 13 anos de experiencia oferecendo solucoes personalizadas",
+    "transparency": {
+      "title": "Transparencia Total",
+      "description": "Atuamos com etica e clareza em todas as operacoes, garantindo sua confianca."
+    },
+    "expertise": {
+      "title": "Expertise Internacional",
+      "description": "Especialistas em normas contabeis nacionais e internacionais para empresas globais."
+    },
+    "technology": {
+      "title": "Tecnologia Avancada",
+      "description": "Ferramentas modernas que garantem agilidade, precisao e seguranca."
+    },
+    "personalized": {
+      "title": "Atendimento Personalizado",
+      "description": "Solucoes sob medida para as necessidades especificas do seu negocio."
+    }
+  },
+  "about": {
+    "title": "Sobre Nos",
+    "intro": {
+      "title": "Introducao",
+      "subtitle": "Solucoes Contabeis e Financeiras que Impulsionam Resultados",
+      "text": "Em um mercado cada vez mais competitivo, ter assessoria contabil e financeira personalizada e essencial para o crescimento sustentavel dos negocios. Nossa abordagem vai alem da conformidade regulatoria - entregamos insights estrategicos, organizacao e suporte confiavel para ajudar cada cliente a tomar decisoes informadas, minimizar riscos e maximizar oportunidades. Trabalhamos de perto com o seu negocio, adaptando solucoes para atender suas necessidades especificas."
+    },
+    "vision": {
+      "title": "Visao",
+      "text": "Ser reconhecida nacional e internacionalmente como referencia em contabilidade estrategica, transparente e humanizada, especialmente apoiando empresas internacionais em sua jornada de crescimento sustentavel e conformidade no Brasil. A Open-Book visa construir um legado de longevidade, sendo lembrada por ter um profundo conhecimento dos negocios de seus clientes, antecipando suas necessidades e atuando como parceira confiavel no desenvolvimento empresarial, planejamento de sucessao e continuidade dos negocios, com etica, transparencia e compromisso de longo prazo.",
+      "points": [
+        "Referencia em contabilidade clara e centrada no ser humano",
+        "Apoio a empresas internacionais no Brasil",
+        "Parceria que entende e antecipa necessidades",
+        "Foco em lideranca, etica e continuidade dos negocios"
+      ]
+    },
+    "mission": {
+      "title": "Missao",
+      "text": "Nossa missao e apoiar nossos clientes no planejamento sustentavel de seus negocios, atraves da prestacao de servicos contabeis e fiscais regulares, com a entrega de relatorios e demonstrativos contabeis e financeiros analiticos, confiaveis, comparaveis e em conformidade com padroes de legalidade, transparencia e compliance, contribuindo efetivamente para a tomada de decisoes estrategicas e o crescimento de seus gestores e organizacoes.",
+      "points": [
+        "Apoiar o crescimento sustentavel dos clientes",
+        "Garantir servicos contabeis e fiscais transparentes",
+        "Auxiliar na tomada de decisoes estrategicas"
+      ]
+    },
+    "values": {
+      "title": "Valores",
+      "text": "A Open-Book opera com base em transparencia, etica e compromisso com o cliente, buscando compreender profundamente seus negocios. Valoriza a inovacao de forma responsavel, combinando tecnologia com a dimensao humana, e investe continuamente no desenvolvimento de sua equipe. Suas decisoes sao guiadas por dados, sempre focando em resultados sustentaveis e de longo prazo.",
+      "items": [
+        { "title": "Transparencia", "value": "30%" },
+        { "title": "Desenvolvimento", "value": "20%" },
+        { "title": "Resultados", "value": "20%" },
+        { "title": "Compromisso", "value": "15%" },
+        { "title": "Inovacao", "value": "15%" }
+      ],
+      "commitments": [
+        "Transparencia, etica e foco no cliente",
+        "Compreensao profunda de cada negocio",
+        "Decisoes baseadas em dados e resultados sustentaveis"
+      ]
+    },
+    "workStyle": {
+      "title": "Forma Diferenciada de Trabalhar",
+      "subtitle": "Trabalho Hibrido: Equilibrando Flexibilidade, Produtividade e Engajamento",
+      "text": "Desde a pandemia, a Open-Book adotou um modelo de trabalho hibrido, combinando tecnologia com atendimento personalizado e centrado no ser humano. Esta estrutura traz beneficios para todos.",
+      "benefits": {
+        "employees": "Colaboradores ganham melhor qualidade de vida, flexibilidade e maior produtividade.",
+        "clients": "Clientes desfrutam de atendimento mais rapido, acesso facilitado e solucoes sob medida."
+      },
+      "conclusion": "Com uma solida base tecnologica, mantemos servicos transparentes, seguros e eficientes. Continuamos a crescer com foco em confianca, inovacao e relacionamento proximo com nossos clientes."
+    },
+    "partners": {
+      "title": "Mensagem das Socias",
+      "text": "Com mais de 13 anos de experiencia, a Open-Book Assessoria Contabil e Financeira oferece solucoes contabeis e financeiras personalizadas para empresas de diferentes portes, atuando no Brasil e no exterior. A empresa conta com uma equipe especializada em normas contabeis nacionais e internacionais, tributos e gestao financeira, proporcionando atendimento completo e estrategico.",
+      "text2": "Alem dos servicos contabeis tradicionais, a Open-Book tambem terceiriza a gestao financeira, com foco em planejamento, controle e desempenho. Sua atuacao e baseada em transparencia, confiabilidade e orientacao para resultados, apoiando decisoes com dados precisos e atualizados, sempre alinhados aos principios da contabilidade aberta.",
+      "founders": "Liliane Segura & Leni Segura"
+    }
+  },
+  "services": {
+    "title": "Nossos Servicos",
+    "subtitle": "Solucoes completas para o crescimento do seu negocio",
+    "bpoContabil": {
+      "title": "BPO Contabil",
+      "description": "Area dedicada a terceirizacao de processos contabeis e trabalhistas, garantindo conformidade legal e otimizacao administrativa.",
+      "fiscal": {
+        "title": "Fiscal",
+        "description": "Realiza calculo de tributos, obrigacoes acessorias e monitora a legislacao tributaria para garantir o correto cumprimento das exigencias fiscais."
+      },
+      "payroll": {
+        "title": "Folha de Pagamento (DP)",
+        "description": "Cuida de toda a gestao de pessoal: admissoes, demissoes, folha de pagamento, encargos sociais, ferias e obrigacoes trabalhistas."
+      },
+      "accounting": {
+        "title": "Contabilidade",
+        "description": "Realiza escrituracao, geracao de demonstrativos financeiros, conciliacoes e analises gerenciais, apoiando a tomada de decisoes estrategicas."
+      }
+    },
+    "bpoFinanceiro": {
+      "title": "BPO Financeiro",
+      "description": "Responsavel pela gestao financeira dos clientes, oferecendo servicos que vao desde o controle de contas ate operacoes de cambio.",
+      "accounts": {
+        "title": "Contas a Pagar/Receber",
+        "description": "Controle e organizacao de contas a pagar e receber, conciliacao bancaria, fluxo de caixa e planejamento financeiro."
+      },
+      "exchange": {
+        "title": "Servicos de Cambio",
+        "description": "Intermediacao e gestao de operacoes de cambio, assessorando empresas que realizam transacoes internacionais de forma segura e em conformidade."
+      }
+    },
+    "legal": {
+      "title": "Juridico",
+      "description": "Oferece suporte juridico especializado para a estruturacao e operacao de empresas, com foco em seguranca e expansao legal.",
+      "corporate": "Servicos Societarios",
+      "consulting": "Estruturacao e Consultoria",
+      "litigation": "Contencioso"
+    },
+    "administrative": {
+      "title": "Servicos Administrativos",
+      "description": "Oferece infraestrutura e suporte operacional para empresas nacionais e estrangeiras que necessitam de representacao e apoio local.",
+      "coworking": {
+        "title": "Coworking",
+        "description": "Espaco fisico compartilhado, com estrutura para empresas que precisam operar no Brasil sem manter sede propria."
+      },
+      "representation": {
+        "title": "Representacao",
+        "description": "Representacao legal e administrativa da empresa perante orgaos publicos e privados no Brasil."
+      },
+      "taxRecovery": {
+        "title": "Recuperacao Fiscal",
+        "description": "Identificacao de creditos tributarios e execucao de processos de recuperacao de valores indevidamente pagos ou pagos a maior."
+      }
+    },
+    "training": {
+      "title": "Treinamento",
+      "description": "Area focada na capacitacao de equipes, promovendo conhecimento tecnico e desenvolvimento de habilidades corporativas.",
+      "corporate": {
+        "title": "Corporativo",
+        "description": "Programas de treinamento personalizados para empresas, com foco em contabilidade, financas, legislacao e processos administrativos."
+      },
+      "onDemand": {
+        "title": "Sob Demanda",
+        "description": "Treinamentos sob demanda, desenvolvidos de acordo com as necessidades especificas do cliente, com flexibilidade de formato e conteudo."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Tecnologias e Ferramentas",
+    "subtitle": "Tecnologia como aliada da excelencia",
+    "description": "A Open-Book Assessoria Contabil e Financeira aposta na tecnologia como aliada da excelencia. Para isso, investe continuamente em automacao de processos e plataformas integradas que garantem agilidade, precisao e seguranca no atendimento. Com solucoes como Dominio, Jetax, Econet e o pacote Onvio, a empresa oferece gestao contabil moderna e transparente, em total conformidade com a LGPD.",
+    "benefits": {
+      "title": "Beneficios",
+      "items": [
+        "Execucao automatizada de rotinas fiscais e trabalhistas",
+        "Entregas fiscais seguras",
+        "Decisoes rapidas com respaldo tecnico",
+        "Canais digitais protegidos para comunicacao e envio de documentos",
+        "Atendimento agil com menos falhas operacionais",
+        "Maior seguranca de dados",
+        "Experiencia digital mais fluida e eficiente"
+      ]
+    },
+    "quote": "A tecnologia e crucial para o crescimento dos negocios, pois permite maior eficiencia, precisao e velocidade nos processos. Em um escritorio de contabilidade, ela garante gestao segura de dados, automatiza tarefas repetitivas e fornece insights estrategicos, permitindo que nossa equipe se concentre no que realmente importa: entregar servicos de alta qualidade e estrategicos para nossos clientes."
+  },
+  "clients": {
+    "title": "Nossos Clientes",
+    "subtitle": "Relacoes de confianca construidas com excelencia",
+    "description": "Para nos, na nossa assessoria contabil e financeira, nossos clientes estao no centro de tudo o que fazemos. Cada empresa que atendemos traz desafios unicos, oportunidades de crescimento e a confianca que nos permite atuar estrategicamente. Valorizamos nossos clientes fornecendo solucoes precisas e eficientes, construindo relacionamentos solidos baseados em transparencia, respeito e compromisso com seu sucesso contabil e financeiro.",
+    "industries": {
+      "industrial": "Operacao industrial nacional com necessidades contabeis alinhadas a padroes globais.",
+      "agribusiness": "Agroindustria multinacional com estrutura tributaria complexa, presenca global e requisitos rigorosos de conformidade.",
+      "financial": "Instituicoes de consultoria e gestao de ativos que exigem discricao, transparencia e rigor tecnico em nivel internacional.",
+      "entertainment": "Referencia global na gestao de arenas e eventos esportivos e culturais.",
+      "creative": "Empresa de entretenimento e producao artistica com gestao contabil focada na dinamica do mercado criativo.",
+      "technology": "Gigante de tecnologia e publicidade digital com operacoes internacionais e altos requisitos de conformidade."
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Parceria Estrategica para Crescimento e Estabilidade dos Negocios",
+    "description": "Ter assessoria contabil e financeira alinhada a realidade do seu negocio faz toda a diferenca na construcao de resultados solidos e duradouros. Estamos prontos para ir alem de ser apenas um prestador de servicos - nosso objetivo e ser um parceiro estrategico no crescimento da sua empresa.",
+    "tagline": "Mais que um escritorio: seu parceiro estrategico de negocios.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "company": "Empresa",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+    "info": {
+      "phone": "+55 (11) 4883-0103",
+      "email": "contato@opbo.com.br",
+      "website": "www.opbo.com.br",
+      "address": "Rua do Bosque, 1589 - Sao Paulo - SP"
+    }
+  },
+  "footer": {
+    "description": "Transparencia que impulsiona resultados contabeis e financeiros.",
+    "quickLinks": "Links Rapidos",
+    "contactUs": "Contato",
+    "followUs": "Redes Sociais",
+    "rights": "Todos os direitos reservados."
+  },
+  "cta": {
+    "title": "Pronto para transformar sua gestao contabil e financeira?",
+    "subtitle": "Entre em contato conosco e descubra como podemos ajudar seu negocio a crescer.",
+    "button": "Fale Conosco"
+  }
+}
