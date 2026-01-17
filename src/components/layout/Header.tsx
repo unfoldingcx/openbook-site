@@ -1,48 +1,49 @@
-import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Globe } from 'lucide-react';
+import { useState, useEffect } from "react"
+import { Link, useLocation } from "react-router-dom"
+import { useTranslation } from "react-i18next"
+import { motion, AnimatePresence } from "motion/react"
+import { Menu, X, Globe } from "lucide-react"
+import OnvioButton from "../ui/OnvioButton"
 
 export default function Header() {
-  const { t, i18n } = useTranslation();
-  const location = useLocation();
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t, i18n } = useTranslation()
+  const location = useLocation()
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const navItems = [
-    { path: '/', label: t('nav.home') },
-    { path: '/about', label: t('nav.about') },
-    { path: '/services', label: t('nav.services') },
-    { path: '/technologies', label: t('nav.technologies') },
-    { path: '/clients', label: t('nav.clients') },
-    { path: '/contact', label: t('nav.contact') }
-  ];
+    { path: "/", label: t("nav.home") },
+    { path: "/services", label: t("nav.services") },
+    { path: "/training", label: t("nav.training") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/clients", label: t("nav.clients") },
+    { path: "/contact", label: t("nav.contact") },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+      setIsScrolled(window.scrollY > 20)
+    }
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   useEffect(() => {
-    setIsMobileMenuOpen(false);
-  }, [location.pathname]);
+    setIsMobileMenuOpen(false)
+  }, [location.pathname])
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'pt' ? 'en' : 'pt';
-    i18n.changeLanguage(newLang);
-    localStorage.setItem('language', newLang);
-  };
+    const newLang = i18n.language === "pt" ? "en" : "pt"
+    i18n.changeLanguage(newLang)
+    localStorage.setItem("language", newLang)
+  }
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#010101]/95 backdrop-blur-md shadow-lg'
-          : 'bg-transparent'
+          ? "bg-[#010101]/95 backdrop-blur-md shadow-lg"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,27 +59,32 @@ export default function Header() {
             </motion.div>
           </Link>
 
+          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item, index) => (
               <motion.div
                 key={item.path}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0.05 }}
               >
                 <Link
                   to={item.path}
                   className={`relative text-sm font-medium transition-colors duration-300 ${
-                    location.pathname === item.path
-                      ? 'text-[#9f7423]'
-                      : 'text-white/80 hover:text-white'
+                    location.pathname === item.path ||
+                    (item.path !== "/" && location.pathname.startsWith(item.path))
+                      ? "text-[#9f7423]"
+                      : "text-white/80 hover:text-white"
                   }`}
                 >
                   {item.label}
-                  {location.pathname === item.path && (
+                  {(location.pathname === item.path ||
+                    (item.path !== "/" &&
+                      location.pathname.startsWith(item.path))) && (
                     <motion.div
                       layoutId="activeNav"
                       className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#9f7423]"
+                      transition={{ type: "spring", stiffness: 400, damping: 30 }}
                     />
                   )}
                 </Link>
@@ -86,6 +92,7 @@ export default function Header() {
             ))}
           </nav>
 
+          {/* Desktop Right Side */}
           <div className="hidden lg:flex items-center gap-4">
             <button
               onClick={toggleLanguage}
@@ -94,30 +101,29 @@ export default function Header() {
               <Globe className="w-4 h-4" />
               <span className="uppercase">{i18n.language}</span>
             </button>
-            <Link
-              to="/contact"
-              className="px-6 py-2.5 bg-[#9f7423] text-white text-sm font-medium rounded-full hover:bg-[#b8862a] transition-colors"
-            >
-              {t('hero.cta')}
-            </Link>
+            <OnvioButton variant="header" />
           </div>
 
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-white"
+            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
       </div>
 
+      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-[#010101]/95 backdrop-blur-md border-t border-white/10"
+            transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            className="lg:hidden bg-[#010101]/95 backdrop-blur-md border-t border-white/10 overflow-hidden"
           >
             <div className="px-4 py-6 space-y-4">
               {navItems.map((item) => (
@@ -125,33 +131,31 @@ export default function Header() {
                   key={item.path}
                   to={item.path}
                   className={`block text-lg font-medium transition-colors ${
-                    location.pathname === item.path
-                      ? 'text-[#9f7423]'
-                      : 'text-white/80'
+                    location.pathname === item.path ||
+                    (item.path !== "/" && location.pathname.startsWith(item.path))
+                      ? "text-[#9f7423]"
+                      : "text-white/80"
                   }`}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-4 border-t border-white/10 flex items-center justify-between">
+              <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-4">
                 <button
                   onClick={toggleLanguage}
-                  className="flex items-center gap-2 text-white/80"
+                  className="flex items-center gap-2 text-white/80 text-sm"
                 >
                   <Globe className="w-5 h-5" />
-                  <span className="uppercase">{i18n.language === 'pt' ? 'English' : 'Portugues'}</span>
+                  <span className="uppercase">
+                    {i18n.language === "pt" ? "English" : "Português"}
+                  </span>
                 </button>
-                <Link
-                  to="/contact"
-                  className="px-6 py-2.5 bg-[#9f7423] text-white text-sm font-medium rounded-full"
-                >
-                  {t('hero.cta')}
-                </Link>
+                <OnvioButton variant="header" />
               </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
     </header>
-  );
+  )
 }

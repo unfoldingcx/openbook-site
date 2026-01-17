@@ -3,9 +3,15 @@
     "home": "Início",
     "about": "Sobre Nós",
     "services": "Serviços",
+    "training": "Cursos",
     "technologies": "Tecnologias",
     "clients": "Clientes",
     "contact": "Contato"
+  },
+  "onvio": {
+    "buttonText": "Acesso Onvio",
+    "buttonLabel": "Acessar o sistema Onvio",
+    "alreadyClient": "Já é cliente? Acesse o Onvio"
   },
   "hero": {
     "tagline": "Assessoria Contábil e Financeira",
@@ -97,68 +103,184 @@
   "services": {
     "title": "Nossos Serviços",
     "subtitle": "Soluções completas para o crescimento do seu negócio",
-    "bpoContabil": {
-      "title": "BPO Contábil",
-      "description": "Área dedicada à terceirização de processos contábeis e trabalhistas, garantindo conformidade legal e otimização administrativa.",
-      "fiscal": {
-        "title": "Fiscal",
-        "description": "Realiza cálculo de tributos, obrigações acessórias e monitora a legislação tributária para garantir o correto cumprimento das exigências fiscais."
+    "badge": "Áreas de Atuação",
+    "intro": "Oferecemos soluções integradas em contabilidade, finanças, fiscal e departamento pessoal, com foco em compliance e relatórios estratégicos.",
+    "cta": {
+      "title": "Pronto para transformar sua gestão?",
+      "description": "Entre em contato conosco e descubra como podemos ajudar seu negócio a crescer.",
+      "button": "Fale com um especialista",
+      "contact": "Fale Conosco"
+    },
+    "whyChoose": "Por que escolher a Open-Book?",
+    "related": "Veja também",
+    "accounting": {
+      "title": "Contabilidade",
+      "tagline": "Contabilidade clara, analítica e estratégica",
+      "cardDescription": "Relatórios contábeis claros, analíticos e alinhados às normas brasileiras e internacionais.",
+      "description": "Nossa assessoria contábil é conduzida de acordo com as Normas Brasileiras de Contabilidade e práticas internacionais, assegurando informações confiáveis para gestores, sócios e matrizes no exterior.",
+      "servicesTitle": "Nossos Serviços Contábeis",
+      "services": {
+        "bookkeeping": "Escrituração contábil completa",
+        "balances": "Balancetes mensais e demonstrações de resultado",
+        "statements": "Balanço Patrimonial e demonstrações obrigatórias",
+        "reconciliations": "Reconciliações contábeis periódicas",
+        "reports": "Relatórios gerenciais e análises estratégicas",
+        "international": "Reporte contábil internacional"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Conformidade Garantida",
+          "description": "Atuação em acordo com normas brasileiras e internacionais"
+        },
+        "strategic": {
+          "title": "Relatórios Estratégicos",
+          "description": "Informações analíticas para tomada de decisão"
+        },
+        "international": {
+          "title": "Expertise Internacional",
+          "description": "Suporte para matrizes e investidores no exterior"
+        }
+      }
+    },
+    "financial": {
+      "title": "Financeiro",
+      "tagline": "BPO Financeiro para gestão integrada",
+      "cardDescription": "BPO Financeiro e controle dos processos financeiros para apoiar a gestão.",
+      "description": "Assumimos a gestão financeira das empresas com foco em controle, planejamento e desempenho, integrando processos financeiros e contábeis.",
+      "servicesTitle": "Nossos Serviços Financeiros",
+      "services": {
+        "payable": "Contas a pagar e a receber",
+        "receivable": "Gestão de contas a receber",
+        "reconciliation": "Conciliação bancária",
+        "cashflow": "Fluxo de caixa e planejamento financeiro",
+        "reports": "Relatórios financeiros gerenciais",
+        "exchange": "Operações de câmbio e suporte a transações internacionais"
+      },
+      "benefits": {
+        "control": {
+          "title": "Controle Total",
+          "description": "Visibilidade completa das finanças"
+        },
+        "planning": {
+          "title": "Planejamento Estratégico",
+          "description": "Projeções e análise de cenários"
+        },
+        "integrated": {
+          "title": "Integração Contábil",
+          "description": "Processos financeiros integrados à contabilidade"
+        }
+      }
+    },
+    "tax": {
+      "title": "Fiscal",
+      "tagline": "Compliance fiscal como pilar do negócio",
+      "cardDescription": "Compliance fiscal, apuração de tributos e obrigações acessórias.",
+      "description": "Atuamos com rigor técnico para garantir o cumprimento integral da legislação fiscal, reduzindo riscos e assegurando transparência.",
+      "servicesTitle": "Nossos Serviços Fiscais",
+      "services": {
+        "calculation": "Apuração de tributos federais, estaduais e municipais",
+        "filings": "Obrigações acessórias eletrônicas",
+        "invoices": "Escrituração e controle de notas fiscais",
+        "withholding": "Tratamento de retenções tributárias",
+        "audit": "Atendimento a fiscalizações",
+        "declarations": "ECD, DEFIS e demais declarações obrigatórias"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Conformidade Total",
+          "description": "Cumprimento de todas as obrigações fiscais"
+        },
+        "risk": {
+          "title": "Gestão de Riscos",
+          "description": "Minimização de riscos fiscais"
+        },
+        "transparency": {
+          "title": "Transparência",
+          "description": "Clareza em todas as operações fiscais"
+        }
+      }
+    },
+    "payroll": {
+      "title": "Departamento Pessoal",
+      "tagline": "Gestão trabalhista com segurança e conformidade",
+      "cardDescription": "Gestão trabalhista, folha de pagamento e eSocial com segurança.",
+      "description": "Prestamos assessoria completa em rotinas trabalhistas, previdenciárias e de folha de pagamento.",
+      "servicesTitle": "Nossos Serviços de DP",
+      "services": {
+        "payroll": "Folha de pagamento e encargos sociais",
+        "hiring": "Admissões, demissões e férias",
+        "vacation": "Gestão de férias e benefícios",
+        "profit": "Pró-labore e distribuição de lucros",
+        "filings": "eSocial, RAIS, FGTS e CAGED",
+        "monitoring": "Atualização contínua da legislação trabalhista"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Conformidade Trabalhista",
+          "description": "Cumprimento de todas as obrigações trabalhistas"
+        },
+        "security": {
+          "title": "Segurança Jurídica",
+          "description": "Processos seguros e auditados"
+        },
+        "updated": {
+          "title": "Legislação Atualizada",
+          "description": "Acompanhamento constante de mudanças na legislação"
+        }
+      }
+    }
+  },
+  "training": {
+    "title": "Cursos & Treinamentos",
+    "tagline": "Treinamentos corporativos sob medida",
+    "description": "Desenvolvemos treinamentos personalizados para empresas, alinhados à realidade do seu negócio.",
+    "topicsTitle": "Áreas de Treinamento",
+    "topicsSubtitle": "Capacitação especializada para sua equipe",
+    "topics": {
+      "accounting": {
+        "title": "Contabilidade e Demonstrações Financeiras",
+        "description": "Domine as práticas contábeis e elaboração de demonstrações financeiras."
+      },
+      "compliance": {
+        "title": "Compliance Contábil e Fiscal",
+        "description": "Garanta a conformidade com as exigências legais contábeis e fiscais."
+      },
+      "financial": {
+        "title": "Gestão Financeira",
+        "description": "Ferramentas e técnicas para gestão financeira eficaz."
       },
       "payroll": {
-        "title": "Folha de Pagamento (DP)",
-        "description": "Cuida de toda a gestão de pessoal: admissões, demissões, folha de pagamento, encargos sociais, férias e obrigações trabalhistas."
+        "title": "Departamento Pessoal",
+        "description": "Gestão de folha, admissões e obrigações trabalhistas."
       },
-      "accounting": {
-        "title": "Contabilidade",
-        "description": "Realiza escrituração, geração de demonstrativos financeiros, conciliações e análises gerenciais, apoiando a tomada de decisões estratégicas."
+      "international": {
+        "title": "Reporte Internacional",
+        "description": "Elaboração de relatórios contábeis para matrizes internacionais."
+      },
+      "taxReform": {
+        "title": "Reforma Tributária",
+        "description": "Entenda as mudanças e impactos da nova legislação tributária."
       }
     },
-    "bpoFinanceiro": {
-      "title": "BPO Financeiro",
-      "description": "Responsável pela gestão financeira dos clientes, oferecendo serviços que vão desde o controle de contas até operações de câmbio.",
-      "accounts": {
-        "title": "Contas a Pagar/Receber",
-        "description": "Controle e organização de contas a pagar e receber, conciliação bancária, fluxo de caixa e planejamento financeiro."
+    "approachTitle": "Nossa Metodologia",
+    "approach": {
+      "diagnosis": {
+        "title": "Diagnóstico",
+        "description": "Analisamos as necessidades específicas da sua equipe"
       },
-      "exchange": {
-        "title": "Serviços de Câmbio",
-        "description": "Intermediação e gestão de operações de câmbio, assessorando empresas que realizam transações internacionais de forma segura e em conformidade."
+      "customization": {
+        "title": "Customização",
+        "description": "Desenvolvemos conteúdo adaptado à sua realidade"
+      },
+      "delivery": {
+        "title": "Entrega",
+        "description": "Ministramos treinamentos presenciais ou online"
       }
     },
-    "legal": {
-      "title": "Jurídico",
-      "description": "Oferece suporte jurídico especializado para a estruturação e operação de empresas, com foco em segurança e expansão legal.",
-      "corporate": "Serviços Societários",
-      "consulting": "Estruturação e Consultoria",
-      "litigation": "Contencioso"
-    },
-    "administrative": {
-      "title": "Serviços Administrativos",
-      "description": "Oferece infraestrutura e suporte operacional para empresas nacionais e estrangeiras que necessitam de representação e apoio local.",
-      "coworking": {
-        "title": "Coworking",
-        "description": "Espaço físico compartilhado, com estrutura para empresas que precisam operar no Brasil sem manter sede própria."
-      },
-      "representation": {
-        "title": "Representação",
-        "description": "Representação legal e administrativa da empresa perante órgãos públicos e privados no Brasil."
-      },
-      "taxRecovery": {
-        "title": "Recuperação Fiscal",
-        "description": "Identificação de créditos tributários e execução de processos de recuperação de valores indevidamente pagos ou pagos a maior."
-      }
-    },
-    "training": {
-      "title": "Treinamento",
-      "description": "Área focada na capacitação de equipes, promovendo conhecimento técnico e desenvolvimento de habilidades corporativas.",
-      "corporate": {
-        "title": "Corporativo",
-        "description": "Programas de treinamento personalizados para empresas, com foco em contabilidade, finanças, legislação e processos administrativos."
-      },
-      "onDemand": {
-        "title": "Sob Demanda",
-        "description": "Treinamentos sob demanda, desenvolvidos de acordo com as necessidades específicas do cliente, com flexibilidade de formato e conteúdo."
-      }
+    "cta": {
+      "title": "Pronto para capacitar sua equipe?",
+      "description": "Entre em contato e vamos conversar sobre o treinamento ideal para sua empresa.",
+      "button": "Solicitar Orçamento"
     }
   },
   "technologies": {
@@ -240,6 +362,10 @@
       "title": "Nossos Serviços | Open-Book Assessoria Contábil e Financeira",
       "description": "BPO Contábil e Financeiro, Fiscal, Folha de Pagamento, Jurídico e Serviços Administrativos. Soluções completas para o crescimento do seu negócio."
     },
+    "training": {
+      "title": "Cursos e Treinamentos | Open-Book Assessoria Contábil",
+      "description": "Treinamentos corporativos em contabilidade, finanças, fiscal e departamento pessoal. Capacitação personalizada para sua empresa."
+    },
     "technologies": {
       "title": "Tecnologias e Ferramentas | Open-Book Assessoria Contábil",
       "description": "Tecnologia como aliada da excelência. Automatização de processos, plataformas integradas e segurança de dados para gestão contábil moderna."
@@ -251,6 +377,22 @@
     "contact": {
       "title": "Entre em Contato | Open-Book Assessoria Contábil e Financeira",
       "description": "Fale com a Open-Book. Mais que um escritório: seu parceiro estratégico de negócios. Telefone: +55 (11) 4883-0103."
+    },
+    "accounting": {
+      "title": "Contabilidade | Open-Book Assessoria Contábil e Financeira",
+      "description": "Serviços contábeis completos com relatórios analíticos e conformidade com normas brasileiras e internacionais."
+    },
+    "financial": {
+      "title": "BPO Financeiro | Open-Book Assessoria Contábil e Financeira",
+      "description": "Gestão financeira completa com contas a pagar/receber, conciliação bancária e planejamento financeiro."
+    },
+    "tax": {
+      "title": "Fiscal | Open-Book Assessoria Contábil e Financeira",
+      "description": "Compliance fiscal completo com apuração de tributos e obrigações acessórias."
+    },
+    "payroll": {
+      "title": "Departamento Pessoal | Open-Book Assessoria Contábil e Financeira",
+      "description": "Gestão trabalhista completa com folha de pagamento, admissões e eSocial."
     }
   }
 }

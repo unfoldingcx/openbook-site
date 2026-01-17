@@ -3,9 +3,15 @@
     "home": "Home",
     "about": "About Us",
     "services": "Services",
+    "training": "Training",
     "technologies": "Technologies",
     "clients": "Clients",
     "contact": "Contact"
+  },
+  "onvio": {
+    "buttonText": "Onvio Access",
+    "buttonLabel": "Access the Onvio system",
+    "alreadyClient": "Already a client? Access Onvio"
   },
   "hero": {
     "tagline": "Accounting and Financial Advisory",
@@ -97,68 +103,184 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Complete solutions for your business growth",
-    "bpoContabil": {
-      "title": "Accounting BPO",
-      "description": "Area dedicated to the outsourcing of accounting and labor processes, ensuring legal compliance and administrative optimization.",
-      "fiscal": {
-        "title": "Tax",
-        "description": "Performs tax calculation, accessory obligations and monitors tax legislation to ensure correct compliance with tax requirements."
+    "badge": "Service Areas",
+    "intro": "We offer integrated solutions in accounting, finance, tax, and payroll, focused on compliance and strategic reporting.",
+    "cta": {
+      "title": "Ready to transform your management?",
+      "description": "Contact us and discover how we can help your business grow.",
+      "button": "Talk to a specialist",
+      "contact": "Contact Us"
+    },
+    "whyChoose": "Why choose Open-Book?",
+    "related": "See also",
+    "accounting": {
+      "title": "Accounting",
+      "tagline": "Clear, analytical and strategic accounting",
+      "cardDescription": "Clear, analytical and reliable accounting reports aligned with Brazilian and international standards.",
+      "description": "Our accounting services comply with Brazilian Accounting Standards and international practices, ensuring reliable information for management, shareholders and foreign headquarters.",
+      "servicesTitle": "Our Accounting Services",
+      "services": {
+        "bookkeeping": "Full bookkeeping services",
+        "balances": "Monthly trial balances and income statements",
+        "statements": "Balance sheet and statutory financial statements",
+        "reconciliations": "Account reconciliations",
+        "reports": "Management and analytical reports",
+        "international": "International accounting reporting"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Guaranteed Compliance",
+          "description": "Compliance with Brazilian and international standards"
+        },
+        "strategic": {
+          "title": "Strategic Reports",
+          "description": "Analytical information for decision-making"
+        },
+        "international": {
+          "title": "International Expertise",
+          "description": "Support for headquarters and foreign investors"
+        }
+      }
+    },
+    "financial": {
+      "title": "Financial",
+      "tagline": "Financial BPO for integrated management",
+      "cardDescription": "Financial BPO and financial process control to support management.",
+      "description": "We manage our clients' financial operations with a focus on control, planning and performance, fully integrated with accounting processes.",
+      "servicesTitle": "Our Financial Services",
+      "services": {
+        "payable": "Accounts payable and receivable",
+        "receivable": "Accounts receivable management",
+        "reconciliation": "Bank reconciliation",
+        "cashflow": "Cash flow and financial planning",
+        "reports": "Management financial reports",
+        "exchange": "Foreign exchange and international transaction support"
+      },
+      "benefits": {
+        "control": {
+          "title": "Complete Control",
+          "description": "Full visibility of finances"
+        },
+        "planning": {
+          "title": "Strategic Planning",
+          "description": "Projections and scenario analysis"
+        },
+        "integrated": {
+          "title": "Accounting Integration",
+          "description": "Financial processes integrated with accounting"
+        }
+      }
+    },
+    "tax": {
+      "title": "Tax",
+      "tagline": "Tax compliance as a business foundation",
+      "cardDescription": "Tax compliance, tax calculation and ancillary obligations.",
+      "description": "We provide full tax compliance services, ensuring strict adherence to Brazilian tax legislation and minimizing fiscal risks.",
+      "servicesTitle": "Our Tax Services",
+      "services": {
+        "calculation": "Federal, state and municipal tax calculation",
+        "filings": "Electronic tax filings and ancillary obligations",
+        "invoices": "Invoice processing and tax reconciliations",
+        "withholding": "Withholding tax management",
+        "audit": "Tax audit support",
+        "declarations": "ECD, DEFIS and statutory filings"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Full Compliance",
+          "description": "Compliance with all tax obligations"
+        },
+        "risk": {
+          "title": "Risk Management",
+          "description": "Minimization of tax risks"
+        },
+        "transparency": {
+          "title": "Transparency",
+          "description": "Clarity in all tax operations"
+        }
+      }
+    },
+    "payroll": {
+      "title": "Payroll",
+      "tagline": "Payroll and labor compliance management",
+      "cardDescription": "Labor compliance, payroll processing and eSocial with security.",
+      "description": "We provide full payroll and labor advisory services, ensuring compliance with Brazilian labor and social security regulations.",
+      "servicesTitle": "Our Payroll Services",
+      "services": {
+        "payroll": "Payroll processing and social charges",
+        "hiring": "Hiring, termination and vacation management",
+        "vacation": "Vacation and benefits management",
+        "profit": "Executive compensation and profit distribution",
+        "filings": "eSocial and statutory labor filings",
+        "monitoring": "Continuous labor law monitoring"
+      },
+      "benefits": {
+        "compliance": {
+          "title": "Labor Compliance",
+          "description": "Compliance with all labor obligations"
+        },
+        "security": {
+          "title": "Legal Security",
+          "description": "Secure and audited processes"
+        },
+        "updated": {
+          "title": "Updated Legislation",
+          "description": "Constant monitoring of legislative changes"
+        }
+      }
+    }
+  },
+  "training": {
+    "title": "Training Programs",
+    "tagline": "Customized corporate training programs",
+    "description": "We offer tailored training programs designed according to each company's needs.",
+    "topicsTitle": "Training Areas",
+    "topicsSubtitle": "Specialized training for your team",
+    "topics": {
+      "accounting": {
+        "title": "Accounting and Financial Statements",
+        "description": "Master accounting practices and financial statement preparation."
+      },
+      "compliance": {
+        "title": "Accounting and Tax Compliance",
+        "description": "Ensure compliance with accounting and tax legal requirements."
+      },
+      "financial": {
+        "title": "Financial Management",
+        "description": "Tools and techniques for effective financial management."
       },
       "payroll": {
-        "title": "Payroll (HR)",
-        "description": "Takes care of all personnel management: admissions, dismissals, payroll, social charges, vacations and labor obligations."
+        "title": "Payroll and Labor",
+        "description": "Payroll management, hiring and labor obligations."
       },
-      "accounting": {
-        "title": "Accounting",
-        "description": "Performs bookkeeping, generation of financial statements, reconciliations and management analysis, supporting strategic decision-making."
+      "international": {
+        "title": "International Reporting",
+        "description": "Preparation of accounting reports for international headquarters."
+      },
+      "taxReform": {
+        "title": "Tax Reform",
+        "description": "Understand the changes and impacts of the new tax legislation."
       }
     },
-    "bpoFinanceiro": {
-      "title": "Financial BPO",
-      "description": "Responsible for the financial management of customers, offering services ranging from account control to foreign exchange operations.",
-      "accounts": {
-        "title": "Accounts Payable/Receivable",
-        "description": "Control and organization of accounts payable and receivable, bank reconciliation, cash flow and financial planning."
+    "approachTitle": "Our Methodology",
+    "approach": {
+      "diagnosis": {
+        "title": "Diagnosis",
+        "description": "We analyze your team's specific needs"
       },
-      "exchange": {
-        "title": "Exchange Services",
-        "description": "Intermediates and manages foreign exchange operations, advising companies that carry out international transactions safely and compliantly."
+      "customization": {
+        "title": "Customization",
+        "description": "We develop content tailored to your reality"
+      },
+      "delivery": {
+        "title": "Delivery",
+        "description": "We deliver training in person or online"
       }
     },
-    "legal": {
-      "title": "Legal",
-      "description": "Offers specialized legal support for the structuring and operation of companies, with a focus on security and legal expansion.",
-      "corporate": "Corporate Services",
-      "consulting": "Structuring and Consulting",
-      "litigation": "Litigation"
-    },
-    "administrative": {
-      "title": "Administrative Services",
-      "description": "Offers infrastructure and operational support to domestic and foreign companies in need of local representation and support.",
-      "coworking": {
-        "title": "Coworking",
-        "description": "Shared physical space, with structure for companies that need to operate in Brazil without maintaining their own headquarters."
-      },
-      "representation": {
-        "title": "Representation",
-        "description": "Legal and administrative representation of the company before public and private bodies in Brazil."
-      },
-      "taxRecovery": {
-        "title": "Tax Recovery",
-        "description": "Identification of tax credits and execution of recovery processes of amounts unduly paid or overpaid."
-      }
-    },
-    "training": {
-      "title": "Training",
-      "description": "Area focused on team training, promoting technical knowledge and development of corporate skills.",
-      "corporate": {
-        "title": "Corporate",
-        "description": "Customized training programs for companies, focusing on accounting, finance, legislation and administrative processes."
-      },
-      "onDemand": {
-        "title": "On Demand",
-        "description": "On-demand training, developed according to the specific needs of the client, with flexibility of format and content."
-      }
+    "cta": {
+      "title": "Ready to upskill your team?",
+      "description": "Contact us and let's discuss the ideal training for your company.",
+      "button": "Request a Quote"
     }
   },
   "technologies": {
@@ -177,7 +299,7 @@
         "More fluid and efficient digital experience"
       ]
     },
-    "quote": "Technology is crucial for business growth, as it enables greater efficiency, accuracy, and speed in processes. In an accounting firm, it ensures secure data management, automates repetitive tasks, and provides strategic insights, allowing our team to focus on what truly matters: delivering high-quality, strategic services to our clients."
+    "quote": "Technology is crucial for business growth, as it enables greater efficiency, accuracy, and speed in processes. In an accounting firm, it ensures secure data management, automates repetitive tasks and provides strategic insights, allowing our team to focus on what really matters: delivering high-quality, strategic services to our clients."
   },
   "clients": {
     "title": "Our Clients",
@@ -240,17 +362,37 @@
       "title": "Our Services | Open-Book Accounting and Financial Advisory",
       "description": "Accounting and Financial BPO, Tax, Payroll, Legal, and Administrative Services. Complete solutions for your business growth."
     },
+    "training": {
+      "title": "Training Programs | Open-Book Accounting Advisory",
+      "description": "Corporate training in accounting, finance, tax and payroll. Personalized training for your company."
+    },
     "technologies": {
       "title": "Technologies and Tools | Open-Book Accounting Advisory",
-      "description": "Technology as an ally of excellence. Process automation, integrated platforms, and data security for modern accounting management."
+      "description": "Technology as an ally of excellence. Process automation, integrated platforms and data security for modern accounting management."
     },
     "clients": {
       "title": "Our Clients | Open-Book Accounting and Financial Advisory",
-      "description": "Trust relationships built with excellence. We serve industry, agribusiness, financial institutions, and technology companies."
+      "description": "Trust relationships built with excellence. We serve industry, agribusiness, financial institutions and technology companies."
     },
     "contact": {
       "title": "Contact Us | Open-Book Accounting and Financial Advisory",
       "description": "Get in touch with Open-Book. More than an office: your strategic business partner. Phone: +55 (11) 4883-0103."
+    },
+    "accounting": {
+      "title": "Accounting | Open-Book Accounting and Financial Advisory",
+      "description": "Complete accounting services with analytical reports and compliance with Brazilian and international standards."
+    },
+    "financial": {
+      "title": "Financial BPO | Open-Book Accounting and Financial Advisory",
+      "description": "Complete financial management with accounts payable/receivable, bank reconciliation and financial planning."
+    },
+    "tax": {
+      "title": "Tax | Open-Book Accounting and Financial Advisory",
+      "description": "Full tax compliance with tax calculation and ancillary obligations."
+    },
+    "payroll": {
+      "title": "Payroll | Open-Book Accounting and Financial Advisory",
+      "description": "Complete labor compliance with payroll processing, hiring and eSocial."
     }
   }
 }

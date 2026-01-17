@@ -12,9 +12,10 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
-    "framer-motion": "^12.23.25",
     "i18next": "^25.7.2",
     "lucide-react": "^0.344.0",
+    "motion": "^12.26.2",
+    "motion-plus": "https://api.motion.dev/registry.tgz?package=motion-plus&version=2.0.2&token=6df336e45b1bdbc466db870ea9fc672e39ae90be0a3625b187aa92a9b5a8cfa9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
