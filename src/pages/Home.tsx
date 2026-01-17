@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import SectionTitle from '../components/ui/SectionTitle';
 import AnimatedCard from '../components/ui/AnimatedCard';
+import SEO from '../components/seo/SEO';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -49,6 +50,7 @@ export default function Home() {
 
   return (
     <>
+      <SEO page="home" />
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#010101] via-[#0a0a0a] to-[#010101]" />
 

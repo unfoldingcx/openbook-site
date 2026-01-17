@@ -225,5 +225,32 @@
     "title": "Ready to transform your accounting and financial management?",
     "subtitle": "Contact us and discover how we can help your business grow.",
     "button": "Contact Us"
+  },
+  "seo": {
+    "siteName": "Open-Book | Accounting and Financial Advisory",
+    "home": {
+      "title": "Open-Book | Accounting and Financial Advisory in São Paulo",
+      "description": "Transparency that drives results. Over 13 years of experience delivering personalized accounting and financial solutions for Brazilian and international companies."
+    },
+    "about": {
+      "title": "About Us | Open-Book Accounting and Financial Advisory",
+      "description": "Meet Open-Book: over 13 years of experience in strategic, transparent, and humanized accounting for companies in Brazil and abroad."
+    },
+    "services": {
+      "title": "Our Services | Open-Book Accounting and Financial Advisory",
+      "description": "Accounting and Financial BPO, Tax, Payroll, Legal, and Administrative Services. Complete solutions for your business growth."
+    },
+    "technologies": {
+      "title": "Technologies and Tools | Open-Book Accounting Advisory",
+      "description": "Technology as an ally of excellence. Process automation, integrated platforms, and data security for modern accounting management."
+    },
+    "clients": {
+      "title": "Our Clients | Open-Book Accounting and Financial Advisory",
+      "description": "Trust relationships built with excellence. We serve industry, agribusiness, financial institutions, and technology companies."
+    },
+    "contact": {
+      "title": "Contact Us | Open-Book Accounting and Financial Advisory",
+      "description": "Get in touch with Open-Book. More than an office: your strategic business partner. Phone: +55 (11) 4883-0103."
+    }
   }
 }

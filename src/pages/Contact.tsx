@@ -12,6 +12,7 @@ import {
   Clock,
   MessageSquare
 } from 'lucide-react';
+import SEO from '../components/seo/SEO';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -79,6 +80,7 @@ export default function Contact() {
 
   return (
     <>
+      <SEO page="contact" path="/contact" />
       <section className="relative pt-32 pb-20 bg-gradient-to-b from-[#010101] to-[#0a0a0a] overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-[#9f7423]/30 rounded-full blur-3xl" />

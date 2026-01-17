@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import SectionTitle from '../components/ui/SectionTitle';
 import AnimatedCard from '../components/ui/AnimatedCard';
+import SEO from '../components/seo/SEO';
 
 export default function Clients() {
   const { t } = useTranslation();
@@ -64,6 +65,7 @@ export default function Clients() {
 
   return (
     <>
+      <SEO page="clients" path="/clients" />
       <section className="relative pt-32 pb-20 bg-gradient-to-b from-[#010101] to-[#0a0a0a] overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-[#9f7423]/30 rounded-full blur-3xl" />
