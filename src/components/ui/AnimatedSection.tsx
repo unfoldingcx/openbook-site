@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import { ReactNode } from "react"
+import { ReactNode, useMemo } from "react"
 import { prefersReducedMotion } from "../../utils/motion"
 
 interface AnimatedSectionProps {
@@ -13,7 +13,9 @@ export default function AnimatedSection({
   className = "",
   delay = 0,
 }: AnimatedSectionProps) {
-  if (prefersReducedMotion()) {
+  const reducedMotion = useMemo(() => prefersReducedMotion(), [])
+
+  if (reducedMotion) {
     return <section className={className}>{children}</section>
   }
 

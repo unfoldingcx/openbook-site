@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, startTransition } from "react"
 import { Link, useLocation } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import { motion, AnimatePresence } from "motion/react"
@@ -22,9 +22,11 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
+      startTransition(() => {
+        setIsScrolled(window.scrollY > 20)
+      })
     }
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll, { passive: true })
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
@@ -35,7 +37,11 @@ export default function Header() {
   const toggleLanguage = () => {
     const newLang = i18n.language === "pt" ? "en" : "pt"
     i18n.changeLanguage(newLang)
-    localStorage.setItem("language", newLang)
+    try {
+      localStorage.setItem("language", newLang)
+    } catch {
+      // localStorage may be unavailable in incognito mode or when disabled
+    }
   }
 
   return (
