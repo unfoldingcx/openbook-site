@@ -22,57 +22,57 @@ export default function Technologies() {
 
   const tools = [
     {
-      name: 'Dominio',
-      category: 'ERP Contabil',
-      description: 'Sistema completo para gestao contabil, fiscal e trabalhista'
+      name: t('technologies.tools.dominio.name'),
+      category: t('technologies.tools.dominio.category'),
+      description: t('technologies.tools.dominio.description')
     },
     {
-      name: 'Jetax',
-      category: 'Automacao Fiscal',
-      description: 'Plataforma de automacao de obrigacoes fiscais e tributarias'
+      name: t('technologies.tools.jetax.name'),
+      category: t('technologies.tools.jetax.category'),
+      description: t('technologies.tools.jetax.description')
     },
     {
-      name: 'Econet',
-      category: 'Consultoria',
-      description: 'Base de conhecimento tributario e legislacao atualizada'
+      name: t('technologies.tools.econet.name'),
+      category: t('technologies.tools.econet.category'),
+      description: t('technologies.tools.econet.description')
     },
     {
-      name: 'Onvio',
-      category: 'Colaboracao',
-      description: 'Portal de comunicacao e compartilhamento seguro de documentos'
+      name: t('technologies.tools.onvio.name'),
+      category: t('technologies.tools.onvio.category'),
+      description: t('technologies.tools.onvio.description')
     }
   ];
 
   const techFeatures = [
     {
       icon: Zap,
-      title: 'Agilidade',
-      description: 'Processos automatizados para entregas rapidas e precisas'
+      title: t('technologies.features.agility.title'),
+      description: t('technologies.features.agility.description')
     },
     {
       icon: Shield,
-      title: 'Seguranca',
-      description: 'Protecao de dados em conformidade com a LGPD'
+      title: t('technologies.features.security.title'),
+      description: t('technologies.features.security.description')
     },
     {
       icon: Clock,
-      title: 'Eficiencia',
-      description: 'Reducao de erros e otimizacao de tempo'
+      title: t('technologies.features.efficiency.title'),
+      description: t('technologies.features.efficiency.description')
     },
     {
       icon: FileCheck,
-      title: 'Conformidade',
-      description: 'Atualizacao constante com a legislacao vigente'
+      title: t('technologies.features.compliance.title'),
+      description: t('technologies.features.compliance.description')
     },
     {
       icon: Server,
-      title: 'Integracao',
-      description: 'Sistemas integrados para fluxo de trabalho continuo'
+      title: t('technologies.features.integration.title'),
+      description: t('technologies.features.integration.description')
     },
     {
       icon: Lock,
-      title: 'Privacidade',
-      description: 'Canais digitais protegidos para comunicacao'
+      title: t('technologies.features.privacy.title'),
+      description: t('technologies.features.privacy.description')
     }
   ];
 
@@ -148,7 +148,7 @@ export default function Technologies() {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-[#9f7423] text-white p-6 rounded-xl max-w-xs">
                 <Smartphone className="w-8 h-8 mb-2" />
-                <p className="text-sm">Experiencia digital fluida e eficiente para nossos clientes</p>
+                <p className="text-sm">{t('technologies.digitalExperience')}</p>
               </div>
             </motion.div>
           </div>
@@ -159,7 +159,7 @@ export default function Technologies() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title={t('technologies.benefits.title')}
-            subtitle="Vantagens do uso de tecnologia avancada em nossos processos"
+            subtitle={t('technologies.benefitsSubtitle')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -191,7 +191,7 @@ export default function Technologies() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-                Beneficios para Nossos Clientes
+                {t('technologies.clientBenefits')}
               </h2>
 
               <div className="space-y-4">
@@ -237,10 +237,10 @@ export default function Technologies() {
             className="bg-gradient-to-r from-[#9f7423] to-[#b8862a] rounded-3xl p-12 text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Conformidade com LGPD
+              {t('technologies.lgpd.title')}
             </h2>
             <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8">
-              Todos os nossos sistemas e processos estao em total conformidade com a Lei Geral de Protecao de Dados, garantindo a seguranca e privacidade das informacoes dos nossos clientes.
+              {t('technologies.lgpd.description')}
             </p>
             <div className="flex items-center justify-center gap-4">
               <Shield className="w-12 h-12 text-white" />

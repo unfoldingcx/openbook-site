@@ -54,25 +54,25 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: Phone,
-      label: 'Telefone',
+      label: t('contact.labels.phone'),
       value: t('contact.info.phone'),
       href: 'tel:+551148830103'
     },
     {
       icon: Mail,
-      label: 'E-mail',
+      label: t('contact.labels.email'),
       value: t('contact.info.email'),
       href: 'mailto:contato@opbo.com.br'
     },
     {
       icon: Globe,
-      label: 'Website',
+      label: t('contact.labels.website'),
       value: t('contact.info.website'),
       href: 'https://www.opbo.com.br'
     },
     {
       icon: MapPin,
-      label: 'Endereco',
+      label: t('contact.labels.address'),
       value: t('contact.info.address'),
       href: 'https://maps.google.com'
     }
@@ -114,7 +114,7 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-white mb-6">
-                Vamos Conversar
+                {t('contact.letsTalk')}
               </h2>
               <p className="text-white/70 leading-relaxed mb-8">
                 {t('contact.description')}
@@ -155,13 +155,13 @@ export default function Contact() {
               <div className="mt-12 grid grid-cols-2 gap-4">
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <Clock className="w-8 h-8 text-[#9f7423] mb-3" />
-                  <h4 className="text-white font-semibold mb-1">Horario</h4>
-                  <p className="text-white/60 text-sm">Seg - Sex: 9h - 18h</p>
+                  <h4 className="text-white font-semibold mb-1">{t('contact.hours.title')}</h4>
+                  <p className="text-white/60 text-sm">{t('contact.hours.value')}</p>
                 </div>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <MessageSquare className="w-8 h-8 text-[#9f7423] mb-3" />
-                  <h4 className="text-white font-semibold mb-1">Resposta</h4>
-                  <p className="text-white/60 text-sm">Em ate 24 horas</p>
+                  <h4 className="text-white font-semibold mb-1">{t('contact.response.title')}</h4>
+                  <p className="text-white/60 text-sm">{t('contact.response.value')}</p>
                 </div>
               </div>
             </motion.div>
@@ -173,7 +173,7 @@ export default function Contact() {
             >
               <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
                 <h3 className="text-2xl font-semibold text-white mb-6">
-                  Envie sua Mensagem
+                  {t('contact.sendMessage')}
                 </h3>
 
                 {status === 'success' && (
@@ -211,7 +211,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder="Seu nome"
+                        placeholder={t('contact.form.placeholders.name')}
                       />
                     </div>
                     <div>
@@ -225,7 +225,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder="seu@email.com"
+                        placeholder={t('contact.form.placeholders.email')}
                       />
                     </div>
                   </div>
@@ -241,7 +241,7 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder="(11) 99999-9999"
+                        placeholder={t('contact.form.placeholders.phone')}
                       />
                     </div>
                     <div>
@@ -254,7 +254,7 @@ export default function Contact() {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder="Sua empresa"
+                        placeholder={t('contact.form.placeholders.company')}
                       />
                     </div>
                   </div>
@@ -270,7 +270,7 @@ export default function Contact() {
                       required
                       rows={5}
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors resize-none"
-                      placeholder="Como podemos ajudar?"
+                      placeholder={t('contact.form.placeholders.message')}
                     />
                   </div>
 

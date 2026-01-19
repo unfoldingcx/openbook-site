@@ -88,11 +88,17 @@
       "subtitle": "Hybrid Work: Balancing Flexibility, Productivity, and Engagement",
       "text": "Since the pandemic, Open Book has adopted a hybrid work model, combining technology with personalized, human-centered service. This structure brings benefits for everyone.",
       "benefits": {
+        "title": {
+          "employees": "Employees",
+          "clients": "Clients"
+        },
         "employees": "Employees gain better quality of life, flexibility, and increased productivity.",
         "clients": "Clients enjoy faster service, easier access, and tailor-made solutions."
       },
       "conclusion": "With a solid technological foundation, we maintain transparent, secure, and efficient services. We continue to grow with a focus on trust, innovation, and close relationships with our clients."
     },
+    "fundamentalCommitments": "Fundamental Commitments",
+    "founders": "Founders",
     "partners": {
       "title": "Message from the Partners",
       "text": "With more than 13 years of experience, Open-Book Accounting and Financial Advisory offers customized accounting and financial solutions for companies of different sizes, operating in Brazil and abroad. The company has a team specialized in national and international accounting standards, taxes and financial management, providing complete and strategic service.",
@@ -287,6 +293,61 @@
     "title": "Technologies and Tools",
     "subtitle": "Technology as an ally of excellence",
     "description": "Open-Book Accounting and Financial Advisory bets on technology as an ally of excellence. To this end, it continuously invests in process automation and integrated platforms that ensure agility, accuracy, and safety in service. With solutions such as Domain, Jetax, Econet and the Onvio package, the company offers modern, transparent accounting management in full compliance with the LGPD.",
+    "digitalExperience": "Fluid and efficient digital experience for our clients",
+    "benefitsSubtitle": "Advantages of using advanced technology in our processes",
+    "clientBenefits": "Benefits for Our Clients",
+    "tools": {
+      "dominio": {
+        "name": "Domínio",
+        "category": "Accounting ERP",
+        "description": "Complete system for accounting, tax and labor management"
+      },
+      "jetax": {
+        "name": "Jetax",
+        "category": "Tax Automation",
+        "description": "Platform for automating tax and tributary obligations"
+      },
+      "econet": {
+        "name": "Econet",
+        "category": "Consulting",
+        "description": "Tax knowledge base and updated legislation"
+      },
+      "onvio": {
+        "name": "Onvio",
+        "category": "Collaboration",
+        "description": "Communication portal and secure document sharing"
+      }
+    },
+    "features": {
+      "agility": {
+        "title": "Agility",
+        "description": "Automated processes for fast and accurate deliveries"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Data protection in compliance with LGPD"
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "Error reduction and time optimization"
+      },
+      "compliance": {
+        "title": "Compliance",
+        "description": "Constant updates with current legislation"
+      },
+      "integration": {
+        "title": "Integration",
+        "description": "Integrated systems for continuous workflow"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Protected digital channels for communication"
+      }
+    },
+    "lgpd": {
+      "title": "LGPD Compliance",
+      "description": "All our systems and processes are in full compliance with the General Data Protection Law, ensuring the security and privacy of our clients' information."
+    },
     "benefits": {
       "title": "Benefits",
       "items": [
@@ -305,6 +366,24 @@
     "title": "Our Clients",
     "subtitle": "Trust relationships built with excellence",
     "description": "For us, at our accounting and financial advisory firm, our clients are at the center of everything we do. Each company we serve brings unique challenges, growth opportunities, and the trust that allows us to act strategically. We value our clients by providing accurate and efficient solutions while building strong relationships based on transparency, respect, and a commitment to their financial and accounting success.",
+    "stats": {
+      "yearsExperience": "Years of Experience",
+      "clientsServed": "Clients Served",
+      "compliance": "Compliance",
+      "dedicatedSupport": "Dedicated Support"
+    },
+    "sectors": {
+      "title": "Sectors Served",
+      "subtitle": "We serve companies from various segments with customized solutions"
+    },
+    "industryNames": {
+      "industrial": "Industrial",
+      "agribusiness": "Agribusiness",
+      "financial": "Financial",
+      "entertainment": "Events",
+      "creative": "Creative",
+      "technology": "Technology"
+    },
     "industries": {
       "industrial": "National industrial operation with accounting needs aligned to global standards.",
       "agribusiness": "Multinational agribusiness with a complex tax structure, global presence, and strict compliance requirements.",
@@ -312,6 +391,39 @@
       "entertainment": "Global reference in the management of arenas and sports and cultural events.",
       "creative": "Entertainment and artistic production company with accounting management focused on the dynamics of the creative market.",
       "technology": "Technology and digital advertising giant with international operations and high compliance requirements."
+    },
+    "partnership": {
+      "title": "Partnership that Drives Results",
+      "description": "Each company we serve brings unique challenges, growth opportunities, and the trust that allows us to act strategically. We value our clients by providing accurate and efficient solutions.",
+      "personalized": {
+        "title": "Personalized Service",
+        "description": "Solutions adapted to the specific needs of each client"
+      },
+      "international": {
+        "title": "International Expertise",
+        "description": "Experience with multinational companies and international standards"
+      }
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What our clients say about our work",
+      "items": [
+        {
+          "quote": "Open-Book transformed our accounting management. The team is extremely professional and attentive.",
+          "author": "CFO",
+          "company": "Industrial Company"
+        },
+        {
+          "quote": "Excellent support for our international operations. Reliable and always up to date with legislation.",
+          "author": "CEO",
+          "company": "Multinational"
+        },
+        {
+          "quote": "A long-standing partnership that helped us grow sustainably and in compliance.",
+          "author": "Manager",
+          "company": "Technology Company"
+        }
+      ]
     }
   },
   "contact": {
@@ -319,6 +431,22 @@
     "subtitle": "Strategic Partnership for Business Growth and Stability",
     "description": "Having accounting and financial advisory services that align with the reality of your business makes all the difference in building solid and lasting results. We are ready to go beyond being just a service provider - our goal is to be a strategic partner in the growth of your company.",
     "tagline": "More than an office: your strategic business partner.",
+    "letsTalk": "Let's Talk",
+    "sendMessage": "Send Your Message",
+    "hours": {
+      "title": "Hours",
+      "value": "Mon - Fri: 9am - 6pm"
+    },
+    "response": {
+      "title": "Response",
+      "value": "Within 24 hours"
+    },
+    "labels": {
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "address": "Address"
+    },
     "form": {
       "name": "Name",
       "email": "Email",
@@ -327,26 +455,50 @@
       "message": "Message",
       "submit": "Send Message",
       "success": "Message sent successfully!",
-      "error": "Error sending message. Please try again."
+      "error": "Error sending message. Please try again.",
+      "placeholders": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "phone": "(11) 99999-9999",
+        "company": "Your company",
+        "message": "How can we help you?"
+      }
     },
     "info": {
       "phone": "+55 (11) 4883-0103",
       "email": "contato@opbo.com.br",
       "website": "www.opbo.com.br",
-      "address": "Rua do Bosque, 1589 - Sao Paulo - SP"
+      "address": "Rua do Bosque, 1589 - São Paulo - SP"
     }
   },
   "footer": {
     "description": "Transparency that drives accounting and financial results.",
+    "tagline": "Accounting and Financial Advisory",
     "quickLinks": "Quick Links",
     "contactUs": "Contact",
     "followUs": "Follow Us",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "slogan": "Transparency that drives results"
   },
   "cta": {
     "title": "Ready to transform your accounting and financial management?",
     "subtitle": "Contact us and discover how we can help your business grow.",
     "button": "Contact Us"
+  },
+  "home": {
+    "yearsExperience": "Years of Experience",
+    "viewAllServices": "View All Services",
+    "services": {
+      "accounting": {
+        "title": "Accounting"
+      },
+      "financial": {
+        "title": "Financial"
+      },
+      "tax": {
+        "title": "Tax"
+      }
+    }
   },
   "seo": {
     "siteName": "Open-Book | Accounting and Financial Advisory",

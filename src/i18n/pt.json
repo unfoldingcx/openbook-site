@@ -88,11 +88,17 @@
       "subtitle": "Trabalho Híbrido: Equilibrando Flexibilidade, Produtividade e Engajamento",
       "text": "Desde a pandemia, a Open-Book adotou um modelo de trabalho híbrido, combinando tecnologia com atendimento personalizado e centrado no ser humano. Esta estrutura traz benefícios para todos.",
       "benefits": {
+        "title": {
+          "employees": "Colaboradores",
+          "clients": "Clientes"
+        },
         "employees": "Colaboradores ganham melhor qualidade de vida, flexibilidade e maior produtividade.",
         "clients": "Clientes desfrutam de atendimento mais rápido, acesso facilitado e soluções sob medida."
       },
       "conclusion": "Com uma sólida base tecnológica, mantemos serviços transparentes, seguros e eficientes. Continuamos a crescer com foco em confiança, inovação e relacionamento próximo com nossos clientes."
     },
+    "fundamentalCommitments": "Compromissos Fundamentais",
+    "founders": "Fundadoras",
     "partners": {
       "title": "Mensagem das Sócias",
       "text": "Com mais de 13 anos de experiência, a Open-Book Assessoria Contábil e Financeira oferece soluções contábeis e financeiras personalizadas para empresas de diferentes portes, atuando no Brasil e no exterior. A empresa conta com uma equipe especializada em normas contábeis nacionais e internacionais, tributos e gestão financeira, proporcionando atendimento completo e estratégico.",
@@ -287,6 +293,61 @@
     "title": "Tecnologias e Ferramentas",
     "subtitle": "Tecnologia como aliada da excelência",
     "description": "A Open-Book Assessoria Contábil e Financeira aposta na tecnologia como aliada da excelência. Para isso, investe continuamente em automação de processos e plataformas integradas que garantem agilidade, precisão e segurança no atendimento. Com soluções como Domínio, Jetax, Econet e o pacote Onvio, a empresa oferece gestão contábil moderna e transparente, em total conformidade com a LGPD.",
+    "digitalExperience": "Experiência digital fluida e eficiente para nossos clientes",
+    "benefitsSubtitle": "Vantagens do uso de tecnologia avançada em nossos processos",
+    "clientBenefits": "Benefícios para Nossos Clientes",
+    "tools": {
+      "dominio": {
+        "name": "Domínio",
+        "category": "ERP Contábil",
+        "description": "Sistema completo para gestão contábil, fiscal e trabalhista"
+      },
+      "jetax": {
+        "name": "Jetax",
+        "category": "Automação Fiscal",
+        "description": "Plataforma de automação de obrigações fiscais e tributárias"
+      },
+      "econet": {
+        "name": "Econet",
+        "category": "Consultoria",
+        "description": "Base de conhecimento tributário e legislação atualizada"
+      },
+      "onvio": {
+        "name": "Onvio",
+        "category": "Colaboração",
+        "description": "Portal de comunicação e compartilhamento seguro de documentos"
+      }
+    },
+    "features": {
+      "agility": {
+        "title": "Agilidade",
+        "description": "Processos automatizados para entregas rápidas e precisas"
+      },
+      "security": {
+        "title": "Segurança",
+        "description": "Proteção de dados em conformidade com a LGPD"
+      },
+      "efficiency": {
+        "title": "Eficiência",
+        "description": "Redução de erros e otimização de tempo"
+      },
+      "compliance": {
+        "title": "Conformidade",
+        "description": "Atualização constante com a legislação vigente"
+      },
+      "integration": {
+        "title": "Integração",
+        "description": "Sistemas integrados para fluxo de trabalho contínuo"
+      },
+      "privacy": {
+        "title": "Privacidade",
+        "description": "Canais digitais protegidos para comunicação"
+      }
+    },
+    "lgpd": {
+      "title": "Conformidade com LGPD",
+      "description": "Todos os nossos sistemas e processos estão em total conformidade com a Lei Geral de Proteção de Dados, garantindo a segurança e privacidade das informações dos nossos clientes."
+    },
     "benefits": {
       "title": "Benefícios",
       "items": [
@@ -305,6 +366,24 @@
     "title": "Nossos Clientes",
     "subtitle": "Relações de Confiança Construídas com Excelência",
     "description": "Para nós, na nossa assessoria contábil e financeira, nossos clientes estão no centro de tudo o que fazemos. Cada empresa que atendemos traz desafios únicos, oportunidades de crescimento e a confiança que nos permite atuar estrategicamente. Valorizamos nossos clientes fornecendo soluções precisas e eficientes, construindo relacionamentos sólidos baseados em transparência, respeito e compromisso com seu sucesso contábil e financeiro.",
+    "stats": {
+      "yearsExperience": "Anos de Experiência",
+      "clientsServed": "Clientes Atendidos",
+      "compliance": "Conformidade",
+      "dedicatedSupport": "Suporte Dedicado"
+    },
+    "sectors": {
+      "title": "Setores Atendidos",
+      "subtitle": "Atendemos empresas de diversos segmentos com soluções personalizadas"
+    },
+    "industryNames": {
+      "industrial": "Industrial",
+      "agribusiness": "Agroindústria",
+      "financial": "Financeiro",
+      "entertainment": "Eventos",
+      "creative": "Criativo",
+      "technology": "Tecnologia"
+    },
     "industries": {
       "industrial": "Operação industrial nacional com necessidades contábeis alinhadas a padrões globais.",
       "agribusiness": "Agroindústria multinacional com estrutura tributária complexa, presença global e requisitos rigorosos de conformidade.",
@@ -312,6 +391,39 @@
       "entertainment": "Referência global na gestão de arenas e eventos esportivos e culturais.",
       "creative": "Empresa de entretenimento e produção artística com gestão contábil focada na dinâmica do mercado criativo.",
       "technology": "Gigante de tecnologia e publicidade digital com operações internacionais e altos requisitos de conformidade."
+    },
+    "partnership": {
+      "title": "Parceria que Gera Resultados",
+      "description": "Cada empresa que atendemos traz desafios únicos, oportunidades de crescimento e a confiança que nos permite atuar estrategicamente. Valorizamos nossos clientes fornecendo soluções precisas e eficientes.",
+      "personalized": {
+        "title": "Atendimento Personalizado",
+        "description": "Soluções adaptadas às necessidades específicas de cada cliente"
+      },
+      "international": {
+        "title": "Expertise Internacional",
+        "description": "Experiência com empresas multinacionais e normas internacionais"
+      }
+    },
+    "testimonials": {
+      "title": "Depoimentos",
+      "subtitle": "O que nossos clientes dizem sobre nosso trabalho",
+      "items": [
+        {
+          "quote": "A Open-Book transformou nossa gestão contábil. A equipe é extremamente profissional e atenciosa.",
+          "author": "Diretor Financeiro",
+          "company": "Empresa Industrial"
+        },
+        {
+          "quote": "Excelente suporte para nossas operações internacionais. Confiáveis e sempre atualizados com a legislação.",
+          "author": "CEO",
+          "company": "Multinacional"
+        },
+        {
+          "quote": "Parceria de longa data que nos ajudou a crescer de forma sustentável e em conformidade.",
+          "author": "Gestor",
+          "company": "Empresa de Tecnologia"
+        }
+      ]
     }
   },
   "contact": {
@@ -319,6 +431,22 @@
     "subtitle": "Parceria Estratégica para Crescimento e Estabilidade dos Negócios",
     "description": "Ter assessoria contábil e financeira alinhada à realidade do seu negócio faz toda a diferença na construção de resultados sólidos e duradouros. Estamos prontos para ir além de ser apenas um prestador de serviços - nosso objetivo é ser um parceiro estratégico no crescimento da sua empresa.",
     "tagline": "Mais que um escritório: seu parceiro estratégico de negócios.",
+    "letsTalk": "Vamos Conversar",
+    "sendMessage": "Envie sua Mensagem",
+    "hours": {
+      "title": "Horário",
+      "value": "Seg - Sex: 9h - 18h"
+    },
+    "response": {
+      "title": "Resposta",
+      "value": "Em até 24 horas"
+    },
+    "labels": {
+      "phone": "Telefone",
+      "email": "E-mail",
+      "website": "Website",
+      "address": "Endereço"
+    },
     "form": {
       "name": "Nome",
       "email": "E-mail",
@@ -327,7 +455,14 @@
       "message": "Mensagem",
       "submit": "Enviar Mensagem",
       "success": "Mensagem enviada com sucesso!",
-      "error": "Erro ao enviar mensagem. Tente novamente."
+      "error": "Erro ao enviar mensagem. Tente novamente.",
+      "placeholders": {
+        "name": "Seu nome",
+        "email": "seu@email.com",
+        "phone": "(11) 99999-9999",
+        "company": "Sua empresa",
+        "message": "Como podemos ajudar?"
+      }
     },
     "info": {
       "phone": "+55 (11) 4883-0103",
@@ -338,15 +473,32 @@
   },
   "footer": {
     "description": "Transparência que impulsiona resultados contábeis e financeiros.",
+    "tagline": "Assessoria Contábil e Financeira",
     "quickLinks": "Links Rápidos",
     "contactUs": "Contato",
     "followUs": "Redes Sociais",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "slogan": "Transparência que impulsiona resultados"
   },
   "cta": {
     "title": "Pronto para transformar sua gestão contábil e financeira?",
     "subtitle": "Entre em contato conosco e descubra como podemos ajudar seu negócio a crescer.",
     "button": "Fale Conosco"
+  },
+  "home": {
+    "yearsExperience": "Anos de Experiência",
+    "viewAllServices": "Ver Todos os Serviços",
+    "services": {
+      "accounting": {
+        "title": "Contabilidade"
+      },
+      "financial": {
+        "title": "Financeiro"
+      },
+      "tax": {
+        "title": "Fiscal"
+      }
+    }
   },
   "seo": {
     "siteName": "Open-Book | Assessoria Contábil e Financeira",

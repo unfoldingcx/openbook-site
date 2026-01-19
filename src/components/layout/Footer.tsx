@@ -40,7 +40,7 @@ export default function Footer() {
               {t("footer.description")}
             </p>
             <p className="text-xs text-[#9f7423]">
-              Assessoria Contábil e Financeira
+              {t('footer.tagline')}
             </p>
           </motion.div>
 
@@ -150,7 +150,7 @@ export default function Footer() {
               {currentYear} Open-Book. {t("footer.rights")}
             </p>
             <div className="flex items-center gap-1 text-white/40 text-sm">
-              <span>Transparency that drives results</span>
+              <span>{t('footer.slogan')}</span>
             </div>
           </div>
         </div>

@@ -220,7 +220,7 @@ export default function About() {
 
           <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
             <h3 className="text-xl font-semibold text-white mb-6 text-center">
-              Compromissos Fundamentais
+              {t('about.fundamentalCommitments')}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {(t('about.values.commitments', { returnObjects: true }) as string[]).map(
@@ -268,7 +268,7 @@ export default function About() {
                 <div className="w-12 h-12 rounded-full bg-[#9f7423]/20 flex items-center justify-center">
                   <Users2 className="w-6 h-6 text-[#9f7423]" />
                 </div>
-                <h3 className="text-lg font-semibold text-white">Colaboradores</h3>
+                <h3 className="text-lg font-semibold text-white">{t('about.workStyle.benefits.title.employees')}</h3>
               </div>
               <p className="text-white/60">{t('about.workStyle.benefits.employees')}</p>
             </AnimatedCard>
@@ -278,7 +278,7 @@ export default function About() {
                 <div className="w-12 h-12 rounded-full bg-[#9f7423]/20 flex items-center justify-center">
                   <HomeIcon className="w-6 h-6 text-[#9f7423]" />
                 </div>
-                <h3 className="text-lg font-semibold text-white">Clientes</h3>
+                <h3 className="text-lg font-semibold text-white">{t('about.workStyle.benefits.title.clients')}</h3>
               </div>
               <p className="text-white/60">{t('about.workStyle.benefits.clients')}</p>
             </AnimatedCard>
@@ -316,7 +316,7 @@ export default function About() {
                   <p className="text-[#9f7423] font-semibold text-lg">
                     {t('about.partners.founders')}
                   </p>
-                  <p className="text-white/60 text-sm">Fundadoras</p>
+                  <p className="text-white/60 text-sm">{t('about.founders')}</p>
                 </div>
               </div>
             </motion.div>

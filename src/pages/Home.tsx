@@ -43,9 +43,9 @@ export default function Home() {
   ];
 
   const services = [
-    { icon: FileText, title: t('services.bpoContabil.title'), path: '/services' },
-    { icon: TrendingUp, title: t('services.bpoFinanceiro.title'), path: '/services' },
-    { icon: Building2, title: t('services.administrative.title'), path: '/services' }
+    { icon: FileText, title: t('home.services.accounting.title'), path: '/services/accounting' },
+    { icon: TrendingUp, title: t('home.services.financial.title'), path: '/services/financial' },
+    { icon: Building2, title: t('home.services.tax.title'), path: '/services/tax' }
   ];
 
   return (
@@ -124,26 +124,26 @@ export default function Home() {
               {t('hero.learnMore')}
             </Link>
           </motion.div>
+        </div>
 
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+        >
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="absolute bottom-10 left-1/2 -translate-x-1/2"
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 2, repeat: Infinity }}
+            className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center"
           >
             <motion.div
-              animate={{ y: [0, 10, 0] }}
+              animate={{ y: [0, 16, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
-              className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center"
-            >
-              <motion.div
-                animate={{ y: [0, 16, 0] }}
-                transition={{ duration: 2, repeat: Infinity }}
-                className="w-1.5 h-3 bg-[#9f7423] rounded-full mt-2"
-              />
-            </motion.div>
+              className="w-1.5 h-3 bg-[#9f7423] rounded-full mt-2"
+            />
           </motion.div>
-        </div>
+        </motion.div>
       </section>
 
       <section className="py-24 bg-[#010101]">
@@ -224,7 +224,7 @@ export default function Home() {
               </div>
               <div className="absolute -bottom-6 -left-6 bg-[#9f7423] text-white p-6 rounded-xl">
                 <div className="text-4xl font-bold">13+</div>
-                <div className="text-sm opacity-80">Anos de Experiencia</div>
+                <div className="text-sm opacity-80">{t('home.yearsExperience')}</div>
               </div>
             </motion.div>
           </div>
@@ -263,7 +263,7 @@ export default function Home() {
               to="/services"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white/5 text-white font-medium rounded-full border border-white/10 hover:bg-white/10 transition-all"
             >
-              Ver Todos os Servicos
+              {t('home.viewAllServices')}
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

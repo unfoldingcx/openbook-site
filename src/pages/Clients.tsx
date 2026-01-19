@@ -20,47 +20,47 @@ export default function Clients() {
   const clientCategories = [
     {
       icon: Factory,
-      industry: 'Industrial',
+      industry: t('clients.industryNames.industrial'),
       description: t('clients.industries.industrial'),
       color: 'from-red-500/20 to-red-600/20'
     },
     {
       icon: Tractor,
-      industry: 'Agroindustria',
+      industry: t('clients.industryNames.agribusiness'),
       description: t('clients.industries.agribusiness'),
       color: 'from-green-500/20 to-green-600/20'
     },
     {
       icon: Landmark,
-      industry: 'Financeiro',
+      industry: t('clients.industryNames.financial'),
       description: t('clients.industries.financial'),
       color: 'from-blue-500/20 to-blue-600/20'
     },
     {
       icon: Theater,
-      industry: 'Eventos',
+      industry: t('clients.industryNames.entertainment'),
       description: t('clients.industries.entertainment'),
       color: 'from-purple-500/20 to-purple-600/20'
     },
     {
       icon: Palette,
-      industry: 'Criativo',
+      industry: t('clients.industryNames.creative'),
       description: t('clients.industries.creative'),
       color: 'from-pink-500/20 to-pink-600/20'
     },
     {
       icon: Globe2,
-      industry: 'Tecnologia',
+      industry: t('clients.industryNames.technology'),
       description: t('clients.industries.technology'),
       color: 'from-cyan-500/20 to-cyan-600/20'
     }
   ];
 
   const stats = [
-    { value: '13+', label: 'Anos de Experiencia' },
-    { value: '50+', label: 'Clientes Atendidos' },
-    { value: '100%', label: 'Conformidade' },
-    { value: '24/7', label: 'Suporte Dedicado' }
+    { value: '13+', label: t('clients.stats.yearsExperience') },
+    { value: '50+', label: t('clients.stats.clientsServed') },
+    { value: '100%', label: t('clients.stats.compliance') },
+    { value: '24/7', label: t('clients.stats.dedicatedSupport') }
   ];
 
   return (
@@ -129,8 +129,8 @@ export default function Clients() {
       <section className="py-24 bg-[#010101]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title="Setores Atendidos"
-            subtitle="Atendemos empresas de diversos segmentos com solucoes personalizadas"
+            title={t('clients.sectors.title')}
+            subtitle={t('clients.sectors.subtitle')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -160,10 +160,10 @@ export default function Clients() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Parceria que Gera Resultados
+                {t('clients.partnership.title')}
               </h2>
               <p className="text-white/70 leading-relaxed mb-8">
-                Cada empresa que atendemos traz desafios unicos, oportunidades de crescimento e a confianca que nos permite atuar estrategicamente. Valorizamos nossos clientes fornecendo solucoes precisas e eficientes.
+                {t('clients.partnership.description')}
               </p>
 
               <div className="space-y-6">
@@ -173,10 +173,10 @@ export default function Clients() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">
-                      Atendimento Personalizado
+                      {t('clients.partnership.personalized.title')}
                     </h4>
                     <p className="text-white/60 text-sm">
-                      Solucoes adaptadas as necessidades especificas de cada cliente
+                      {t('clients.partnership.personalized.description')}
                     </p>
                   </div>
                 </div>
@@ -187,10 +187,10 @@ export default function Clients() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">
-                      Expertise Internacional
+                      {t('clients.partnership.international.title')}
                     </h4>
                     <p className="text-white/60 text-sm">
-                      Experiencia com empresas multinacionais e normas internacionais
+                      {t('clients.partnership.international.description')}
                     </p>
                   </div>
                 </div>
@@ -217,28 +217,12 @@ export default function Clients() {
       <section className="py-24 bg-[#010101]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title="Depoimentos"
-            subtitle="O que nossos clientes dizem sobre nosso trabalho"
+            title={t('clients.testimonials.title')}
+            subtitle={t('clients.testimonials.subtitle')}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                quote: 'A Open-Book transformou nossa gestao contabil. A equipe e extremamente profissional e atenciosa.',
-                author: 'Diretor Financeiro',
-                company: 'Empresa Industrial'
-              },
-              {
-                quote: 'Excelente suporte para nossas operacoes internacionais. Confiaveis e sempre atualizados com a legislacao.',
-                author: 'CEO',
-                company: 'Multinacional'
-              },
-              {
-                quote: 'Parceria de longa data que nos ajudou a crescer de forma sustentavel e em conformidade.',
-                author: 'Gestor',
-                company: 'Empresa de Tecnologia'
-              }
-            ].map((testimonial, index) => (
+            {(t('clients.testimonials.items', { returnObjects: true }) as Array<{quote: string, author: string, company: string}>).map((testimonial, index) => (
               <AnimatedCard key={index} delay={index * 0.1}>
                 <Quote className="w-10 h-10 text-[#9f7423]/30 mb-4" />
                 <p className="text-white/70 italic mb-6 leading-relaxed">
