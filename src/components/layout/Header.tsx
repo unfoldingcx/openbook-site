@@ -1,15 +1,56 @@
-import { useState, useEffect, startTransition } from "react"
-import { Link, useLocation } from "react-router-dom"
-import { useTranslation } from "react-i18next"
-import { motion, AnimatePresence } from "motion/react"
-import { Menu, X, Globe } from "lucide-react"
-import OnvioButton from "../ui/OnvioButton"
+import { useState, useEffect, startTransition } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { motion, AnimatePresence } from "motion/react";
+import { Menu, X } from "lucide-react";
+import OnvioButton from "../ui/OnvioButton";
+
+function LogoMark() {
+  return (
+    <svg
+      width="36"
+      height="36"
+      viewBox="0 0 36 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="flex-shrink-0"
+    >
+      <rect
+        x="1"
+        y="1"
+        width="34"
+        height="34"
+        rx="8"
+        stroke="url(#logo-gradient)"
+        strokeWidth="1.5"
+        fill="none"
+      />
+      <text
+        x="18"
+        y="24"
+        textAnchor="middle"
+        fontFamily="Georgia, serif"
+        fontWeight="700"
+        fontSize="18"
+        fill="url(#logo-gradient)"
+      >
+        OB
+      </text>
+      <defs>
+        <linearGradient id="logo-gradient" x1="0" y1="0" x2="36" y2="36">
+          <stop offset="0%" stopColor="#d4a84b" />
+          <stop offset="100%" stopColor="#9f7423" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
 
 export default function Header() {
-  const { t, i18n } = useTranslation()
-  const location = useLocation()
-  const [isScrolled, setIsScrolled] = useState(false)
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const { t, i18n } = useTranslation();
+  const location = useLocation();
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
     { path: "/", label: t("nav.home") },
@@ -18,31 +59,32 @@ export default function Header() {
     { path: "/about", label: t("nav.about") },
     { path: "/clients", label: t("nav.clients") },
     { path: "/contact", label: t("nav.contact") },
-  ]
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
       startTransition(() => {
-        setIsScrolled(window.scrollY > 20)
-      })
-    }
-    window.addEventListener("scroll", handleScroll, { passive: true })
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+        setIsScrolled(window.scrollY > 20);
+      });
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
-    setIsMobileMenuOpen(false)
-  }, [location.pathname])
+    setIsMobileMenuOpen(false);
+  }, [location.pathname]);
 
-  const toggleLanguage = () => {
-    const newLang = i18n.language === "pt" ? "en" : "pt"
-    i18n.changeLanguage(newLang)
+  const switchLanguage = (lang: string) => {
+    i18n.changeLanguage(lang);
     try {
-      localStorage.setItem("language", newLang)
+      localStorage.setItem("language", lang);
     } catch {
       // localStorage may be unavailable in incognito mode or when disabled
     }
-  }
+  };
+
+  const currentLang = i18n.language;
 
   return (
     <header
@@ -54,14 +96,19 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-3">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="flex items-center"
+              className="flex items-center gap-3"
             >
-              <span className="text-2xl font-light text-white">Open-</span>
-              <span className="text-2xl font-semibold text-[#9f7423]">Book</span>
+              <LogoMark />
+              <div className="flex items-baseline">
+                <span className="text-2xl font-light text-white">Open-</span>
+                <span className="text-2xl font-semibold text-gradient">
+                  Book
+                </span>
+              </div>
             </motion.div>
           </Link>
 
@@ -78,8 +125,9 @@ export default function Header() {
                   to={item.path}
                   className={`relative text-sm font-medium transition-colors duration-300 ${
                     location.pathname === item.path ||
-                    (item.path !== "/" && location.pathname.startsWith(item.path))
-                      ? "text-[#9f7423]"
+                    (item.path !== "/" &&
+                      location.pathname.startsWith(item.path))
+                      ? "text-[#d4a84b]"
                       : "text-white/80 hover:text-white"
                   }`}
                 >
@@ -89,8 +137,12 @@ export default function Header() {
                       location.pathname.startsWith(item.path))) && (
                     <motion.div
                       layoutId="activeNav"
-                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#9f7423]"
-                      transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-[#d4a84b] to-[#9f7423]"
+                      transition={{
+                        type: "spring",
+                        stiffness: 400,
+                        damping: 30,
+                      }}
                     />
                   )}
                 </Link>
@@ -99,14 +151,29 @@ export default function Header() {
           </nav>
 
           {/* Desktop Right Side */}
-          <div className="hidden lg:flex items-center gap-4">
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-2 px-3 py-2 text-sm text-white/80 hover:text-white transition-colors"
-            >
-              <Globe className="w-4 h-4" />
-              <span className="uppercase">{i18n.language}</span>
-            </button>
+          <div className="hidden lg:flex items-center gap-3">
+            <div className="flex items-center bg-white/5 rounded-full border border-white/10 overflow-hidden">
+              <button
+                onClick={() => switchLanguage("pt")}
+                className={`px-3 py-1.5 text-xs font-semibold tracking-wide transition-all duration-200 ${
+                  currentLang === "pt"
+                    ? "bg-[#d4a84b] text-[#010101]"
+                    : "text-white/60 hover:text-white"
+                }`}
+              >
+                PT
+              </button>
+              <button
+                onClick={() => switchLanguage("en")}
+                className={`px-3 py-1.5 text-xs font-semibold tracking-wide transition-all duration-200 ${
+                  currentLang === "en"
+                    ? "bg-[#d4a84b] text-[#010101]"
+                    : "text-white/60 hover:text-white"
+                }`}
+              >
+                EN
+              </button>
+            </div>
             <OnvioButton variant="header" />
           </div>
 
@@ -116,7 +183,11 @@ export default function Header() {
             className="lg:hidden p-2 text-white"
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
       </div>
@@ -138,8 +209,9 @@ export default function Header() {
                   to={item.path}
                   className={`block text-lg font-medium transition-colors ${
                     location.pathname === item.path ||
-                    (item.path !== "/" && location.pathname.startsWith(item.path))
-                      ? "text-[#9f7423]"
+                    (item.path !== "/" &&
+                      location.pathname.startsWith(item.path))
+                      ? "text-[#d4a84b]"
                       : "text-white/80"
                   }`}
                 >
@@ -147,15 +219,28 @@ export default function Header() {
                 </Link>
               ))}
               <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-4">
-                <button
-                  onClick={toggleLanguage}
-                  className="flex items-center gap-2 text-white/80 text-sm"
-                >
-                  <Globe className="w-5 h-5" />
-                  <span className="uppercase">
-                    {i18n.language === "pt" ? "English" : "Português"}
-                  </span>
-                </button>
+                <div className="flex items-center bg-white/5 rounded-full border border-white/10 overflow-hidden">
+                  <button
+                    onClick={() => switchLanguage("pt")}
+                    className={`px-4 py-2 text-sm font-semibold transition-all duration-200 ${
+                      currentLang === "pt"
+                        ? "bg-[#d4a84b] text-[#010101]"
+                        : "text-white/60"
+                    }`}
+                  >
+                    PT
+                  </button>
+                  <button
+                    onClick={() => switchLanguage("en")}
+                    className={`px-4 py-2 text-sm font-semibold transition-all duration-200 ${
+                      currentLang === "en"
+                        ? "bg-[#d4a84b] text-[#010101]"
+                        : "text-white/60"
+                    }`}
+                  >
+                    EN
+                  </button>
+                </div>
                 <OnvioButton variant="header" />
               </div>
             </div>
@@ -163,5 +248,5 @@ export default function Header() {
         )}
       </AnimatePresence>
     </header>
-  )
+  );
 }

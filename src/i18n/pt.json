@@ -485,6 +485,11 @@
     "subtitle": "Entre em contato conosco e descubra como podemos ajudar seu negócio a crescer.",
     "button": "Fale Conosco"
   },
+  "news": {
+    "title": "Noticiário",
+    "comingSoon": "Em breve",
+    "placeholder": "Conteúdo em breve..."
+  },
   "home": {
     "yearsExperience": "Anos de Experiência",
     "viewAllServices": "Ver Todos os Serviços",

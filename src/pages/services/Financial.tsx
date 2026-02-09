@@ -1,21 +1,31 @@
-import { useTranslation } from "react-i18next"
-import { motion } from "motion/react"
-import { CheckCircle2, DollarSign, Wallet, ArrowRightLeft, BarChart3, Globe } from "lucide-react"
-import { Link } from "react-router-dom"
-import OnvioButton from "../../components/ui/OnvioButton"
-import SEO from "../../components/seo/SEO"
-import { fadeInUp, staggerContainer } from "../../utils/motion"
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
+import {
+  CheckCircle2,
+  DollarSign,
+  Wallet,
+  ArrowRightLeft,
+  BarChart3,
+  Globe,
+} from "lucide-react";
+import { Link } from "react-router-dom";
+import OnvioButton from "../../components/ui/OnvioButton";
+import SEO from "../../components/seo/SEO";
+import { fadeInUp, staggerContainer } from "../../utils/motion";
 
 export default function Financial() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   const services = [
     { icon: Wallet, text: t("services.financial.services.payable") },
     { icon: DollarSign, text: t("services.financial.services.receivable") },
-    { icon: CheckCircle2, text: t("services.financial.services.reconciliation") },
+    {
+      icon: CheckCircle2,
+      text: t("services.financial.services.reconciliation"),
+    },
     { icon: BarChart3, text: t("services.financial.services.cashflow") },
     { icon: ArrowRightLeft, text: t("services.financial.services.exchange") },
-  ]
+  ];
 
   const benefits = [
     {
@@ -33,13 +43,13 @@ export default function Financial() {
       title: t("services.financial.benefits.integrated.title"),
       description: t("services.financial.benefits.integrated.description"),
     },
-  ]
+  ];
 
   const relatedServices = [
     { path: "/services/accounting", label: t("services.accounting.title") },
     { path: "/services/tax", label: t("services.tax.title") },
     { path: "/services/payroll", label: t("services.payroll.title") },
-  ]
+  ];
 
   return (
     <>
@@ -47,7 +57,7 @@ export default function Financial() {
 
       <main className="min-h-screen pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#034633] to-[#022b1f] py-24">
+        <section className="bg-gradient-to-b from-[#9f7423] to-[#6b4d14] py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -96,7 +106,7 @@ export default function Financial() {
             >
               <motion.h2
                 variants={fadeInUp}
-                className="text-3xl font-semibold text-[#034633] mb-12 text-center"
+                className="text-3xl font-semibold text-[#9f7423] mb-12 text-center"
               >
                 {t("services.financial.servicesTitle")}
               </motion.h2>
@@ -108,7 +118,7 @@ export default function Financial() {
                     variants={fadeInUp}
                     className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm"
                   >
-                    <div className="w-10 h-10 rounded-full bg-[#034633]/10 flex items-center justify-center text-[#034633] flex-shrink-0">
+                    <div className="w-10 h-10 rounded-full bg-[#9f7423]/10 flex items-center justify-center text-[#9f7423] flex-shrink-0">
                       <service.icon className="w-5 h-5" />
                     </div>
                     <span className="text-gray-700">{service.text}</span>
@@ -130,7 +140,7 @@ export default function Financial() {
             >
               <motion.h2
                 variants={fadeInUp}
-                className="text-3xl font-semibold text-[#034633] mb-12 text-center"
+                className="text-3xl font-semibold text-[#9f7423] mb-12 text-center"
               >
                 {t("services.whyChoose")}
               </motion.h2>
@@ -145,7 +155,7 @@ export default function Financial() {
                     <div className="w-16 h-16 rounded-2xl bg-[#9f7423]/10 flex items-center justify-center text-[#9f7423] mx-auto mb-4">
                       <benefit.icon className="w-8 h-8" />
                     </div>
-                    <h3 className="text-xl font-semibold text-[#034633] mb-2">
+                    <h3 className="text-xl font-semibold text-[#9f7423] mb-2">
                       {benefit.title}
                     </h3>
                     <p className="text-gray-600">{benefit.description}</p>
@@ -157,7 +167,7 @@ export default function Financial() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-[#034633]">
+        <section className="py-16 bg-[#9f7423]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -191,7 +201,7 @@ export default function Financial() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
-              className="text-2xl font-semibold text-[#034633] mb-8"
+              className="text-2xl font-semibold text-[#9f7423] mb-8"
             >
               {t("services.related")}
             </motion.h2>
@@ -200,7 +210,7 @@ export default function Financial() {
                 <Link
                   key={index}
                   to={service.path}
-                  className="px-6 py-3 border border-[#034633]/30 rounded-full text-[#034633] hover:bg-[#034633] hover:text-white transition-colors"
+                  className="px-6 py-3 border border-[#9f7423]/30 rounded-full text-[#9f7423] hover:bg-[#9f7423] hover:text-white transition-colors"
                 >
                   {service.label}
                 </Link>
@@ -210,5 +220,5 @@ export default function Financial() {
         </section>
       </main>
     </>
-  )
+  );
 }

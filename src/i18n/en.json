@@ -485,6 +485,11 @@
     "subtitle": "Contact us and discover how we can help your business grow.",
     "button": "Contact Us"
   },
+  "news": {
+    "title": "News",
+    "comingSoon": "Coming soon",
+    "placeholder": "Content coming soon..."
+  },
   "home": {
     "yearsExperience": "Years of Experience",
     "viewAllServices": "View All Services",
