@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 import {
   Zap,
   Shield,
@@ -9,71 +9,73 @@ import {
   Lock,
   Smartphone,
   CheckCircle2,
-  Quote
-} from 'lucide-react';
-import SectionTitle from '../components/ui/SectionTitle';
-import AnimatedCard from '../components/ui/AnimatedCard';
-import SEO from '../components/seo/SEO';
+  Quote,
+} from "lucide-react";
+import SectionTitle from "../components/ui/SectionTitle";
+import AnimatedCard from "../components/ui/AnimatedCard";
+import SEO from "../components/seo/SEO";
 
 export default function Technologies() {
   const { t } = useTranslation();
 
-  const benefits = t('technologies.benefits.items', { returnObjects: true }) as string[];
+  const benefits = t("technologies.benefits.items", {
+    returnObjects: true,
+  }) as string[];
 
   const tools = [
     {
-      name: t('technologies.tools.dominio.name'),
-      category: t('technologies.tools.dominio.category'),
-      description: t('technologies.tools.dominio.description')
+      name: t("technologies.tools.dominio.name"),
+      category: t("technologies.tools.dominio.category"),
+      description: t("technologies.tools.dominio.description"),
     },
     {
-      name: t('technologies.tools.jetax.name'),
-      category: t('technologies.tools.jetax.category'),
-      description: t('technologies.tools.jetax.description')
+      name: t("technologies.tools.jetax.name"),
+      category: t("technologies.tools.jetax.category"),
+      description: t("technologies.tools.jetax.description"),
     },
     {
-      name: t('technologies.tools.econet.name'),
-      category: t('technologies.tools.econet.category'),
-      description: t('technologies.tools.econet.description')
+      name: t("technologies.tools.econet.name"),
+      category: t("technologies.tools.econet.category"),
+      description: t("technologies.tools.econet.description"),
     },
     {
-      name: t('technologies.tools.onvio.name'),
-      category: t('technologies.tools.onvio.category'),
-      description: t('technologies.tools.onvio.description')
-    }
+      name: t("technologies.tools.onvio.name"),
+      category: t("technologies.tools.onvio.category"),
+      description: t("technologies.tools.onvio.description"),
+    },
   ];
 
   const techFeatures = [
     {
       icon: Zap,
-      title: t('technologies.features.agility.title'),
-      description: t('technologies.features.agility.description')
+      title: t("technologies.features.agility.title"),
+      description: t("technologies.features.agility.description"),
     },
     {
       icon: Shield,
-      title: t('technologies.features.security.title'),
-      description: t('technologies.features.security.description')
+      title: t("technologies.features.security.title"),
+      description: t("technologies.features.security.description"),
     },
     {
       icon: Clock,
-      title: t('technologies.features.efficiency.title'),
-      description: t('technologies.features.efficiency.description')
+      title: t("technologies.features.efficiency.title"),
+      description: t("technologies.features.efficiency.description"),
     },
     {
       icon: FileCheck,
-      title: t('technologies.features.compliance.title'),
-      description: t('technologies.features.compliance.description')
+      title: t("technologies.features.compliance.title"),
+      description: t("technologies.features.compliance.description"),
     },
     {
       icon: Server,
-      title: t('technologies.features.integration.title'),
-      description: t('technologies.features.integration.description')
+      title: t("technologies.features.integration.title"),
+      description: t("technologies.features.integration.description"),
     },
     {
       icon: Lock,
-      title: t('technologies.features.privacy.title'),
-      description: t('technologies.features.privacy.description')
-    }
+      title: t("technologies.features.privacy.title"),
+      description: t("technologies.features.privacy.description"),
+    },
   ];
 
   return (
@@ -91,13 +93,13 @@ export default function Technologies() {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="inline-block px-4 py-2 mb-6 text-sm text-[#9f7423] border border-[#9f7423]/30 rounded-full bg-[#9f7423]/10">
-              {t('technologies.title')}
+              {t("technologies.title")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {t('technologies.title')}
+              {t("technologies.title")}
             </h1>
             <p className="text-lg text-white/70">
-              {t('technologies.subtitle')}
+              {t("technologies.subtitle")}
             </p>
           </motion.div>
         </div>
@@ -112,7 +114,7 @@ export default function Technologies() {
               viewport={{ once: true }}
             >
               <p className="text-white/70 text-lg leading-relaxed mb-8">
-                {t('technologies.description')}
+                {t("technologies.description")}
               </p>
 
               <div className="grid grid-cols-2 gap-4">
@@ -125,8 +127,12 @@ export default function Technologies() {
                     transition={{ delay: index * 0.1 }}
                     className="bg-white/5 rounded-xl p-4 border border-white/10"
                   >
-                    <h4 className="text-white font-semibold mb-1">{tool.name}</h4>
-                    <p className="text-[#9f7423] text-xs mb-2">{tool.category}</p>
+                    <h4 className="text-white font-semibold mb-1">
+                      {tool.name}
+                    </h4>
+                    <p className="text-[#9f7423] text-xs mb-2">
+                      {tool.category}
+                    </p>
                     <p className="text-white/50 text-xs">{tool.description}</p>
                   </motion.div>
                 ))}
@@ -144,11 +150,12 @@ export default function Technologies() {
                   src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Technology"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-[#9f7423] text-white p-6 rounded-xl max-w-xs">
                 <Smartphone className="w-8 h-8 mb-2" />
-                <p className="text-sm">{t('technologies.digitalExperience')}</p>
+                <p className="text-sm">{t("technologies.digitalExperience")}</p>
               </div>
             </motion.div>
           </div>
@@ -158,8 +165,8 @@ export default function Technologies() {
       <section className="py-24 bg-[#010101]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title={t('technologies.benefits.title')}
-            subtitle={t('technologies.benefitsSubtitle')}
+            title={t("technologies.benefits.title")}
+            subtitle={t("technologies.benefitsSubtitle")}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -173,7 +180,9 @@ export default function Technologies() {
                     <h3 className="text-lg font-semibold text-white mb-2">
                       {feature.title}
                     </h3>
-                    <p className="text-white/60 text-sm">{feature.description}</p>
+                    <p className="text-white/60 text-sm">
+                      {feature.description}
+                    </p>
                   </div>
                 </div>
               </AnimatedCard>
@@ -191,7 +200,7 @@ export default function Technologies() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-                {t('technologies.clientBenefits')}
+                {t("technologies.clientBenefits")}
               </h2>
 
               <div className="space-y-4">
@@ -220,7 +229,7 @@ export default function Technologies() {
               <div className="bg-[#9f7423]/10 rounded-2xl p-8 border border-[#9f7423]/30">
                 <Quote className="w-12 h-12 text-[#9f7423]/50 mb-4" />
                 <p className="text-white/80 text-lg italic leading-relaxed">
-                  {t('technologies.quote')}
+                  {t("technologies.quote")}
                 </p>
               </div>
             </motion.div>
@@ -237,10 +246,10 @@ export default function Technologies() {
             className="bg-gradient-to-r from-[#9f7423] to-[#b8862a] rounded-3xl p-12 text-center"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              {t('technologies.lgpd.title')}
+              {t("technologies.lgpd.title")}
             </h2>
             <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8">
-              {t('technologies.lgpd.description')}
+              {t("technologies.lgpd.description")}
             </p>
             <div className="flex items-center justify-center gap-4">
               <Shield className="w-12 h-12 text-white" />

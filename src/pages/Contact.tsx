@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
+import { useState, useCallback } from "react";
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 import {
   Phone,
   Mail,
@@ -10,28 +10,33 @@ import {
   CheckCircle,
   AlertCircle,
   Clock,
-  MessageSquare
-} from 'lucide-react';
-import SEO from '../components/seo/SEO';
+  MessageSquare,
+} from "lucide-react";
+import SEO from "../components/seo/SEO";
+
+// Hoisted initial form state to avoid re-creating on each render (rendering-hoist-jsx)
+const INITIAL_FORM_DATA = {
+  name: "",
+  email: "",
+  phone: "",
+  company: "",
+  message: "",
+};
 
 export default function Contact() {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    message: ''
-  });
-  const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [formData, setFormData] = useState(INITIAL_FORM_DATA);
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
+  // Stable callback via functional setState — no dependency on formData (rerender-functional-setstate)
+  const handleChange = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+      const { name, value } = e.target;
+      setFormData((prev) => ({ ...prev, [name]: value }));
+    },
+    []
+  );
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -39,44 +44,38 @@ export default function Contact() {
 
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    setStatus('success');
+    setStatus("success");
     setIsSubmitting(false);
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      message: ''
-    });
+    setFormData(INITIAL_FORM_DATA);
 
-    setTimeout(() => setStatus('idle'), 5000);
+    setTimeout(() => setStatus("idle"), 5000);
   };
 
   const contactInfo = [
     {
       icon: Phone,
-      label: t('contact.labels.phone'),
-      value: t('contact.info.phone'),
-      href: 'tel:+551148830103'
+      label: t("contact.labels.phone"),
+      value: t("contact.info.phone"),
+      href: "tel:+551148830103",
     },
     {
       icon: Mail,
-      label: t('contact.labels.email'),
-      value: t('contact.info.email'),
-      href: 'mailto:contato@opbo.com.br'
+      label: t("contact.labels.email"),
+      value: t("contact.info.email"),
+      href: "mailto:contato@opbo.com.br",
     },
     {
       icon: Globe,
-      label: t('contact.labels.website'),
-      value: t('contact.info.website'),
-      href: 'https://www.opbo.com.br'
+      label: t("contact.labels.website"),
+      value: t("contact.info.website"),
+      href: "https://www.opbo.com.br",
     },
     {
       icon: MapPin,
-      label: t('contact.labels.address'),
-      value: t('contact.info.address'),
-      href: 'https://maps.google.com'
-    }
+      label: t("contact.labels.address"),
+      value: t("contact.info.address"),
+      href: "https://maps.google.com",
+    },
   ];
 
   return (
@@ -94,14 +93,12 @@ export default function Contact() {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="inline-block px-4 py-2 mb-6 text-sm text-[#9f7423] border border-[#9f7423]/30 rounded-full bg-[#9f7423]/10">
-              {t('contact.title')}
+              {t("contact.title")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {t('contact.title')}
+              {t("contact.title")}
             </h1>
-            <p className="text-lg text-white/70">
-              {t('contact.subtitle')}
-            </p>
+            <p className="text-lg text-white/70">{t("contact.subtitle")}</p>
           </motion.div>
         </div>
       </section>
@@ -115,15 +112,15 @@ export default function Contact() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-bold text-white mb-6">
-                {t('contact.letsTalk')}
+                {t("contact.letsTalk")}
               </h2>
               <p className="text-white/70 leading-relaxed mb-8">
-                {t('contact.description')}
+                {t("contact.description")}
               </p>
 
               <div className="bg-[#9f7423]/10 rounded-xl p-6 border border-[#9f7423]/30 mb-8">
                 <p className="text-[#9f7423] font-semibold text-lg">
-                  {t('contact.tagline')}
+                  {t("contact.tagline")}
                 </p>
               </div>
 
@@ -132,8 +129,16 @@ export default function Contact() {
                   <motion.a
                     key={index}
                     href={info.href}
-                    target={info.icon === Globe || info.icon === MapPin ? '_blank' : undefined}
-                    rel={info.icon === Globe || info.icon === MapPin ? 'noopener noreferrer' : undefined}
+                    target={
+                      info.icon === Globe || info.icon === MapPin
+                        ? "_blank"
+                        : undefined
+                    }
+                    rel={
+                      info.icon === Globe || info.icon === MapPin
+                        ? "noopener noreferrer"
+                        : undefined
+                    }
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -156,13 +161,21 @@ export default function Contact() {
               <div className="mt-12 grid grid-cols-2 gap-4">
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <Clock className="w-8 h-8 text-[#9f7423] mb-3" />
-                  <h4 className="text-white font-semibold mb-1">{t('contact.hours.title')}</h4>
-                  <p className="text-white/60 text-sm">{t('contact.hours.value')}</p>
+                  <h4 className="text-white font-semibold mb-1">
+                    {t("contact.hours.title")}
+                  </h4>
+                  <p className="text-white/60 text-sm">
+                    {t("contact.hours.value")}
+                  </p>
                 </div>
                 <div className="bg-white/5 rounded-xl p-4 border border-white/10">
                   <MessageSquare className="w-8 h-8 text-[#9f7423] mb-3" />
-                  <h4 className="text-white font-semibold mb-1">{t('contact.response.title')}</h4>
-                  <p className="text-white/60 text-sm">{t('contact.response.value')}</p>
+                  <h4 className="text-white font-semibold mb-1">
+                    {t("contact.response.title")}
+                  </h4>
+                  <p className="text-white/60 text-sm">
+                    {t("contact.response.value")}
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -174,28 +187,32 @@ export default function Contact() {
             >
               <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
                 <h3 className="text-2xl font-semibold text-white mb-6">
-                  {t('contact.sendMessage')}
+                  {t("contact.sendMessage")}
                 </h3>
 
-                {status === 'success' && (
+                {status === "success" && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="flex items-center gap-3 p-4 bg-green-500/20 border border-green-500/30 rounded-xl mb-6"
                   >
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-green-400">{t('contact.form.success')}</span>
+                    <span className="text-green-400">
+                      {t("contact.form.success")}
+                    </span>
                   </motion.div>
                 )}
 
-                {status === 'error' && (
+                {status === "error" && (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="flex items-center gap-3 p-4 bg-red-500/20 border border-red-500/30 rounded-xl mb-6"
                   >
                     <AlertCircle className="w-5 h-5 text-red-500" />
-                    <span className="text-red-400">{t('contact.form.error')}</span>
+                    <span className="text-red-400">
+                      {t("contact.form.error")}
+                    </span>
                   </motion.div>
                 )}
 
@@ -203,7 +220,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-white/70 text-sm mb-2">
-                        {t('contact.form.name')} *
+                        {t("contact.form.name")} *
                       </label>
                       <input
                         type="text"
@@ -212,12 +229,12 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder={t('contact.form.placeholders.name')}
+                        placeholder={t("contact.form.placeholders.name")}
                       />
                     </div>
                     <div>
                       <label className="block text-white/70 text-sm mb-2">
-                        {t('contact.form.email')} *
+                        {t("contact.form.email")} *
                       </label>
                       <input
                         type="email"
@@ -226,7 +243,7 @@ export default function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder={t('contact.form.placeholders.email')}
+                        placeholder={t("contact.form.placeholders.email")}
                       />
                     </div>
                   </div>
@@ -234,7 +251,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-white/70 text-sm mb-2">
-                        {t('contact.form.phone')}
+                        {t("contact.form.phone")}
                       </label>
                       <input
                         type="tel"
@@ -242,12 +259,12 @@ export default function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder={t('contact.form.placeholders.phone')}
+                        placeholder={t("contact.form.placeholders.phone")}
                       />
                     </div>
                     <div>
                       <label className="block text-white/70 text-sm mb-2">
-                        {t('contact.form.company')}
+                        {t("contact.form.company")}
                       </label>
                       <input
                         type="text"
@@ -255,14 +272,14 @@ export default function Contact() {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors"
-                        placeholder={t('contact.form.placeholders.company')}
+                        placeholder={t("contact.form.placeholders.company")}
                       />
                     </div>
                   </div>
 
                   <div>
                     <label className="block text-white/70 text-sm mb-2">
-                      {t('contact.form.message')} *
+                      {t("contact.form.message")} *
                     </label>
                     <textarea
                       name="message"
@@ -271,7 +288,7 @@ export default function Contact() {
                       required
                       rows={5}
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/30 focus:outline-none focus:border-[#9f7423] transition-colors resize-none"
-                      placeholder={t('contact.form.placeholders.message')}
+                      placeholder={t("contact.form.placeholders.message")}
                     />
                   </div>
 
@@ -283,13 +300,17 @@ export default function Contact() {
                     {isSubmitting ? (
                       <motion.div
                         animate={{ rotate: 360 }}
-                        transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
+                        transition={{
+                          duration: 1,
+                          repeat: Infinity,
+                          ease: "linear",
+                        }}
                         className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full"
                       />
                     ) : (
                       <>
                         <Send className="w-5 h-5" />
-                        {t('contact.form.submit')}
+                        {t("contact.form.submit")}
                       </>
                     )}
                   </button>
@@ -312,7 +333,10 @@ export default function Contact() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0975076507!2d-46.65695368502236!3d-23.56590328468268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sR.%20do%20Bosque%2C%201589%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
-              style={{ border: 0, filter: 'grayscale(1) contrast(1.2) opacity(0.8)' }}
+              style={{
+                border: 0,
+                filter: "grayscale(1) contrast(1.2) opacity(0.8)",
+              }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

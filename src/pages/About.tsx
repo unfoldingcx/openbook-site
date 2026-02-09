@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 import {
   Eye,
   Target,
@@ -9,15 +9,15 @@ import {
   CheckCircle2,
   Quote,
   Laptop,
-  Home as HomeIcon
-} from 'lucide-react';
-import AnimatedCard from '../components/ui/AnimatedCard';
-import SEO from '../components/seo/SEO';
+  Home as HomeIcon,
+} from "lucide-react";
+import AnimatedCard from "../components/ui/AnimatedCard";
+import SEO from "../components/seo/SEO";
 
 export default function About() {
   const { t } = useTranslation();
 
-  const values = t('about.values.items', { returnObjects: true }) as Array<{
+  const values = t("about.values.items", { returnObjects: true }) as Array<{
     title: string;
     value: string;
   }>;
@@ -37,14 +37,12 @@ export default function About() {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="inline-block px-4 py-2 mb-6 text-sm text-[#9f7423] border border-[#9f7423]/30 rounded-full bg-[#9f7423]/10">
-              {t('about.title')}
+              {t("about.title")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {t('about.intro.title')}
+              {t("about.intro.title")}
             </h1>
-            <p className="text-lg text-white/70">
-              {t('about.intro.subtitle')}
-            </p>
+            <p className="text-lg text-white/70">{t("about.intro.subtitle")}</p>
           </motion.div>
         </div>
       </section>
@@ -62,6 +60,7 @@ export default function About() {
                   src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Business meeting"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -72,7 +71,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-white/70 text-lg leading-relaxed">
-                {t('about.intro.text')}
+                {t("about.intro.text")}
               </p>
             </motion.div>
           </div>
@@ -93,28 +92,28 @@ export default function About() {
                   <Eye className="w-7 h-7 text-[#9f7423]" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white">
-                  {t('about.vision.title')}
+                  {t("about.vision.title")}
                 </h2>
               </div>
               <p className="text-white/70 leading-relaxed mb-8">
-                {t('about.vision.text')}
+                {t("about.vision.text")}
               </p>
               <div className="space-y-4">
-                {(t('about.vision.points', { returnObjects: true }) as string[]).map(
-                  (point, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: index * 0.1 }}
-                      className="flex items-start gap-3"
-                    >
-                      <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
-                      <span className="text-white/80">{point}</span>
-                    </motion.div>
-                  )
-                )}
+                {(
+                  t("about.vision.points", { returnObjects: true }) as string[]
+                ).map((point, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1 }}
+                    className="flex items-start gap-3"
+                  >
+                    <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
+                    <span className="text-white/80">{point}</span>
+                  </motion.div>
+                ))}
               </div>
             </motion.div>
 
@@ -128,6 +127,7 @@ export default function About() {
                   src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Team planning"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -149,6 +149,7 @@ export default function About() {
                   src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Strategic planning"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -164,28 +165,28 @@ export default function About() {
                   <Target className="w-7 h-7 text-[#9f7423]" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white">
-                  {t('about.mission.title')}
+                  {t("about.mission.title")}
                 </h2>
               </div>
               <p className="text-white/70 leading-relaxed mb-8">
-                {t('about.mission.text')}
+                {t("about.mission.text")}
               </p>
               <div className="space-y-4">
-                {(t('about.mission.points', { returnObjects: true }) as string[]).map(
-                  (point, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: index * 0.1 }}
-                      className="flex items-start gap-3"
-                    >
-                      <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
-                      <span className="text-white/80">{point}</span>
-                    </motion.div>
-                  )
-                )}
+                {(
+                  t("about.mission.points", { returnObjects: true }) as string[]
+                ).map((point, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.1 }}
+                    className="flex items-start gap-3"
+                  >
+                    <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
+                    <span className="text-white/80">{point}</span>
+                  </motion.div>
+                ))}
               </div>
             </motion.div>
           </div>
@@ -199,17 +200,21 @@ export default function About() {
               <Heart className="w-7 h-7 text-[#9f7423]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              {t('about.values.title')}
+              {t("about.values.title")}
             </h2>
           </div>
 
           <p className="text-white/70 leading-relaxed text-center max-w-4xl mx-auto mb-12">
-            {t('about.values.text')}
+            {t("about.values.text")}
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12">
             {values.map((item, index) => (
-              <AnimatedCard key={index} delay={index * 0.1} className="text-center">
+              <AnimatedCard
+                key={index}
+                delay={index * 0.1}
+                className="text-center"
+              >
                 <div className="text-3xl font-bold text-[#9f7423] mb-2">
                   {item.value}
                 </div>
@@ -220,24 +225,26 @@ export default function About() {
 
           <div className="bg-white/5 rounded-2xl p-8 border border-white/10">
             <h3 className="text-xl font-semibold text-white mb-6 text-center">
-              {t('about.fundamentalCommitments')}
+              {t("about.fundamentalCommitments")}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {(t('about.values.commitments', { returnObjects: true }) as string[]).map(
-                (commitment, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
-                    className="flex items-start gap-3"
-                  >
-                    <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
-                    <span className="text-white/80">{commitment}</span>
-                  </motion.div>
-                )
-              )}
+              {(
+                t("about.values.commitments", {
+                  returnObjects: true,
+                }) as string[]
+              ).map((commitment, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="flex items-start gap-3"
+                >
+                  <CheckCircle2 className="w-5 h-5 text-[#9f7423] flex-shrink-0 mt-0.5" />
+                  <span className="text-white/80">{commitment}</span>
+                </motion.div>
+              ))}
             </div>
           </div>
         </div>
@@ -250,16 +257,16 @@ export default function About() {
               <Laptop className="w-7 h-7 text-[#9f7423]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              {t('about.workStyle.title')}
+              {t("about.workStyle.title")}
             </h2>
           </div>
 
           <p className="text-[#9f7423] text-lg text-center mb-8">
-            {t('about.workStyle.subtitle')}
+            {t("about.workStyle.subtitle")}
           </p>
 
           <p className="text-white/70 leading-relaxed text-center max-w-4xl mx-auto mb-12">
-            {t('about.workStyle.text')}
+            {t("about.workStyle.text")}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -268,9 +275,13 @@ export default function About() {
                 <div className="w-12 h-12 rounded-full bg-[#9f7423]/20 flex items-center justify-center">
                   <Users2 className="w-6 h-6 text-[#9f7423]" />
                 </div>
-                <h3 className="text-lg font-semibold text-white">{t('about.workStyle.benefits.title.employees')}</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  {t("about.workStyle.benefits.title.employees")}
+                </h3>
               </div>
-              <p className="text-white/60">{t('about.workStyle.benefits.employees')}</p>
+              <p className="text-white/60">
+                {t("about.workStyle.benefits.employees")}
+              </p>
             </AnimatedCard>
 
             <AnimatedCard delay={0.2}>
@@ -278,9 +289,13 @@ export default function About() {
                 <div className="w-12 h-12 rounded-full bg-[#9f7423]/20 flex items-center justify-center">
                   <HomeIcon className="w-6 h-6 text-[#9f7423]" />
                 </div>
-                <h3 className="text-lg font-semibold text-white">{t('about.workStyle.benefits.title.clients')}</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  {t("about.workStyle.benefits.title.clients")}
+                </h3>
               </div>
-              <p className="text-white/60">{t('about.workStyle.benefits.clients')}</p>
+              <p className="text-white/60">
+                {t("about.workStyle.benefits.clients")}
+              </p>
             </AnimatedCard>
           </div>
 
@@ -291,7 +306,7 @@ export default function About() {
             className="bg-[#9f7423]/10 rounded-2xl p-8 border border-[#9f7423]/30 text-center"
           >
             <p className="text-white/80 text-lg italic">
-              {t('about.workStyle.conclusion')}
+              {t("about.workStyle.conclusion")}
             </p>
           </motion.div>
         </div>
@@ -310,13 +325,14 @@ export default function About() {
                   src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Partners"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#010101]/80 to-transparent" />
                 <div className="absolute bottom-6 left-6">
                   <p className="text-[#9f7423] font-semibold text-lg">
-                    {t('about.partners.founders')}
+                    {t("about.partners.founders")}
                   </p>
-                  <p className="text-white/60 text-sm">{t('about.founders')}</p>
+                  <p className="text-white/60 text-sm">{t("about.founders")}</p>
                 </div>
               </div>
             </motion.div>
@@ -331,17 +347,17 @@ export default function About() {
                   <Briefcase className="w-7 h-7 text-[#9f7423]" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white">
-                  {t('about.partners.title')}
+                  {t("about.partners.title")}
                 </h2>
               </div>
 
               <div className="relative">
                 <Quote className="absolute -top-2 -left-2 w-10 h-10 text-[#9f7423]/30" />
                 <p className="text-white/70 leading-relaxed mb-6 pl-8">
-                  {t('about.partners.text')}
+                  {t("about.partners.text")}
                 </p>
                 <p className="text-white/70 leading-relaxed pl-8">
-                  {t('about.partners.text2')}
+                  {t("about.partners.text2")}
                 </p>
               </div>
             </motion.div>

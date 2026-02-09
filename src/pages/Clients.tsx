@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'motion/react';
+import { useTranslation } from "react-i18next";
+import { motion } from "motion/react";
 import {
   Factory,
   Tractor,
@@ -8,11 +8,11 @@ import {
   Palette,
   Globe2,
   Quote,
-  Users
-} from 'lucide-react';
-import SectionTitle from '../components/ui/SectionTitle';
-import AnimatedCard from '../components/ui/AnimatedCard';
-import SEO from '../components/seo/SEO';
+  Users,
+} from "lucide-react";
+import SectionTitle from "../components/ui/SectionTitle";
+import AnimatedCard from "../components/ui/AnimatedCard";
+import SEO from "../components/seo/SEO";
 
 export default function Clients() {
   const { t } = useTranslation();
@@ -20,47 +20,47 @@ export default function Clients() {
   const clientCategories = [
     {
       icon: Factory,
-      industry: t('clients.industryNames.industrial'),
-      description: t('clients.industries.industrial'),
-      color: 'from-red-500/20 to-red-600/20'
+      industry: t("clients.industryNames.industrial"),
+      description: t("clients.industries.industrial"),
+      color: "from-red-500/20 to-red-600/20",
     },
     {
       icon: Tractor,
-      industry: t('clients.industryNames.agribusiness'),
-      description: t('clients.industries.agribusiness'),
-      color: 'from-green-500/20 to-green-600/20'
+      industry: t("clients.industryNames.agribusiness"),
+      description: t("clients.industries.agribusiness"),
+      color: "from-green-500/20 to-green-600/20",
     },
     {
       icon: Landmark,
-      industry: t('clients.industryNames.financial'),
-      description: t('clients.industries.financial'),
-      color: 'from-blue-500/20 to-blue-600/20'
+      industry: t("clients.industryNames.financial"),
+      description: t("clients.industries.financial"),
+      color: "from-blue-500/20 to-blue-600/20",
     },
     {
       icon: Theater,
-      industry: t('clients.industryNames.entertainment'),
-      description: t('clients.industries.entertainment'),
-      color: 'from-purple-500/20 to-purple-600/20'
+      industry: t("clients.industryNames.entertainment"),
+      description: t("clients.industries.entertainment"),
+      color: "from-purple-500/20 to-purple-600/20",
     },
     {
       icon: Palette,
-      industry: t('clients.industryNames.creative'),
-      description: t('clients.industries.creative'),
-      color: 'from-pink-500/20 to-pink-600/20'
+      industry: t("clients.industryNames.creative"),
+      description: t("clients.industries.creative"),
+      color: "from-pink-500/20 to-pink-600/20",
     },
     {
       icon: Globe2,
-      industry: t('clients.industryNames.technology'),
-      description: t('clients.industries.technology'),
-      color: 'from-cyan-500/20 to-cyan-600/20'
-    }
+      industry: t("clients.industryNames.technology"),
+      description: t("clients.industries.technology"),
+      color: "from-cyan-500/20 to-cyan-600/20",
+    },
   ];
 
   const stats = [
-    { value: '13+', label: t('clients.stats.yearsExperience') },
-    { value: '50+', label: t('clients.stats.clientsServed') },
-    { value: '100%', label: t('clients.stats.compliance') },
-    { value: '24/7', label: t('clients.stats.dedicatedSupport') }
+    { value: "13+", label: t("clients.stats.yearsExperience") },
+    { value: "50+", label: t("clients.stats.clientsServed") },
+    { value: "100%", label: t("clients.stats.compliance") },
+    { value: "24/7", label: t("clients.stats.dedicatedSupport") },
   ];
 
   return (
@@ -78,14 +78,12 @@ export default function Clients() {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="inline-block px-4 py-2 mb-6 text-sm text-[#9f7423] border border-[#9f7423]/30 rounded-full bg-[#9f7423]/10">
-              {t('clients.title')}
+              {t("clients.title")}
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              {t('clients.title')}
+              {t("clients.title")}
             </h1>
-            <p className="text-lg text-white/70">
-              {t('clients.subtitle')}
-            </p>
+            <p className="text-lg text-white/70">{t("clients.subtitle")}</p>
           </motion.div>
         </div>
       </section>
@@ -101,7 +99,7 @@ export default function Clients() {
             <div className="flex items-start gap-4 mb-6">
               <Quote className="w-12 h-12 text-[#9f7423] flex-shrink-0" />
               <p className="text-white/70 text-lg leading-relaxed">
-                {t('clients.description')}
+                {t("clients.description")}
               </p>
             </div>
           </motion.div>
@@ -129,14 +127,16 @@ export default function Clients() {
       <section className="py-24 bg-[#010101]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title={t('clients.sectors.title')}
-            subtitle={t('clients.sectors.subtitle')}
+            title={t("clients.sectors.title")}
+            subtitle={t("clients.sectors.subtitle")}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {clientCategories.map((client, index) => (
               <AnimatedCard key={index} delay={index * 0.1}>
-                <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${client.color} flex items-center justify-center mb-4`}>
+                <div
+                  className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${client.color} flex items-center justify-center mb-4`}
+                >
                   <client.icon className="w-8 h-8 text-[#9f7423]" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">
@@ -160,10 +160,10 @@ export default function Clients() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                {t('clients.partnership.title')}
+                {t("clients.partnership.title")}
               </h2>
               <p className="text-white/70 leading-relaxed mb-8">
-                {t('clients.partnership.description')}
+                {t("clients.partnership.description")}
               </p>
 
               <div className="space-y-6">
@@ -173,10 +173,10 @@ export default function Clients() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">
-                      {t('clients.partnership.personalized.title')}
+                      {t("clients.partnership.personalized.title")}
                     </h4>
                     <p className="text-white/60 text-sm">
-                      {t('clients.partnership.personalized.description')}
+                      {t("clients.partnership.personalized.description")}
                     </p>
                   </div>
                 </div>
@@ -187,10 +187,10 @@ export default function Clients() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">
-                      {t('clients.partnership.international.title')}
+                      {t("clients.partnership.international.title")}
                     </h4>
                     <p className="text-white/60 text-sm">
-                      {t('clients.partnership.international.description')}
+                      {t("clients.partnership.international.description")}
                     </p>
                   </div>
                 </div>
@@ -207,6 +207,7 @@ export default function Clients() {
                   src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Client partnership"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -217,20 +218,28 @@ export default function Clients() {
       <section className="py-24 bg-[#010101]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title={t('clients.testimonials.title')}
-            subtitle={t('clients.testimonials.subtitle')}
+            title={t("clients.testimonials.title")}
+            subtitle={t("clients.testimonials.subtitle")}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {(t('clients.testimonials.items', { returnObjects: true }) as Array<{quote: string, author: string, company: string}>).map((testimonial, index) => (
+            {(
+              t("clients.testimonials.items", {
+                returnObjects: true,
+              }) as Array<{ quote: string; author: string; company: string }>
+            ).map((testimonial, index) => (
               <AnimatedCard key={index} delay={index * 0.1}>
                 <Quote className="w-10 h-10 text-[#9f7423]/30 mb-4" />
                 <p className="text-white/70 italic mb-6 leading-relaxed">
                   "{testimonial.quote}"
                 </p>
                 <div>
-                  <p className="text-white font-semibold">{testimonial.author}</p>
-                  <p className="text-[#9f7423] text-sm">{testimonial.company}</p>
+                  <p className="text-white font-semibold">
+                    {testimonial.author}
+                  </p>
+                  <p className="text-[#9f7423] text-sm">
+                    {testimonial.company}
+                  </p>
                 </div>
               </AnimatedCard>
             ))}

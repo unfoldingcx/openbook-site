@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -11,7 +12,16 @@ interface ServiceCardProps {
   delay?: number;
 }
 
-export default function ServiceCard({
+// Hoisted static animation config (rendering-hoist-jsx)
+const HOVER_SCALE = { scale: 1.02, y: -4 };
+const SPRING_TRANSITION = {
+  type: "spring",
+  stiffness: 400,
+  damping: 25,
+} as const;
+
+// Wrapped with React.memo — each card receives stable props (rerender-memo)
+const ServiceCard = memo(function ServiceCard({
   icon,
   title,
   description,
@@ -28,8 +38,8 @@ export default function ServiceCard({
       <Link to={to} className="group block h-full">
         <motion.div
           className="card-glass bg-white p-6 rounded-2xl shadow-sm border border-transparent hover:border-[#9f7423]/30 transition-all h-full"
-          whileHover={{ scale: 1.02, y: -4 }}
-          transition={{ type: "spring", stiffness: 400, damping: 25 }}
+          whileHover={HOVER_SCALE}
+          transition={SPRING_TRANSITION}
         >
           <div className="flex items-start justify-between mb-4">
             <div className="w-12 h-12 rounded-xl bg-[#9f7423]/10 flex items-center justify-center text-[#9f7423]">
@@ -50,4 +60,6 @@ export default function ServiceCard({
       </Link>
     </motion.div>
   );
-}
+});
+
+export default ServiceCard;

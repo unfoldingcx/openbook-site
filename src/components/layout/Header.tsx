@@ -179,7 +179,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            onClick={() => setIsMobileMenuOpen((prev) => !prev)}
             className="lg:hidden p-2 text-white"
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >

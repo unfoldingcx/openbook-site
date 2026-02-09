@@ -11,6 +11,7 @@ import {
   Newspaper,
 } from "lucide-react";
 
+// Hoisted static SVG elements outside component to avoid re-creation on each render (rendering-hoist-jsx)
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
     <svg
@@ -24,50 +25,51 @@ function WhatsAppIcon({ className }: { className?: string }) {
   );
 }
 
-function FooterLogoMark() {
-  return (
-    <svg
-      width="32"
-      height="32"
-      viewBox="0 0 36 36"
+// Hoisted static logo SVG — never changes (rendering-hoist-jsx)
+const footerLogoMark = (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 36 36"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="flex-shrink-0"
+  >
+    <rect
+      x="1"
+      y="1"
+      width="34"
+      height="34"
+      rx="8"
+      stroke="url(#footer-logo-grad)"
+      strokeWidth="1.5"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="flex-shrink-0"
+    />
+    <text
+      x="18"
+      y="24"
+      textAnchor="middle"
+      fontFamily="Georgia, serif"
+      fontWeight="700"
+      fontSize="18"
+      fill="url(#footer-logo-grad)"
     >
-      <rect
-        x="1"
-        y="1"
-        width="34"
-        height="34"
-        rx="8"
-        stroke="url(#footer-logo-grad)"
-        strokeWidth="1.5"
-        fill="none"
-      />
-      <text
-        x="18"
-        y="24"
-        textAnchor="middle"
-        fontFamily="Georgia, serif"
-        fontWeight="700"
-        fontSize="18"
-        fill="url(#footer-logo-grad)"
-      >
-        OB
-      </text>
-      <defs>
-        <linearGradient id="footer-logo-grad" x1="0" y1="0" x2="36" y2="36">
-          <stop offset="0%" stopColor="#d4a84b" />
-          <stop offset="100%" stopColor="#9f7423" />
-        </linearGradient>
-      </defs>
-    </svg>
-  );
-}
+      OB
+    </text>
+    <defs>
+      <linearGradient id="footer-logo-grad" x1="0" y1="0" x2="36" y2="36">
+        <stop offset="0%" stopColor="#d4a84b" />
+        <stop offset="100%" stopColor="#9f7423" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+// Hoisted — computed once at module level, not on every render (rerender-lazy-state-init)
+const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Footer() {
   const { t } = useTranslation();
-  const currentYear = new Date().getFullYear();
 
   const quickLinks = [
     { path: "/", label: t("nav.home") },
@@ -141,7 +143,7 @@ export default function Footer() {
             transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
           >
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <FooterLogoMark />
+              {footerLogoMark}
               <div className="flex items-baseline">
                 <span className="text-2xl font-light text-white">Open-</span>
                 <span className="text-2xl font-semibold text-gradient">
@@ -296,7 +298,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/40 text-sm">
-              {currentYear} Open-Book. {t("footer.rights")}
+              {CURRENT_YEAR} Open-Book. {t("footer.rights")}
             </p>
             <div className="flex items-center gap-1 text-white/40 text-sm">
               <span>{t("footer.slogan")}</span>

@@ -1,5 +1,6 @@
-import { Helmet } from "react-helmet-async"
-import { useTranslation } from "react-i18next"
+import { memo } from "react";
+import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 type PageType =
   | "home"
@@ -12,36 +13,35 @@ type PageType =
   | "accounting"
   | "financial"
   | "tax"
-  | "payroll"
+  | "payroll";
 
 interface SEOProps {
-  page: PageType
-  path?: string
+  page: PageType;
+  path?: string;
 }
 
-const SEO = ({ page, path = "" }: SEOProps) => {
-  const { t, i18n } = useTranslation()
-  const currentLang = i18n.language
-  const baseUrl = "https://www.opbo.com.br"
-  const fullUrl = `${baseUrl}${path}`
+// Hoisted constants and pure functions outside component (rendering-hoist-jsx, js-cache-function-results)
+const BASE_URL = "https://www.opbo.com.br";
+const OG_IMAGE =
+  "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1200";
 
-  const siteName = t("seo.siteName")
-  const title = t(`seo.${page}.title`)
-  const description = t(`seo.${page}.description`)
-  const fullTitle = page === "home" ? siteName : `${title} | ${siteName}`
+const LOCALE_MAP: Record<string, { og: string; alt: string }> = {
+  pt: { og: "pt_BR", alt: "en_US" },
+  en: { og: "en_US", alt: "pt_BR" },
+};
 
-  // Open Graph image
-  const ogImage =
-    "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1200"
+// Wrapped with React.memo — page/path change infrequently (rerender-memo)
+const SEO = memo(function SEO({ page, path = "" }: SEOProps) {
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language;
+  const fullUrl = `${BASE_URL}${path}`;
 
-  // Locale mapping for Open Graph
-  const getOgLocale = (lang: string) => {
-    return lang === "pt" ? "pt_BR" : "en_US"
-  }
+  const siteName = t("seo.siteName");
+  const title = t(`seo.${page}.title`);
+  const description = t(`seo.${page}.description`);
+  const fullTitle = page === "home" ? siteName : `${title} | ${siteName}`;
 
-  const getAlternateLocale = (lang: string) => {
-    return lang === "pt" ? "en_US" : "pt_BR"
-  }
+  const locales = LOCALE_MAP[currentLang] ?? LOCALE_MAP.pt;
 
   return (
     <Helmet>
@@ -60,21 +60,18 @@ const SEO = ({ page, path = "" }: SEOProps) => {
       <meta property="og:url" content={fullUrl} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={ogImage} />
-      <meta property="og:locale" content={getOgLocale(currentLang)} />
-      <meta
-        property="og:locale:alternate"
-        content={getAlternateLocale(currentLang)}
-      />
+      <meta property="og:image" content={OG_IMAGE} />
+      <meta property="og:locale" content={locales.og} />
+      <meta property="og:locale:alternate" content={locales.alt} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:url" content={fullUrl} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image" content={OG_IMAGE} />
     </Helmet>
-  )
-}
+  );
+});
 
-export default SEO
+export default SEO;
