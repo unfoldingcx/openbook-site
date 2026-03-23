@@ -6,7 +6,8 @@
     "training": "Cursos",
     "technologies": "Tecnologias",
     "clients": "Clientes",
-    "contact": "Contato"
+    "contact": "Contato",
+    "content": "Conteúdos"
   },
   "onvio": {
     "buttonText": "Acesso Onvio",
@@ -485,6 +486,35 @@
     "subtitle": "Entre em contato conosco e descubra como podemos ajudar seu negócio a crescer.",
     "button": "Fale Conosco"
   },
+  "content": {
+    "title": "Conteúdos",
+    "subtitle": "Vídeos, artigos e materiais sobre contabilidade, finanças e legislação para manter você atualizado.",
+    "featured": {
+      "badge": "Em Destaque",
+      "title": "Conheça a Open-Book",
+      "description": "Assista à apresentação institucional e descubra como a Open-Book pode transformar a gestão contábil e financeira da sua empresa."
+    },
+    "upcoming": {
+      "title": "Próximos Conteúdos",
+      "subtitle": "Artigos e análises que estamos preparando para você",
+      "comingSoon": "Em breve",
+      "taxReform": {
+        "title": "Reforma Tributária e Imóveis",
+        "description": "Análise completa dos impactos da reforma tributária no setor imobiliário: o que muda para proprietários, incorporadoras e investidores.",
+        "tag": "Tributário"
+      },
+      "sinief": {
+        "title": "Ajuste SINIEF nº 49",
+        "description": "Entenda as mudanças trazidas pelo Ajuste SINIEF nº 49 e como elas afetam as obrigações acessórias da sua empresa.",
+        "tag": "Fiscal"
+      }
+    },
+    "cta": {
+      "title": "Quer receber nossos conteúdos?",
+      "description": "Entre em contato conosco para ficar por dentro das novidades contábeis e fiscais que impactam o seu negócio.",
+      "button": "Fale Conosco"
+    }
+  },
   "news": {
     "title": "Noticiário",
     "comingSoon": "Em breve",
@@ -550,6 +580,10 @@
     "payroll": {
       "title": "Departamento Pessoal | Open-Book Assessoria Contábil e Financeira",
       "description": "Gestão trabalhista completa com folha de pagamento, admissões e eSocial."
+    },
+    "content": {
+      "title": "Conteúdos | Open-Book Assessoria Contábil e Financeira",
+      "description": "Vídeos, artigos e materiais sobre contabilidade, finanças e legislação. Conteúdo especializado para manter você atualizado."
     }
   }
 }

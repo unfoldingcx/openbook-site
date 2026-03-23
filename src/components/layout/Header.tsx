@@ -17,6 +17,7 @@ export default function Header() {
     { path: "/training", label: t("nav.training") },
     { path: "/about", label: t("nav.about") },
     { path: "/clients", label: t("nav.clients") },
+    { path: "/content", label: t("nav.content") },
     { path: "/contact", label: t("nav.contact") },
   ];
 

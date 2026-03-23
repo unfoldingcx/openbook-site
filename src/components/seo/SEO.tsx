@@ -13,7 +13,8 @@ type PageType =
   | "accounting"
   | "financial"
   | "tax"
-  | "payroll";
+  | "payroll"
+  | "content";
 
 interface SEOProps {
   page: PageType;

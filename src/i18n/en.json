@@ -6,7 +6,8 @@
     "training": "Training",
     "technologies": "Technologies",
     "clients": "Clients",
-    "contact": "Contact"
+    "contact": "Contact",
+    "content": "Content"
   },
   "onvio": {
     "buttonText": "Onvio Access",
@@ -485,6 +486,35 @@
     "subtitle": "Contact us and discover how we can help your business grow.",
     "button": "Contact Us"
   },
+  "content": {
+    "title": "Content",
+    "subtitle": "Videos, articles and resources on accounting, finance and legislation to keep you up to date.",
+    "featured": {
+      "badge": "Featured",
+      "title": "Meet Open-Book",
+      "description": "Watch our company presentation and discover how Open-Book can transform your accounting and financial management."
+    },
+    "upcoming": {
+      "title": "Upcoming Content",
+      "subtitle": "Articles and analyses we're preparing for you",
+      "comingSoon": "Coming soon",
+      "taxReform": {
+        "title": "Tax Reform and Real Estate",
+        "description": "Complete analysis of the impacts of tax reform on the real estate sector: what changes for owners, developers and investors.",
+        "tag": "Tax"
+      },
+      "sinief": {
+        "title": "SINIEF Adjustment No. 49",
+        "description": "Understand the changes brought by SINIEF Adjustment No. 49 and how they affect your company's ancillary obligations.",
+        "tag": "Tax"
+      }
+    },
+    "cta": {
+      "title": "Want to receive our content?",
+      "description": "Get in touch with us to stay up to date with accounting and tax news that impact your business.",
+      "button": "Contact Us"
+    }
+  },
   "news": {
     "title": "News",
     "comingSoon": "Coming soon",
@@ -550,6 +580,10 @@
     "payroll": {
       "title": "Payroll | Open-Book Accounting and Financial Advisory",
       "description": "Complete labor compliance with payroll processing, hiring and eSocial."
+    },
+    "content": {
+      "title": "Content | Open-Book Accounting and Financial Advisory",
+      "description": "Videos, articles and resources on accounting, finance and legislation. Specialized content to keep you up to date."
     }
   }
 }

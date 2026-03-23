@@ -51,6 +51,7 @@ export default function Footer() {
     { path: "/about", label: t("nav.about") },
     { path: "/technologies", label: t("nav.technologies") },
     { path: "/clients", label: t("nav.clients") },
+    { path: "/content", label: t("nav.content") },
     { path: "/contact", label: t("nav.contact") },
   ];
 
