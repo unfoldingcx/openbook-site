@@ -25,44 +25,13 @@ function WhatsAppIcon({ className }: { className?: string }) {
   );
 }
 
-// Hoisted static logo SVG — never changes (rendering-hoist-jsx)
+// Hoisted static logo — never changes (rendering-hoist-jsx)
 const footerLogoMark = (
-  <svg
-    width="32"
-    height="32"
-    viewBox="0 0 36 36"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className="flex-shrink-0"
-  >
-    <rect
-      x="1"
-      y="1"
-      width="34"
-      height="34"
-      rx="8"
-      stroke="url(#footer-logo-grad)"
-      strokeWidth="1.5"
-      fill="none"
-    />
-    <text
-      x="18"
-      y="24"
-      textAnchor="middle"
-      fontFamily="Georgia, serif"
-      fontWeight="700"
-      fontSize="18"
-      fill="url(#footer-logo-grad)"
-    >
-      OB
-    </text>
-    <defs>
-      <linearGradient id="footer-logo-grad" x1="0" y1="0" x2="36" y2="36">
-        <stop offset="0%" stopColor="#d4a84b" />
-        <stop offset="100%" stopColor="#9f7423" />
-      </linearGradient>
-    </defs>
-  </svg>
+  <img
+    src="/logo.png"
+    alt="Open-Book"
+    className="h-8 w-auto flex-shrink-0"
+  />
 );
 
 // Hoisted — computed once at module level, not on every render (rerender-lazy-state-init)
@@ -144,12 +113,6 @@ export default function Footer() {
           >
             <Link to="/" className="flex items-center gap-3 mb-4">
               {footerLogoMark}
-              <div className="flex items-baseline">
-                <span className="text-2xl font-light text-white">Open-</span>
-                <span className="text-2xl font-semibold text-gradient">
-                  Book
-                </span>
-              </div>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-4">
               {t("footer.description")}

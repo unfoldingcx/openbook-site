@@ -22,8 +22,7 @@ interface SEOProps {
 
 // Hoisted constants and pure functions outside component (rendering-hoist-jsx, js-cache-function-results)
 const BASE_URL = "https://www.opbo.com.br";
-const OG_IMAGE =
-  "https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1200";
+const OG_IMAGE = `${BASE_URL}/logo.png`;
 
 const LOCALE_MAP: Record<string, { og: string; alt: string }> = {
   pt: { og: "pt_BR", alt: "en_US" },

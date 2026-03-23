@@ -5,47 +5,6 @@ import { motion, AnimatePresence } from "motion/react";
 import { Menu, X } from "lucide-react";
 import OnvioButton from "../ui/OnvioButton";
 
-function LogoMark() {
-  return (
-    <svg
-      width="36"
-      height="36"
-      viewBox="0 0 36 36"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="flex-shrink-0"
-    >
-      <rect
-        x="1"
-        y="1"
-        width="34"
-        height="34"
-        rx="8"
-        stroke="url(#logo-gradient)"
-        strokeWidth="1.5"
-        fill="none"
-      />
-      <text
-        x="18"
-        y="24"
-        textAnchor="middle"
-        fontFamily="Georgia, serif"
-        fontWeight="700"
-        fontSize="18"
-        fill="url(#logo-gradient)"
-      >
-        OB
-      </text>
-      <defs>
-        <linearGradient id="logo-gradient" x1="0" y1="0" x2="36" y2="36">
-          <stop offset="0%" stopColor="#d4a84b" />
-          <stop offset="100%" stopColor="#9f7423" />
-        </linearGradient>
-      </defs>
-    </svg>
-  );
-}
-
 export default function Header() {
   const { t, i18n } = useTranslation();
   const location = useLocation();
@@ -102,13 +61,11 @@ export default function Header() {
               animate={{ opacity: 1, x: 0 }}
               className="flex items-center gap-3"
             >
-              <LogoMark />
-              <div className="flex items-baseline">
-                <span className="text-2xl font-light text-white">Open-</span>
-                <span className="text-2xl font-semibold text-gradient">
-                  Book
-                </span>
-              </div>
+              <img
+                src="/logo.png"
+                alt="Open-Book"
+                className="h-9 w-auto"
+              />
             </motion.div>
           </Link>
 
