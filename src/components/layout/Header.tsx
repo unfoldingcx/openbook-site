@@ -65,7 +65,7 @@ export default function Header() {
               <img
                 src="/logo.png"
                 alt="Open-Book"
-                className="h-9 w-auto"
+                className="h-9 w-auto brightness-200 contrast-50"
               />
             </motion.div>
           </Link>
