@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
-import { Play, FileText, Clock, ArrowRight } from "lucide-react";
+import { Play, FileText, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEO from "../components/seo/SEO";
 import AnimatedSection from "../components/ui/AnimatedSection";
@@ -10,16 +10,18 @@ const YOUTUBE_ID = "wS8v2YYUkiM";
 export default function Content() {
   const { t } = useTranslation();
 
-  const upcomingPosts = [
+  const articles = [
     {
-      title: t("content.upcoming.taxReform.title"),
-      description: t("content.upcoming.taxReform.description"),
-      tag: t("content.upcoming.taxReform.tag"),
+      title: t("content.articles.taxReform.title"),
+      description: t("content.articles.taxReform.description"),
+      tag: t("content.articles.taxReform.tag"),
+      to: "/content/reforma-tributaria-e-imoveis",
     },
     {
-      title: t("content.upcoming.sinief.title"),
-      description: t("content.upcoming.sinief.description"),
-      tag: t("content.upcoming.sinief.tag"),
+      title: t("content.articles.sinief.title"),
+      description: t("content.articles.sinief.description"),
+      tag: t("content.articles.sinief.tag"),
+      to: "/content/ajuste-sinief-49",
     },
   ];
 
@@ -85,21 +87,21 @@ export default function Content() {
           </div>
         </section>
 
-        {/* Upcoming Posts */}
+        {/* Articles */}
         <section className="py-20 bg-[#F6F6F6]">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <AnimatedSection className="text-center mb-12">
               <h2 className="text-3xl font-semibold text-[#034633] mb-4">
-                {t("content.upcoming.title")}
+                {t("content.articles.title")}
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                {t("content.upcoming.subtitle")}
+                {t("content.articles.subtitle")}
               </p>
             </AnimatedSection>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {upcomingPosts.map((post, index) => (
-                <motion.article
+              {articles.map((article, index) => (
+                <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -109,25 +111,28 @@ export default function Content() {
                     duration: 0.4,
                     ease: [0.25, 0.1, 0.25, 1],
                   }}
-                  className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-[#9f7423]/30 hover:shadow-md transition-all"
                 >
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#034633]/10 text-[#034633] text-xs font-medium rounded-full">
-                      <FileText className="w-3.5 h-3.5" />
-                      {post.tag}
-                    </span>
-                    <span className="inline-flex items-center gap-1.5 text-xs text-gray-400">
-                      <Clock className="w-3.5 h-3.5" />
-                      {t("content.upcoming.comingSoon")}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-[#034633] mb-3">
-                    {post.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {post.description}
-                  </p>
-                </motion.article>
+                  <Link to={article.to} className="group block h-full">
+                    <article className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 group-hover:border-[#9f7423]/30 group-hover:shadow-md transition-all h-full flex flex-col">
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#034633]/10 text-[#034633] text-xs font-medium rounded-full">
+                          <FileText className="w-3.5 h-3.5" />
+                          {article.tag}
+                        </span>
+                      </div>
+                      <h3 className="text-xl font-semibold text-[#034633] mb-3 group-hover:text-[#9f7423] transition-colors">
+                        {article.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">
+                        {article.description}
+                      </p>
+                      <span className="inline-flex items-center gap-1.5 text-[#9f7423] text-sm font-medium">
+                        {t("content.articles.readMore")}
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </span>
+                    </article>
+                  </Link>
+                </motion.div>
               ))}
             </div>
           </div>

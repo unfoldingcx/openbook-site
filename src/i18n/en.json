@@ -494,10 +494,10 @@
       "title": "Meet Open-Book",
       "description": "Watch our company presentation and discover how Open-Book can transform your accounting and financial management."
     },
-    "upcoming": {
-      "title": "Upcoming Content",
-      "subtitle": "Articles and analyses we're preparing for you",
-      "comingSoon": "Coming soon",
+    "articles": {
+      "title": "Articles",
+      "subtitle": "Analysis and guidance on topics that impact your business",
+      "readMore": "Read article",
       "taxReform": {
         "title": "Tax Reform and Real Estate",
         "description": "Complete analysis of the impacts of tax reform on the real estate sector: what changes for owners, developers and investors.",
@@ -513,6 +513,95 @@
       "title": "Want to receive our content?",
       "description": "Get in touch with us to stay up to date with accounting and tax news that impact your business.",
       "button": "Contact Us"
+    }
+  },
+  "articles": {
+    "backToContent": "Back to Content",
+    "downloadPdf": "Download PDF",
+    "contactUs": "Contact Us",
+    "taxReform": {
+      "tag": "Tax",
+      "author": "Open-Book Accounting and Financial Advisory",
+      "title": "Tax reform and real estate",
+      "subtitle": "What changes in practice for property owners, investors and companies in the real estate sector.",
+      "intro": "The tax reform has brought significant changes to the real estate sector and requires attention from property owners, investors, asset holding companies, developers, subdividers, landlords and companies working with real estate. With the reform, various real estate operations are now expressly covered by the new IBS and CBS system, which tends to alter costs, margins, pricing and asset structures.",
+      "operationsTitle": "What requires more attention",
+      "operationsText": "Among the operations with the greatest potential impact are:",
+      "operations": [
+        "Sale of properties",
+        "Leasing, assignment and renting",
+        "Real estate development",
+        "Land subdivision and parceling",
+        "Property administration and brokerage",
+        "Non-onerous property transactions with partners and spouses"
+      ],
+      "operationsNote": "Additionally, other relevant taxes continue to exist, such as ITBI, ITCMD, IPTU, ITR and Income Tax. This means that the tax analysis of real estate will become even more strategic, as the same operation may involve taxation on consumption, property and income simultaneously.",
+      "rentalTitle": "Property rental: one of the most sensitive points",
+      "rentalText": "Property rental deserves special attention. Under the new system, it is now part of the specific regime for real estate, subject to IBS and CBS, albeit with a legal 70% rate reduction. In practice, this may directly affect:",
+      "rentalItems": [
+        "Asset holding companies",
+        "Corporate leases",
+        "Income-generating properties",
+        "Real estate investment structures",
+        "Real estate funds, depending on applicable classification"
+      ],
+      "rentalNote": "An optional simplified taxation regime has also been created for certain leases, with a 3.65% rate on gross revenue, subject to specific legal and contractual conditions.",
+      "reducersTitle": "Reducers and specific regimes",
+      "reducersText": "The new legislation provides mechanisms to reduce the tax impact on real estate:",
+      "reducers": [
+        "Constitutional 50% reduction for certain real estate operations",
+        "Legal 70% reduction for leasing, assignment and renting",
+        "Social reducer for residential property situations",
+        "Adjustment reducer for the economic transition of the system"
+      ],
+      "reducersNote": "These mechanisms can represent significant tax relief, but their application depends on the type of operation, the taxpayer's profile and the correct legal classification.",
+      "recommendationsTitle": "What we recommend at this time",
+      "recommendationsText": "Given this new scenario, it is advisable to review in advance:",
+      "recommendations": [
+        "Lease, rental and built-to-suit contracts",
+        "Asset holding company structures",
+        "Property purchase and sale operations",
+        "Development, subdivision and real estate projects",
+        "Asset and succession planning involving properties",
+        "Pricing models and tax burden pass-through"
+      ],
+      "assessmentTitle": "Our assessment",
+      "assessmentText1": "The tax reform does not eliminate the importance of real estate planning — on the contrary, it makes this planning even more necessary.",
+      "assessmentText2": "More than identifying whether there is a tax incidence, it will be essential to understand which tax applies, at what moment, on what basis, with what reductions and with what effective economic impact."
+    },
+    "sinief": {
+      "tag": "Tax",
+      "author": "Tax Team — Open-Book",
+      "title": "SINIEF Adjustment No. 49/2025",
+      "subtitle": "Is your company ready for the new NF-e issuance rules?",
+      "intro1": "Starting May 4, 2026, SINIEF Adjustment No. 49/2025 comes into effect, establishing new guidelines for issuing Electronic Tax Invoices (NF-e) in operational situations that, in practice, often generate doubts, inconsistencies and significant tax risks.",
+      "intro2": "The regulation seeks to standardize nationally the tax treatment of some occurrences that are quite common in companies' routines. Although the topic may seem purely operational at first glance, its effects go far beyond invoice issuance — directly impacting tax, accounting, commercial, logistics, inventory, transportation and technology departments.",
+      "changesTitle": "What changes in practice?",
+      "changesText": "SINIEF Adjustment No. 49/2025 reinforces the need for each tax document to correctly represent the event that actually occurred. Key points requiring attention:",
+      "changes": [
+        { "title": "Sale for future delivery with advance payment: ", "text": "the operation may require separate documents for the financial stage and for the actual shipment of goods." },
+        { "title": "Inventory write-off due to loss, spoilage, deterioration, theft or robbery: ", "text": "now requires formal documentary treatment and adequate supporting evidence." },
+        { "title": "Subsequent reduction of values or quantities: ", "text": "when it is no longer possible to cancel the original NF-e." },
+        { "title": "Return of goods due to refusal or recipient not found: ", "text": "requiring compliance with electronic events related to failed delivery." }
+      ],
+      "attentionTitle": "Why does this require immediate attention?",
+      "attentionText1": "Practical experience shows that these situations are often handled inconsistently by companies, frequently with informal solutions, manual adjustments or outdated system configurations.",
+      "attentionWarning": "Inadequate issuance of tax documents can generate discrepancies between NF-e, physical inventory and bookkeeping, difficulty in proving losses, documentary weakness in returns, risks of disallowance or challenges regarding ICMS.",
+      "attentionText2": "Not every situation can be resolved by canceling a tax invoice or issuing a correction letter. In many cases, regularization will require a specific tax document, referencing the previous operation.",
+      "impactTitle": "Will all companies be equally impacted?",
+      "impactText": "Not necessarily. The impact depends on each company's operational model, the type of merchandise, the frequency of returns, the existence of scheduled sales, the inventory control method, the logistics structure and even how the ERP is currently configured. Practical application requires individualized analysis.",
+      "prepareTitle": "How can your company prepare?",
+      "prepareText": "Now is the right time to review internal procedures and verify whether systems are prepared to properly support the new requirements. Special attention for companies with:",
+      "prepareItems": [
+        "Complex logistics operations",
+        "High inventory turnover",
+        "Sales with future delivery",
+        "Made-to-order production",
+        "Frequent return and commercial adjustment routines"
+      ],
+      "ctaTitle": "Our team can support your company",
+      "ctaText": "Our team is monitoring the impacts of SINIEF Adjustment No. 49/2025 and can assist your company in the practical analysis of the regulation, review of operational and tax flows, identification of risk points and adequacy of internal and documentary procedures.",
+      "ctaSignature": "Open Book Accounting and Financial Advisory — Tax Team"
     }
   },
   "news": {
@@ -584,6 +673,14 @@
     "content": {
       "title": "Content | Open-Book Accounting and Financial Advisory",
       "description": "Videos, articles and resources on accounting, finance and legislation. Specialized content to keep you up to date."
+    },
+    "articleTaxReform": {
+      "title": "Tax Reform and Real Estate | Open-Book Accounting Advisory",
+      "description": "Analysis of tax reform impacts on the real estate sector: changes for property owners, investors, holding companies and developers."
+    },
+    "articleSinief": {
+      "title": "SINIEF Adjustment No. 49/2025 | Open-Book Accounting Advisory",
+      "description": "New NF-e issuance rules: changes for future delivery sales, inventory losses, returns and value adjustments."
     }
   }
 }

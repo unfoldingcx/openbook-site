@@ -14,7 +14,9 @@ type PageType =
   | "financial"
   | "tax"
   | "payroll"
-  | "content";
+  | "content"
+  | "articleTaxReform"
+  | "articleSinief";
 
 interface SEOProps {
   page: PageType;

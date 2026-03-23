@@ -22,6 +22,8 @@ const Tax = lazy(() => import("./pages/services/Tax"));
 const Payroll = lazy(() => import("./pages/services/Payroll"));
 const Training = lazy(() => import("./pages/Training"));
 const Content = lazy(() => import("./pages/Content"));
+const TaxReform = lazy(() => import("./pages/content/TaxReform"));
+const Sinief = lazy(() => import("./pages/content/Sinief"));
 
 // Hoisted static fallback — avoids re-creation on each render (rendering-hoist-jsx)
 const pageLoader = (
@@ -97,6 +99,8 @@ function AnimatedRoutes() {
             <Route path="/services/payroll" element={<Payroll />} />
             <Route path="/training" element={<Training />} />
             <Route path="/content" element={<Content />} />
+            <Route path="/content/reforma-tributaria-e-imoveis" element={<TaxReform />} />
+            <Route path="/content/ajuste-sinief-49" element={<Sinief />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact" element={<Contact />} />

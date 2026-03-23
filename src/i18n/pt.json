@@ -494,10 +494,10 @@
       "title": "Conheça a Open-Book",
       "description": "Assista à apresentação institucional e descubra como a Open-Book pode transformar a gestão contábil e financeira da sua empresa."
     },
-    "upcoming": {
-      "title": "Próximos Conteúdos",
-      "subtitle": "Artigos e análises que estamos preparando para você",
-      "comingSoon": "Em breve",
+    "articles": {
+      "title": "Artigos",
+      "subtitle": "Análises e orientações sobre temas que impactam o seu negócio",
+      "readMore": "Ler artigo",
       "taxReform": {
         "title": "Reforma Tributária e Imóveis",
         "description": "Análise completa dos impactos da reforma tributária no setor imobiliário: o que muda para proprietários, incorporadoras e investidores.",
@@ -513,6 +513,95 @@
       "title": "Quer receber nossos conteúdos?",
       "description": "Entre em contato conosco para ficar por dentro das novidades contábeis e fiscais que impactam o seu negócio.",
       "button": "Fale Conosco"
+    }
+  },
+  "articles": {
+    "backToContent": "Voltar para Conteúdos",
+    "downloadPdf": "Baixar PDF",
+    "contactUs": "Fale Conosco",
+    "taxReform": {
+      "tag": "Tributário",
+      "author": "Open-Book Assessoria Contábil e Financeira",
+      "title": "Reforma tributária e imóveis",
+      "subtitle": "O que muda na prática para proprietários, investidores e empresas do setor imobiliário.",
+      "intro": "A reforma tributária trouxe mudanças relevantes para o setor imobiliário e exige atenção de proprietários, investidores, holdings patrimoniais, incorporadoras, loteadoras, locadores e empresas que atuam com imóveis. Com a reforma, diversas operações com imóveis passam a ser expressamente alcançadas pelo novo sistema de IBS e CBS, o que tende a alterar custos, margens, precificação e estruturas patrimoniais.",
+      "operationsTitle": "O que passa a exigir mais atenção",
+      "operationsText": "Entre as operações com maior potencial de impacto estão:",
+      "operations": [
+        "Venda de imóveis",
+        "Locação, cessão e arrendamento",
+        "Incorporação imobiliária",
+        "Loteamento e parcelamento do solo",
+        "Administração e intermediação de imóveis",
+        "Operações não onerosas de imóveis com sócios e cônjuges"
+      ],
+      "operationsNote": "Além disso, continuam existindo outros tributos relevantes, como ITBI, ITCMD, IPTU, ITR e Imposto de Renda. Isso significa que a análise tributária dos imóveis ficará ainda mais estratégica, pois uma mesma operação pode envolver tributação sobre consumo, patrimônio e renda ao mesmo tempo.",
+      "rentalTitle": "Locação imobiliária: um dos pontos mais sensíveis",
+      "rentalText": "A locação de imóveis merece destaque especial. No novo sistema, ela passa a integrar o regime específico dos bens imóveis, com incidência de IBS e CBS, ainda que com redução legal de 70% das alíquotas. Na prática, isso pode afetar diretamente:",
+      "rentalItems": [
+        "Holdings patrimoniais",
+        "Locações corporativas",
+        "Imóveis destinados à geração de renda",
+        "Estruturas de investimento imobiliário",
+        "Fundos imobiliários, conforme o enquadramento aplicável"
+      ],
+      "rentalNote": "Também foi criado um regime opcional de tributação simplificada para certas locações, com alíquota de 3,65% sobre a receita bruta, sujeito a condições legais e contratuais específicas.",
+      "reducersTitle": "Redutores e regimes específicos",
+      "reducersText": "A nova legislação prevê mecanismos para reduzir o impacto da tributação sobre imóveis:",
+      "reducers": [
+        "Redução constitucional de 50% para determinadas operações imobiliárias",
+        "Redução legal de 70% para locação, cessão e arrendamento",
+        "Redutor social em hipóteses ligadas a imóveis residenciais",
+        "Redutor de ajuste, voltado à transição econômica do sistema"
+      ],
+      "reducersNote": "Esses mecanismos podem representar alívio tributário importante, mas sua aplicação depende do tipo de operação, do perfil do contribuinte e do correto enquadramento legal.",
+      "recommendationsTitle": "O que recomendamos neste momento",
+      "recommendationsText": "Diante desse novo cenário, é recomendável revisar com antecedência:",
+      "recommendations": [
+        "Contratos de locação, arrendamento e built to suit",
+        "Estruturas de holdings patrimoniais",
+        "Operações de compra e venda de imóveis",
+        "Projetos de incorporação, loteamento e desenvolvimento imobiliário",
+        "Planejamentos patrimoniais e sucessórios envolvendo imóveis",
+        "Modelos de precificação e repasse de encargos tributários"
+      ],
+      "assessmentTitle": "Nossa avaliação",
+      "assessmentText1": "A reforma tributária não elimina a importância do planejamento imobiliário — ao contrário, ela torna esse planejamento ainda mais necessário.",
+      "assessmentText2": "Mais do que identificar se há incidência tributária, será essencial compreender qual tributo incide, em que momento, sobre qual base, com quais reduções e com qual impacto econômico efetivo."
+    },
+    "sinief": {
+      "tag": "Fiscal",
+      "author": "Time Fiscal — Open-Book",
+      "title": "Ajuste SINIEF nº 49/2025",
+      "subtitle": "Sua empresa está preparada para as novas regras de emissão de NF-e?",
+      "intro1": "A partir de 4 de maio de 2026, entra em vigor o Ajuste SINIEF nº 49/2025, que estabelece novas diretrizes para a emissão de Nota Fiscal Eletrônica (NF-e) em situações operacionais que, na prática, costumam gerar dúvidas, inconsistências e riscos fiscais relevantes.",
+      "intro2": "A norma busca padronizar nacionalmente o tratamento fiscal de algumas ocorrências bastante comuns na rotina das empresas. Embora o tema pareça, à primeira vista, apenas operacional, seus reflexos vão muito além da emissão da nota — impactando diretamente as áreas fiscal, contábil, comercial, logística, estoque, transporte e tecnologia.",
+      "changesTitle": "O que muda na prática?",
+      "changesText": "O Ajuste SINIEF nº 49/2025 reforça a necessidade de que cada documento fiscal represente corretamente o fato efetivamente ocorrido. Entre os pontos que merecem maior atenção:",
+      "changes": [
+        { "title": "Venda para entrega futura com pagamento antecipado: ", "text": "a operação pode exigir documentos distintos para a etapa financeira e para a saída efetiva da mercadoria." },
+        { "title": "Baixa de estoque por extravio, perecimento, deterioração, furto ou roubo: ", "text": "passa a exigir tratamento documental formal e suporte probatório adequado." },
+        { "title": "Redução posterior de valores ou quantidades: ", "text": "quando já não for mais possível cancelar a NF-e original." },
+        { "title": "Retorno de mercadorias por recusa ou não localização: ", "text": "com necessidade de observância dos eventos eletrônicos relacionados à entrega frustrada." }
+      ],
+      "attentionTitle": "Por que isso merece atenção imediata?",
+      "attentionText1": "A experiência prática mostra que justamente essas situações costumam ser tratadas de forma heterogênea pelas empresas, muitas vezes com soluções informais, ajustes manuais ou parametrizações antigas de sistema.",
+      "attentionWarning": "A emissão inadequada de documentos fiscais pode gerar divergências entre NF-e, estoque físico e escrituração, dificuldade na comprovação de perdas, fragilidade documental em devoluções, riscos de glosa ou questionamentos em matéria de ICMS.",
+      "attentionText2": "Nem toda situação pode ser resolvida por cancelamento de nota fiscal ou por carta de correção. Em diversas hipóteses, a regularização exigirá documento fiscal próprio, com referência à operação anterior.",
+      "impactTitle": "Todas as empresas serão impactadas da mesma forma?",
+      "impactText": "Não necessariamente. O impacto depende do modelo operacional de cada empresa, do tipo de mercadoria, da frequência de devoluções, da existência de vendas programadas, da forma de controle de estoque, da estrutura logística e até da configuração do ERP. A aplicação prática exige análise individualizada.",
+      "prepareTitle": "Como sua empresa pode se preparar?",
+      "prepareText": "O momento é oportuno para revisar procedimentos internos e verificar se os sistemas estão preparados para suportar as novas exigências. Atenção especial para empresas com:",
+      "prepareItems": [
+        "Operações logísticas complexas",
+        "Alto giro de estoque",
+        "Vendas com entrega futura",
+        "Produção sob encomenda",
+        "Rotinas frequentes de devolução e ajuste comercial"
+      ],
+      "ctaTitle": "Nossa equipe pode apoiar sua empresa",
+      "ctaText": "Nosso time está acompanhando os impactos do Ajuste SINIEF nº 49/2025 e pode auxiliar sua empresa na análise prática da norma, revisão de fluxos operacionais e fiscais, identificação de pontos de risco e adequação de procedimentos internos e documentais.",
+      "ctaSignature": "Open Book Assessoria e Consultoria Contábil e Financeira — Time Fiscal"
     }
   },
   "news": {
@@ -584,6 +673,14 @@
     "content": {
       "title": "Conteúdos | Open-Book Assessoria Contábil e Financeira",
       "description": "Vídeos, artigos e materiais sobre contabilidade, finanças e legislação. Conteúdo especializado para manter você atualizado."
+    },
+    "articleTaxReform": {
+      "title": "Reforma Tributária e Imóveis | Open-Book Assessoria Contábil",
+      "description": "Análise dos impactos da reforma tributária no setor imobiliário: mudanças para proprietários, investidores, holdings e incorporadoras."
+    },
+    "articleSinief": {
+      "title": "Ajuste SINIEF nº 49/2025 | Open-Book Assessoria Contábil",
+      "description": "Novas regras de emissão de NF-e: o que muda para vendas com entrega futura, perdas de estoque, devoluções e ajustes de valores."
     }
   }
 }
