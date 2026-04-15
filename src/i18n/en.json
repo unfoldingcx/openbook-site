@@ -288,6 +288,35 @@
       "title": "Ready to upskill your team?",
       "description": "Contact us and let's discuss the ideal training for your company.",
       "button": "Request a Quote"
+    },
+    "coursesTitle": "Intensive Courses",
+    "coursesSubtitle": "Practical and strategic programs for professionals seeking up-to-date knowledge and market differentiation.",
+    "viewCourse": "View details",
+    "coursesList": {
+      "precificacao": {
+        "title": "Costs, Pricing and Tax Reform for Lawyers",
+        "description": "Intensive course integrating costs, pricing, taxation and tax reform, with direct application to legal practice.",
+        "tag": "Tax",
+        "duration": "8 hours"
+      },
+      "nr1Responsabilidade": {
+        "title": "NR-1 in Practice: Civil and Criminal Liability in OHS",
+        "description": "Understand when risk management failures lead to liability and how to protect yourself with GRO, PGR and proper management.",
+        "tag": "Labor Law",
+        "duration": "8 hours"
+      },
+      "nr1Psicossocial": {
+        "title": "NR-1 and Psychosocial Risk in Organizations",
+        "description": "Prevention, management and legal liability regarding psychosocial risks in the workplace.",
+        "tag": "Health & Safety",
+        "duration": "8 hours"
+      },
+      "tributosImobiliarios": {
+        "title": "Real Estate Taxation and Property Regularization",
+        "description": "Practical and strategic immersion on risks, taxes and opportunities in the real estate market.",
+        "tag": "Real Estate",
+        "duration": "8 hours"
+      }
     }
   },
   "technologies": {
@@ -299,7 +328,7 @@
     "clientBenefits": "Benefits for Our Clients",
     "tools": {
       "dominio": {
-        "name": "Domínio",
+        "name": "Dominio",
         "category": "Accounting ERP",
         "description": "Complete system for accounting, tax and labor management"
       },
@@ -469,7 +498,7 @@
       "phone": "+55 (11) 4883-0103",
       "email": "contato@opbo.com.br",
       "website": "www.opbo.com.br",
-      "address": "Rua do Bosque, 1589 - São Paulo - SP"
+      "address": "Rua do Bosque, 1589 - Sao Paulo - SP"
     }
   },
   "footer": {
@@ -507,6 +536,21 @@
         "title": "SINIEF Adjustment No. 49",
         "description": "Understand the changes brought by SINIEF Adjustment No. 49 and how they affect your company's ancillary obligations.",
         "tag": "Tax"
+      },
+      "reformaGestores": {
+        "title": "Tax Reform for Industry Managers",
+        "description": "Executive training of 8 hours on the impacts of tax reform in industry: Dual VAT, CBS/IBS, split payment and pricing.",
+        "tag": "Training"
+      },
+      "reformaTecnicos": {
+        "title": "Tax Reform for Technical Professionals",
+        "description": "Technical training of 8 hours on invoices, processes and obligations under the new tax regime.",
+        "tag": "Training"
+      },
+      "cbenef": {
+        "title": "Mandatory cBenef Field in NF-e and NFC-e in Sao Paulo",
+        "description": "Notice regarding Ordinance SRE 70/2025: mandatory cBenef field starting 04/06/2026.",
+        "tag": "Tax Notice"
       }
     },
     "cta": {
@@ -602,6 +646,559 @@
       "ctaTitle": "Our team can support your company",
       "ctaText": "Our team is monitoring the impacts of SINIEF Adjustment No. 49/2025 and can assist your company in the practical analysis of the regulation, review of operational and tax flows, identification of risk points and adequacy of internal and documentary procedures.",
       "ctaSignature": "Open Book Accounting and Financial Advisory — Tax Team"
+    },
+    "reformaGestores": {
+      "tag": "Training",
+      "author": "Open-Book Accounting and Financial Advisory",
+      "title": "Tax Reform for Industry Managers",
+      "subtitle": "Strategic training for leaders who need to guide the tax transition in their companies.",
+      "intro": "The Tax Reform brings profound changes to the Brazilian tax system that directly impact industry. This 8-hour training was developed for directors, managers, coordinators and leaders in tax, finance, controllership, commercial and operations areas.",
+      "objectivesTitle": "Training Objectives",
+      "objectivesList": [
+        "Present clearly and strategically the main impacts of the Tax Reform on industry",
+        "Understand how the Dual VAT, CBS/IBS, split payment and new credit rules affect prices, margins, cash flow and decision-making",
+        "Prepare senior management to lead the tax transition and adapt internal processes"
+      ],
+      "programTitle": "Program Content",
+      "sections": [
+        {
+          "title": "Overview of the Tax Reform",
+          "items": [
+            "Context and objectives of the current system change",
+            "Replaced taxes: ICMS, ISS, PIS, COFINS and IPI",
+            "Conceptual structure of the Dual VAT (CBS and IBS)",
+            "Transition regime and implementation phases"
+          ]
+        },
+        {
+          "title": "Split Payment",
+          "items": [
+            "Concept and operation",
+            "Implications for industry and supply chain",
+            "Impact on cash flow and working capital",
+            "International comparisons"
+          ]
+        },
+        {
+          "title": "Tax Credits and Financial Impacts",
+          "items": [
+            "New credit rules",
+            "Review of contracts and purchases",
+            "Tax planning risks and opportunities"
+          ]
+        },
+        {
+          "title": "Pricing and Margins",
+          "items": [
+            "New pricing structure with VAT",
+            "Impact on industry competitiveness",
+            "Adjustments to price lists and commercial conditions",
+            "Practical calculation examples under the new regime"
+          ]
+        },
+        {
+          "title": "Governance, Compliance and Internal Controls",
+          "items": [
+            "Changes in tax liability",
+            "Integration across departments: tax, commercial, procurement, production, logistics and finance",
+            "How to prepare the company's transition plan"
+          ]
+        }
+      ],
+      "detailsTitle": "Details",
+      "detailsList": [
+        "Duration: 8 hours",
+        "Target audience: Directors, managers, coordinators and leaders in tax, finance, controllership, commercial and operations areas"
+      ],
+      "ctaTitle": "Request this training for your company",
+      "ctaText": "In-company training, tailored to your industry's reality. Contact us for more information."
+    },
+    "reformaTecnicos": {
+      "tag": "Training",
+      "author": "Open-Book Accounting and Financial Advisory",
+      "title": "Tax Reform for Technical Professionals: Invoices, Processes and Obligations",
+      "subtitle": "Operational training for professionals who need to apply Tax Reform changes in their daily routine.",
+      "intro": "This 8-hour training was developed for technical professionals in tax, accounting, billing, procurement, logistics and IT areas who need to understand and operationalize the changes brought by the Tax Reform.",
+      "objectivesTitle": "Training Objectives",
+      "objectivesList": [
+        "Train operational teams to correctly apply Tax Reform changes in daily routines",
+        "Present new tax document models, credit rules and interstate operation treatment",
+        "Prepare professionals for ERP adjustments, parameterizations, master data and integrations"
+      ],
+      "programTitle": "Program Content",
+      "sections": [
+        {
+          "title": "VAT Structure and Technical Rules",
+          "items": [
+            "CBS and IBS composition",
+            "Assessment and bookkeeping methods",
+            "Operational transition regime"
+          ]
+        },
+        {
+          "title": "Changes to Tax Invoices",
+          "items": [
+            "New NF-e fields and layouts",
+            "Tax highlighting rules",
+            "Split payment procedures",
+            "Classification of industrial operations under the new model",
+            "Product code adjustments (NBS, GTIN, etc.)"
+          ]
+        },
+        {
+          "title": "Tax Credit - Operationalization",
+          "items": [
+            "Credit utilization rules",
+            "Industrial purchases, inputs, energy and services",
+            "Returns, reversals and reimbursements",
+            "Controls and reconciliations"
+          ]
+        },
+        {
+          "title": "Billing and Procurement Processes",
+          "items": [
+            "Impacts on billing, shipping, receiving and procurement flows",
+            "Imports and exports",
+            "New compliance checkpoints"
+          ]
+        },
+        {
+          "title": "Ancillary Obligations and Integrations",
+          "items": [
+            "Changes to EFD, digital filings and new obligations",
+            "Required ERP adjustments (parameterization, tables, master data)",
+            "Integration with management systems and industrial automation"
+          ]
+        },
+        {
+          "title": "Practical Cases and Applied Exercises",
+          "items": [
+            "Invoice issuance under the new model",
+            "Simulations of real industrial operations",
+            "Transition checklists for technical teams"
+          ]
+        }
+      ],
+      "detailsTitle": "Details",
+      "detailsList": [
+        "Duration: 8 hours",
+        "Target audience: Technical professionals in tax, accounting, billing, procurement, logistics and IT areas"
+      ],
+      "ctaTitle": "Request this training for your company",
+      "ctaText": "In-company training, tailored to your company's operational reality and systems. Contact us for more information."
+    },
+    "cbenef": {
+      "tag": "Tax Notice",
+      "author": "Tax Team — Open-Book",
+      "title": "Mandatory cBenef Field in NF-e and NFC-e in Sao Paulo",
+      "subtitle": "Ordinance SRE 70/2025: new requirement for electronic tax documents starting 04/06/2026.",
+      "intro": "We inform you of an important update to the tax legislation of the State of Sao Paulo regarding the issuance of electronic tax documents.",
+      "contextTitle": "What changes",
+      "contextText": "According to Ordinance SRE 70/2025, published on 10/21/2025, starting 04/06/2026, it becomes mandatory to fill in the cBenef field (Tax Benefit Code) in NF-e (model 55) and NFC-e (model 65) whenever the operation is covered by a tax benefit. The regulation covers operations involving exemption, non-incidence, tax base reduction, special taxation regime on gross revenue, suspension and deferral.",
+      "scopeTitle": "Covered operations",
+      "scopeList": [
+        "Exemption",
+        "Non-incidence",
+        "Tax base reduction",
+        "Special taxation regime on gross revenue",
+        "Suspension",
+        "Deferral"
+      ],
+      "impactTitle": "Practical impact",
+      "impactText": "The absence of the cBenef field may cause rejection of electronic invoice authorization, impacting the issuance of NF-e (DANFE model 55) and NFC-e (model 65). Valid codes must follow the CST x cBenef table provided by the Sao Paulo tax authority.",
+      "attentionTitle": "Special attention",
+      "attentionText": "This adjustment will require a review of tax master data, CST parameterizations, tax rules and ERP issuance routines to correctly identify which operations have tax benefits and which code should be included in the XML in each case.",
+      "recommendationsTitle": "Recommended actions",
+      "recommendationsList": [
+        "Review all tax-benefited operations performed by the company",
+        "Identify the legal classification and the applicable cBenef code",
+        "Validate with the system/ERP provider the field parameterization in the XML",
+        "Test NF-e and NFC-e issuance in advance before the mandatory date",
+        "Update the tax and billing team on the new rules"
+      ],
+      "ctaTitle": "Count on our support",
+      "ctaText": "We remain available to assist in analyzing the company's operations, mapping applicable codes and validating the parameterizations required to comply with the new legal requirement."
+    }
+  },
+  "courses": {
+    "backToTraining": "Back to Courses",
+    "requestInfo": "Request Information",
+    "precificacao": {
+      "tag": "Tax",
+      "duration": "8 hours (1 day)",
+      "title": "Costs, Pricing and Tax Reform Impacts for Lawyers",
+      "subtitle": "Learn to set prices correctly, protect margins and anticipate the impacts of tax reform.",
+      "intro": "A course structured for lawyers integrating Law, Accounting, Taxation and Business Strategy. This intensive and to-the-point course integrates costs, pricing, taxation and tax reform — all applied to legal practice.",
+      "targetTitle": "Who this course is for",
+      "targetList": [
+        "Corporate lawyers",
+        "Tax lawyers",
+        "Legal consultants",
+        "Law firm partners",
+        "Professionals working with business structuring and pricing"
+      ],
+      "programTitle": "Course Program",
+      "modules": [
+        {
+          "title": "Cost Fundamentals (1h30)",
+          "items": [
+            "Economic and legal concept of cost",
+            "Difference between cost, expense and investment",
+            "Cost classification: fixed vs. variable, direct vs. indirect",
+            "Introduction to methods: absorption costing and variable costing",
+            "Application: how lawyers can interpret cost structures"
+          ]
+        },
+        {
+          "title": "Cost Structure and Margin (1h30)",
+          "items": [
+            "Contribution margin",
+            "Break-even point",
+            "Profitability structure",
+            "Cost-volume-profit relationship",
+            "Application: economic viability analysis of contracts"
+          ]
+        },
+        {
+          "title": "Pricing (1h30)",
+          "items": [
+            "Pricing methods: mark-up, value-based and market-based",
+            "Price structure: costs, margin and taxes",
+            "Common pricing mistakes",
+            "Application: pricing of legal fees and corporate contracts"
+          ]
+        },
+        {
+          "title": "Taxation and Pricing (1h30)",
+          "items": [
+            "Impact of taxes on pricing: ISS, PIS/COFINS, IRPJ/CSLL",
+            "Difference between regimes: Lucro Real and Lucro Presumido",
+            "How taxes alter margin and competitiveness",
+            "Comparative simulations between regimes"
+          ]
+        },
+        {
+          "title": "Tax Reform (IBS/CBS) and Impact on Pricing (1h30)",
+          "items": [
+            "Structure of the new model: IBS and CBS",
+            "Change in logic: consumption-based taxation and full non-cumulativeness",
+            "Impact on pricing",
+            "Increased burden on services and elimination of distortions"
+          ]
+        },
+        {
+          "title": "Practical Cases and Simulations (1h)",
+          "items": [
+            "Pricing simulation: before and after the reform",
+            "Margin calculation and tax impact",
+            "Discussion of real cases"
+          ]
+        }
+      ],
+      "methodologyTitle": "Methodology",
+      "methodologyList": [
+        "Executive-focused lecture approach",
+        "Real case studies",
+        "Simplified numerical simulations",
+        "Discussion applied to the legal context"
+      ],
+      "resultsTitle": "Expected Outcomes",
+      "resultsList": [
+        "Interpret corporate cost structures",
+        "Economically evaluate contracts and operations",
+        "Understand the tax impact on pricing",
+        "Apply pricing concepts to legal services",
+        "Analyze the effects of tax reform on pricing"
+      ],
+      "formatTitle": "Format",
+      "formatList": [
+        "Duration: 8 hours (1 intensive day)",
+        "Mode: in-person or live online",
+        "Materials included: slides, support spreadsheets and practical cases",
+        "Ideal number of participants: up to 30"
+      ],
+      "differentialTitle": "Differentiator",
+      "differentialText": "Course structured for lawyers, integrating Law, Accounting, Taxation and Business Strategy. Updated based on the Tax Reform (EC 132/2023 and LC 214/2025).",
+      "ctaTitle": "Secure your spot",
+      "ctaText": "Limited seats and small classes. Contact us for enrollment information and conditions."
+    },
+    "nr1Responsabilidade": {
+      "tag": "Labor Law",
+      "duration": "8 hours (1 day)",
+      "title": "NR-1 in Practice: Civil and Criminal Liability in the Workplace",
+      "subtitle": "Understand when risk management failures lead to liability — and how to protect yourself.",
+      "intro": "This intensive course was designed to condense the essential content of NR-1 and legal liability in OHS, with a practical, decision-making and strategic focus. The goal is not just to teach the regulation, but to answer the central question: when does a risk management failure lead to liability — and how can you protect yourself?",
+      "targetTitle": "Who this course is for",
+      "targetList": [
+        "Labor lawyers",
+        "Safety engineers and technicians",
+        "HR professionals and managers",
+        "Business owners",
+        "Experts and consultants"
+      ],
+      "programTitle": "Course Structure",
+      "modules": [
+        {
+          "title": "NR-1 as the Basis for Liability (2h)",
+          "items": [
+            "NR-1 structure and its systemic role",
+            "Employer rights and obligations",
+            "Principles of prevention and risk management",
+            "Interface with CLT and other NRs",
+            "When NR-1 goes from technical regulation to source of legal liability"
+          ]
+        },
+        {
+          "title": "GRO and PGR as Evidence and Defense (2h)",
+          "items": [
+            "GRO and PGR structure: risk inventory and action plan",
+            "Integration with PCMSO and training programs",
+            "PGR as a management tool and evidence in legal proceedings",
+            "Critical errors: formal PGR without effectiveness, lack of documentary evidence"
+          ]
+        },
+        {
+          "title": "Workplace Accidents and Employer Liability (2h)",
+          "items": [
+            "Concept of accident and occupational disease",
+            "Causal nexus and concurrent causation",
+            "Subjective and objective liability",
+            "Culpa in vigilando, in eligendo and in omittendo",
+            "Indemnities, accident-related job stability and INSS regressive action"
+          ]
+        },
+        {
+          "title": "Liability of OHS Professionals (1h30)",
+          "items": [
+            "Engineer vs. Technician: scope of practice",
+            "Liability for reports and documents",
+            "Omission and technical failure",
+            "When the professional is held individually, jointly liable or excluded"
+          ]
+        },
+        {
+          "title": "Administrative, Civil and Criminal Liability (1h30)",
+          "items": [
+            "Infraction notices and inspections",
+            "Technical evidence and expert testimony",
+            "Criminal liability: negligent bodily harm, negligent homicide, endangerment crimes",
+            "Guarantor position and relevant criminal omission",
+            "Integrated practical case: accident analysis with PGR failure"
+          ]
+        }
+      ],
+      "methodologyTitle": "Methodology",
+      "methodologyList": [
+        "Decision-focused lectures",
+        "Real case analysis",
+        "Interdisciplinary discussion (legal + technical)",
+        "Immediate practical application"
+      ],
+      "resultsTitle": "Expected Outcomes",
+      "resultsList": [
+        "Identify legal risks before they materialize",
+        "Assess whether the company is legally exposed",
+        "Use PGR as a protection tool",
+        "Understand who is liable — and why",
+        "Make preventive decisions with confidence"
+      ],
+      "formatTitle": "Format",
+      "formatList": [
+        "Duration: 8 hours (1 day or 2 sessions of 4 hours)",
+        "Mode: in-person, live online or hybrid",
+        "Support materials included"
+      ],
+      "differentialTitle": "Differentiator",
+      "differentialText": "Integrates Labor Law, Civil Liability, Criminal Liability, Safety Engineering and Risk Management. Based on NR-1, CLT, Civil Code, Criminal Code, Law 8.213/91 and current case law. Focus on real liability, not just theory.",
+      "ctaTitle": "Protect your company",
+      "ctaText": "Applicable course for liability prevention, process defense and OHS audits. Contact us for information."
+    },
+    "nr1Psicossocial": {
+      "tag": "Health & Safety",
+      "duration": "8 hours (1 day)",
+      "title": "NR-1 and Psychosocial Risk in Organizations",
+      "subtitle": "Prevention, Management and Legal Liability in Companies.",
+      "intro": "NR-1 now requires a new approach from organizations. Today, it is not enough to comply with formal workplace safety regulations — it is necessary to identify, manage and document psychosocial risks. Pressure for targets, burnout, harassment, overwork and toxic environments are already generating labor convictions, manager liability and increased social security costs.",
+      "targetTitle": "Who this course is for",
+      "targetList": [
+        "Lawyers",
+        "HR and People Development professionals",
+        "Accountants",
+        "Safety engineers and technicians",
+        "Organizational psychologists",
+        "Managers and business owners"
+      ],
+      "programTitle": "Course Structure",
+      "modules": [
+        {
+          "title": "NR-1, GRO and PGR — Practical and Strategic Overview (2h)",
+          "items": [
+            "NR-1 structure in the OHS system",
+            "GRO (Occupational Risk Management)",
+            "PGR: essential structure and practical application",
+            "Risk inventory and action plan",
+            "Integration with governance, compliance and legal evidence"
+          ]
+        },
+        {
+          "title": "Psychosocial Risk: Identification and Impact (2h)",
+          "items": [
+            "Concept of psychosocial risk and difference between risk and illness",
+            "Critical organizational factors: abusive targets, overwork, performance pressure",
+            "Moral harassment and psychological violence",
+            "Burnout, stress and mental fatigue",
+            "Indicators of organizational illness"
+          ]
+        },
+        {
+          "title": "Mental Health and Employer Liability (2h)",
+          "items": [
+            "Healthy work environment (Constitution + CLT)",
+            "Duty of prevention (general duty of care)",
+            "Organizational culture and management failures",
+            "Liability: labor, civil, social security and criminal",
+            "Causal nexus and concurrent causation"
+          ]
+        },
+        {
+          "title": "Practical Implementation and Liability Reduction (2h)",
+          "items": [
+            "How to map psychosocial risk",
+            "How to document properly (evidence)",
+            "PGR in practice including psychosocial risk",
+            "Training, policies and reporting channels",
+            "Integration between HR, legal and OHS departments",
+            "Applied case study"
+          ]
+        }
+      ],
+      "methodologyTitle": "Methodology",
+      "methodologyList": [
+        "Practical, legal and strategic approach",
+        "Real case analysis",
+        "Interdisciplinary discussion",
+        "Focus on immediate application"
+      ],
+      "resultsTitle": "Expected Outcomes",
+      "resultsList": [
+        "Identify psychosocial risks in your organization",
+        "Understand where legal liability originates",
+        "Structure prevention measures",
+        "Act strategically to reduce liabilities",
+        "Align legal, HR and management teams"
+      ],
+      "formatTitle": "Format",
+      "formatList": [
+        "Duration: 8 hours (1-day immersion)",
+        "Mode: in-person or live online",
+        "Methodology: practical + legal + strategic",
+        "Ideal for companies and teams"
+      ],
+      "differentialTitle": "Differentiator",
+      "differentialText": "Integrates NR-1, mental health and law. Content applicable immediately, focused on liability prevention. Prevention is no longer optional.",
+      "ctaTitle": "Prepare your company",
+      "ctaText": "The lack of psychosocial risk management can lead to harassment and burnout convictions, significant indemnities and personal liability of managers."
+    },
+    "tributosImobiliarios": {
+      "tag": "Real Estate",
+      "duration": "8 hours (1 day)",
+      "title": "Real Estate Taxation and Property Regularization",
+      "subtitle": "A practical and strategic immersion on the main risks, taxes and opportunities in the real estate market.",
+      "intro": "The real estate market demands much more than isolated legal knowledge. Today, property owners, investors, lawyers, accountants, consultants and managers need to understand how taxation, documentary regularization and asset structuring directly impact the security and profitability of operations. This course brings together, in clear language and with an objective focus, the central points that truly make a difference in practice.",
+      "targetTitle": "Who this course is for",
+      "targetList": [
+        "Lawyers and legal professionals",
+        "Accountants, tax specialists and consultants",
+        "Brokers and real estate professionals",
+        "Business owners, investors and asset managers",
+        "Asset holding and family holding managers",
+        "Professionals seeking practical updates"
+      ],
+      "programTitle": "Course Program",
+      "modules": [
+        {
+          "title": "Strategic Overview of Real Estate Taxation (1h)",
+          "items": [
+            "Real estate taxation structure in Brazil",
+            "Tax competencies (Federal, State and Municipal)",
+            "Main property taxes",
+            "Practical logic of tax incidence"
+          ]
+        },
+        {
+          "title": "Taxes in Practice: IPTU, ITR, ITBI, ITCMD and Income Tax (2h)",
+          "items": [
+            "IPTU and ITR: practical differences and risks",
+            "ITBI: incidence, tax base and controversies",
+            "ITCMD: donation and inheritance",
+            "Capital gains tax (individuals and companies)",
+            "Common errors in real estate transactions"
+          ]
+        },
+        {
+          "title": "Real Estate Transactions and Structuring (2h)",
+          "items": [
+            "Purchase and sale, leasing (individuals vs. companies)",
+            "Capital contribution to holding companies and exchange",
+            "Real estate development",
+            "Comparison: individual, company and asset holding"
+          ]
+        },
+        {
+          "title": "Tax Reform in the Real Estate Sector (1h30)",
+          "items": [
+            "IBS and CBS in the real estate sector",
+            "Incidence on leasing, sale and assignment",
+            "Reducers: constitutional, legal and social",
+            "Optional 3.65% regime (transition)",
+            "Practical impacts on pricing and profitability"
+          ]
+        },
+        {
+          "title": "Property Regularization (1h)",
+          "items": [
+            "Title, deed and registration",
+            "Unregistered construction and occupancy permit",
+            "Municipal regularization",
+            "Adverse possession and compulsory adjudication",
+            "Most common property errors"
+          ]
+        },
+        {
+          "title": "Asset Planning and Practical Cases (30min)",
+          "items": [
+            "Asset holding and succession with properties",
+            "Asset protection",
+            "Real case analysis",
+            "Practical simulation"
+          ]
+        }
+      ],
+      "methodologyTitle": "Methodology",
+      "methodologyList": [
+        "Practical and market-oriented approach",
+        "Integration of tax law, real estate law, property registration and asset planning",
+        "Discussion of real situations",
+        "Objective analysis of tax reform impacts"
+      ],
+      "resultsTitle": "Expected Outcomes",
+      "resultsList": [
+        "Identify tax and documentary risks in real estate transactions",
+        "Confidently analyze asset structures involving properties",
+        "Understand the effects of tax reform on the real estate market",
+        "Act with greater confidence in consulting, planning and decision-making",
+        "Guide clients, investors and companies with strategic vision"
+      ],
+      "formatTitle": "Format",
+      "formatList": [
+        "Duration: 8 hours (1 intensive day)",
+        "Mode: in-person, live online or hybrid",
+        "Practical and strategic focus"
+      ],
+      "differentialTitle": "Differentiator",
+      "differentialText": "In the real estate market, structuring mistakes are costly. This course integrates tax law, real estate law, property registration and asset planning for those who want to go beyond theory.",
+      "ctaTitle": "Master the real estate market",
+      "ctaText": "Join this immersion and be prepared to act with greater confidence, strategy and vision for opportunity."
     }
   },
   "news": {
@@ -628,7 +1225,7 @@
     "siteName": "Open-Book | Accounting and Financial Advisory",
     "imageAlt": "Open-Book Accounting and Financial Advisory — Logo",
     "home": {
-      "title": "Open-Book | Accounting and Financial Advisory in São Paulo",
+      "title": "Open-Book | Accounting and Financial Advisory in Sao Paulo",
       "description": "Transparency that drives results. Over 13 years of experience delivering personalized accounting and financial solutions for Brazilian and international companies."
     },
     "about": {
@@ -682,6 +1279,34 @@
     "articleSinief": {
       "title": "SINIEF Adjustment No. 49/2025 | Open-Book Accounting Advisory",
       "description": "New NF-e issuance rules: changes for future delivery sales, inventory losses, returns and value adjustments."
+    },
+    "coursePrecificacao": {
+      "title": "Costs and Pricing for Lawyers | Open-Book",
+      "description": "Intensive 8-hour course on costs, pricing and tax reform impacts for lawyers and legal professionals."
+    },
+    "courseNr1Responsabilidade": {
+      "title": "NR-1: Civil and Criminal Liability | Open-Book",
+      "description": "Intensive 8-hour course on NR-1, OHS liability, GRO, PGR and risk management in the workplace."
+    },
+    "courseNr1Psicossocial": {
+      "title": "NR-1 and Psychosocial Risk | Open-Book",
+      "description": "Intensive 8-hour course on psychosocial risks in organizations: prevention, management and legal liability."
+    },
+    "courseTributosImobiliarios": {
+      "title": "Real Estate Taxation | Open-Book",
+      "description": "Intensive 8-hour course on real estate taxation, property regularization and tax reform impacts on the sector."
+    },
+    "articleReformaGestores": {
+      "title": "Tax Reform for Managers | Open-Book",
+      "description": "Executive training on tax reform impacts in industry: Dual VAT, CBS/IBS, split payment and pricing."
+    },
+    "articleReformaTecnicos": {
+      "title": "Tax Reform for Technical Professionals | Open-Book",
+      "description": "Technical training on invoices, processes and obligations under the new Brazilian tax regime."
+    },
+    "articleCbenef": {
+      "title": "Mandatory cBenef NF-e SP | Open-Book",
+      "description": "Notice regarding Ordinance SRE 70/2025: mandatory cBenef field in NF-e and NFC-e starting April 2026."
     }
   }
 }

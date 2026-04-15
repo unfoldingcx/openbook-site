@@ -23,6 +23,24 @@ export default function Content() {
       tag: t("content.articles.sinief.tag"),
       to: "/content/ajuste-sinief-49",
     },
+    {
+      title: t("content.articles.reformaGestores.title"),
+      description: t("content.articles.reformaGestores.description"),
+      tag: t("content.articles.reformaGestores.tag"),
+      to: "/content/reforma-tributaria-gestores",
+    },
+    {
+      title: t("content.articles.reformaTecnicos.title"),
+      description: t("content.articles.reformaTecnicos.description"),
+      tag: t("content.articles.reformaTecnicos.tag"),
+      to: "/content/reforma-tributaria-tecnicos",
+    },
+    {
+      title: t("content.articles.cbenef.title"),
+      description: t("content.articles.cbenef.description"),
+      tag: t("content.articles.cbenef.tag"),
+      to: "/content/cbenef-nfe-sp",
+    },
   ];
 
   return (
@@ -99,7 +117,7 @@ export default function Content() {
               </p>
             </AnimatedSection>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {articles.map((article, index) => (
                 <motion.div
                   key={index}

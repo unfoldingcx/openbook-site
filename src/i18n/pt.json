@@ -288,6 +288,35 @@
       "title": "Pronto para capacitar sua equipe?",
       "description": "Entre em contato e vamos conversar sobre o treinamento ideal para sua empresa.",
       "button": "Solicitar Orçamento"
+    },
+    "coursesTitle": "Cursos Intensivos",
+    "coursesSubtitle": "Formações práticas e estratégicas para profissionais que buscam atualização e diferenciação no mercado.",
+    "viewCourse": "Ver detalhes",
+    "coursesList": {
+      "precificacao": {
+        "title": "Custos, Precificação e Reforma Tributária para Advogados",
+        "description": "Curso intensivo que integra custos, precificação, tributação e reforma tributária, com aplicação direta à realidade jurídica.",
+        "tag": "Tributário",
+        "duration": "8 horas"
+      },
+      "nr1Responsabilidade": {
+        "title": "NR-1 na Prática: Responsabilidade Civil e Criminal em SST",
+        "description": "Entenda quando a falha na gestão de riscos gera responsabilização e como se proteger com GRO, PGR e gestão adequada.",
+        "tag": "Trabalhista",
+        "duration": "8 horas"
+      },
+      "nr1Psicossocial": {
+        "title": "NR-1 e Risco Psicossocial nas Organizações",
+        "description": "Prevenção, gestão e responsabilidade jurídica sobre riscos psicossociais no ambiente de trabalho.",
+        "tag": "Saúde e Segurança",
+        "duration": "8 horas"
+      },
+      "tributosImobiliarios": {
+        "title": "Tributação Imobiliária e Regularização de Imóveis",
+        "description": "Imersão prática e estratégica sobre riscos, tributos e oportunidades do mercado imobiliário.",
+        "tag": "Imobiliário",
+        "duration": "8 horas"
+      }
     }
   },
   "technologies": {
@@ -507,6 +536,21 @@
         "title": "Ajuste SINIEF nº 49",
         "description": "Entenda as mudanças trazidas pelo Ajuste SINIEF nº 49 e como elas afetam as obrigações acessórias da sua empresa.",
         "tag": "Fiscal"
+      },
+      "reformaGestores": {
+        "title": "Reforma Tributária para Gestores da Indústria",
+        "description": "Treinamento executivo de 8 horas sobre os impactos da reforma tributária na indústria: IVA Dual, CBS/IBS, split payment e formação de preços.",
+        "tag": "Treinamento"
+      },
+      "reformaTecnicos": {
+        "title": "Reforma Tributária para Técnicos",
+        "description": "Capacitação técnica de 8 horas sobre notas fiscais, processos e obrigações sob o novo regime tributário.",
+        "tag": "Treinamento"
+      },
+      "cbenef": {
+        "title": "Obrigatoriedade do cBenef nas NF-e e NFC-e em São Paulo",
+        "description": "Aviso sobre a Portaria SRE 70/2025: preenchimento obrigatório do campo cBenef a partir de 06/04/2026.",
+        "tag": "Aviso Fiscal"
       }
     },
     "cta": {
@@ -602,6 +646,559 @@
       "ctaTitle": "Nossa equipe pode apoiar sua empresa",
       "ctaText": "Nosso time está acompanhando os impactos do Ajuste SINIEF nº 49/2025 e pode auxiliar sua empresa na análise prática da norma, revisão de fluxos operacionais e fiscais, identificação de pontos de risco e adequação de procedimentos internos e documentais.",
       "ctaSignature": "Open Book Assessoria e Consultoria Contábil e Financeira — Time Fiscal"
+    },
+    "reformaGestores": {
+      "tag": "Treinamento",
+      "author": "Open-Book Assessoria Contábil e Financeira",
+      "title": "Reforma Tributária para Gestores da Indústria",
+      "subtitle": "Capacitação estratégica para líderes que precisam conduzir a transição tributária nas suas empresas.",
+      "intro": "A Reforma Tributária traz mudanças profundas no sistema tributário brasileiro que impactam diretamente a indústria. Este treinamento de 8 horas foi desenvolvido para diretores, gerentes, coordenadores e lideranças das áreas tributária, financeira, controladoria, comercial e operações.",
+      "objectivesTitle": "Objetivos do Treinamento",
+      "objectivesList": [
+        "Apresentar de forma clara e estratégica os principais impactos da Reforma Tributária na indústria",
+        "Compreender como o IVA Dual, o CBS/IBS, o split payment e as novas regras de créditos influenciam preços, margens, fluxo de caixa e tomada de decisões",
+        "Preparar a alta gestão para conduzir a transição tributária e adaptar processos internos"
+      ],
+      "programTitle": "Conteúdo Programático",
+      "sections": [
+        {
+          "title": "Panorama Geral da Reforma Tributária",
+          "items": [
+            "Contexto e objetivos da mudança do sistema atual",
+            "Tributos substituídos: ICMS, ISS, PIS, COFINS e IPI",
+            "Estrutura conceitual do IVA Dual (CBS e IBS)",
+            "Regime de transição e fases de implementação"
+          ]
+        },
+        {
+          "title": "Split Payment (Pagamento Fracionado)",
+          "items": [
+            "Conceito e funcionamento",
+            "Implicações para indústria e cadeia de suprimentos",
+            "Impacto no fluxo de caixa e capital de giro",
+            "Comparações internacionais"
+          ]
+        },
+        {
+          "title": "Créditos Tributários e Impactos Financeiros",
+          "items": [
+            "Novas regras de creditamento",
+            "Revisão de contratos e compras",
+            "Riscos e oportunidades de planejamento tributário"
+          ]
+        },
+        {
+          "title": "Formação de Preços e Margens",
+          "items": [
+            "Nova estrutura de preços com IVA",
+            "Impacto na competitividade da indústria",
+            "Ajustes em listas de preços e condições comerciais",
+            "Exemplos práticos de cálculo sob o novo regime"
+          ]
+        },
+        {
+          "title": "Governança, Compliance e Controles Internos",
+          "items": [
+            "Mudanças na responsabilidade tributária",
+            "Integração entre áreas: fiscal, comercial, compras, produção, logística e financeiro",
+            "Como preparar o plano de transição da empresa"
+          ]
+        }
+      ],
+      "detailsTitle": "Informações",
+      "detailsList": [
+        "Carga horária: 8 horas",
+        "Público-alvo: Diretores, gerentes, coordenadores e lideranças das áreas tributária, financeira, controladoria, comercial e operações"
+      ],
+      "ctaTitle": "Solicite este treinamento para sua empresa",
+      "ctaText": "Treinamento in company, adaptado à realidade da sua indústria. Entre em contato para mais informações."
+    },
+    "reformaTecnicos": {
+      "tag": "Treinamento",
+      "author": "Open-Book Assessoria Contábil e Financeira",
+      "title": "Reforma Tributária para Técnicos: Notas Fiscais, Processos e Obrigações",
+      "subtitle": "Capacitação operacional para profissionais que precisam aplicar as mudanças da Reforma Tributária na rotina diária.",
+      "intro": "Este treinamento de 8 horas foi desenvolvido para profissionais técnicos das áreas fiscal, contábil, faturamento, compras, logística e TI que precisam compreender e operacionalizar as mudanças trazidas pela Reforma Tributária.",
+      "objectivesTitle": "Objetivos do Treinamento",
+      "objectivesList": [
+        "Capacitar equipes operacionais para aplicar corretamente as mudanças da Reforma Tributária na rotina diária",
+        "Apresentar os novos modelos de documentos fiscais, regras de creditamento e tratamento de operações interestaduais",
+        "Preparar os profissionais para os ajustes nos ERPs, parametrizações, cadastros e integrações"
+      ],
+      "programTitle": "Conteúdo Programático",
+      "sections": [
+        {
+          "title": "Estrutura do IVA e Regras Técnicas",
+          "items": [
+            "Composição do CBS e IBS",
+            "Métodos de apuração e escrituração",
+            "Regime de transição operacional"
+          ]
+        },
+        {
+          "title": "Alterações nas Notas Fiscais",
+          "items": [
+            "Novos campos e leiautes da NF-e",
+            "Regras de destaque do imposto",
+            "Procedimentos para split payment",
+            "Classificação das operações industriais no novo modelo",
+            "Ajustes de código de produtos (NBS, GTIN, etc.)"
+          ]
+        },
+        {
+          "title": "Crédito Tributário — Operacionalização",
+          "items": [
+            "Regras de aproveitamento do crédito",
+            "Compras industriais, insumos, energia e serviços",
+            "Devoluções, estornos e ressarcimentos",
+            "Controles e conciliações"
+          ]
+        },
+        {
+          "title": "Processos de Faturamento e Compras",
+          "items": [
+            "Impactos nos fluxos de faturamento, expedição, recebimento e compras",
+            "Importações e exportações",
+            "Novos checkpoints de compliance"
+          ]
+        },
+        {
+          "title": "Obrigações Acessórias e Integrações",
+          "items": [
+            "Mudanças na EFD, declarações digitais e novas obrigações",
+            "Adequações necessárias nos ERPs (parametrização, tabelas, cadastros)",
+            "Integração com sistemas de gestão e automação industrial"
+          ]
+        },
+        {
+          "title": "Casos Práticos e Exercícios Aplicados",
+          "items": [
+            "Emissão de notas fiscais no novo modelo",
+            "Simulações de operações industriais reais",
+            "Checklists de transição para equipes técnicas"
+          ]
+        }
+      ],
+      "detailsTitle": "Informações",
+      "detailsList": [
+        "Carga horária: 8 horas",
+        "Público-alvo: Profissionais técnicos das áreas fiscal, contábil, faturamento, compras, logística e TI"
+      ],
+      "ctaTitle": "Solicite este treinamento para sua empresa",
+      "ctaText": "Treinamento in company, adaptado à realidade operacional e aos sistemas da sua empresa. Entre em contato para mais informações."
+    },
+    "cbenef": {
+      "tag": "Aviso Fiscal",
+      "author": "Time Fiscal — Open-Book",
+      "title": "Obrigatoriedade do campo cBenef nas NF-e e NFC-e em São Paulo",
+      "subtitle": "Portaria SRE 70/2025: nova exigência para documentos fiscais eletrônicos a partir de 06/04/2026.",
+      "intro": "Informamos uma importante atualização na legislação tributária do Estado de São Paulo relacionada à emissão de documentos fiscais eletrônicos.",
+      "contextTitle": "O que muda",
+      "contextText": "Conforme a Portaria SRE 70/2025, publicada em 21/10/2025, passa a ser obrigatório, a partir de 06/04/2026, o preenchimento do campo cBenef (Código de Benefício Fiscal) nas NF-e (modelo 55) e NFC-e (modelo 65) sempre que a operação estiver amparada por benefício tributário. A norma alcança operações com isenção, não incidência, redução de base de cálculo, regime especial de tributação sobre a receita bruta, suspensão e diferimento.",
+      "scopeTitle": "Operações alcançadas",
+      "scopeList": [
+        "Isenção",
+        "Não incidência",
+        "Redução de base de cálculo",
+        "Regime especial de tributação sobre a receita bruta",
+        "Suspensão",
+        "Diferimento"
+      ],
+      "impactTitle": "Impacto prático",
+      "impactText": "A ausência do campo cBenef poderá causar rejeição na autorização de uso das notas fiscais eletrônicas, impactando a emissão da NF-e (DANFE modelo 55) e da NFC-e (modelo 65). Os códigos válidos devem ser observados na tabela CST x cBenef disponibilizada pelo Fisco paulista.",
+      "attentionTitle": "Atenção especial",
+      "attentionText": "Essa adequação demandará revisão de cadastros fiscais, parametrizações de CST, regras tributárias e rotinas de emissão no ERP, a fim de identificar corretamente quais operações possuem benefício fiscal e qual código deve ser levado ao XML em cada caso.",
+      "recommendationsTitle": "Providências recomendadas",
+      "recommendationsList": [
+        "Revisar todas as operações fiscais beneficiadas realizadas pela empresa",
+        "Identificar o enquadramento legal e o respectivo código cBenef aplicável",
+        "Validar com o fornecedor do sistema/ERP a parametrização do campo no XML",
+        "Testar antecipadamente as emissões de NF-e e NFC-e antes do início da obrigatoriedade",
+        "Atualizar a equipe fiscal e faturamento quanto às novas regras"
+      ],
+      "ctaTitle": "Conte com o nosso apoio",
+      "ctaText": "Permanecemos à disposição para auxiliar na análise das operações da empresa, no mapeamento dos códigos aplicáveis e na validação das parametrizações necessárias para atendimento da nova exigência legal."
+    }
+  },
+  "courses": {
+    "backToTraining": "Voltar para Cursos",
+    "requestInfo": "Solicitar Informações",
+    "precificacao": {
+      "tag": "Tributário",
+      "duration": "8 horas (1 dia)",
+      "title": "Custos, Precificação e Impactos da Reforma Tributária para Advogados",
+      "subtitle": "Aprenda a formar preços corretamente, proteger margens e antecipar os impactos da reforma tributária.",
+      "intro": "Curso estruturado para advogados com integração entre Direito, Contabilidade, Tributação e Estratégia Empresarial. Este curso intensivo e direto ao ponto integra custos, precificação, tributação e reforma tributária — tudo aplicado à realidade jurídica.",
+      "targetTitle": "Para quem é este curso",
+      "targetList": [
+        "Advogados empresariais",
+        "Tributaristas",
+        "Consultores jurídicos",
+        "Sócios de escritórios",
+        "Profissionais que atuam com estruturação de negócios e formação de preço"
+      ],
+      "programTitle": "Programa do Curso",
+      "modules": [
+        {
+          "title": "Fundamentos de Custos (1h30)",
+          "items": [
+            "Conceito econômico e jurídico de custo",
+            "Diferença entre custo, despesa e investimento",
+            "Classificação dos custos: fixos vs. variáveis, diretos vs. indiretos",
+            "Introdução aos métodos: custeio por absorção e custeio variável",
+            "Aplicação: como advogados podem interpretar estruturas de custo"
+          ]
+        },
+        {
+          "title": "Estrutura de Custos e Margem (1h30)",
+          "items": [
+            "Margem de contribuição",
+            "Ponto de equilíbrio (break-even)",
+            "Estrutura de rentabilidade",
+            "Relação entre custo, volume e lucro",
+            "Aplicação: análise de viabilidade econômica de contratos"
+          ]
+        },
+        {
+          "title": "Formação de Preço (1h30)",
+          "items": [
+            "Métodos de precificação: mark-up, baseada em valor e baseada em mercado",
+            "Estrutura do preço: custos, margem e tributos",
+            "Erros comuns na precificação",
+            "Aplicação: precificação de honorários e contratos empresariais"
+          ]
+        },
+        {
+          "title": "Tributação e Preço (1h30)",
+          "items": [
+            "Impacto dos tributos na formação do preço: ISS, PIS/COFINS, IRPJ/CSLL",
+            "Diferença entre regimes: Lucro Real e Lucro Presumido",
+            "Como tributos alteram margem e competitividade",
+            "Simulações comparativas entre regimes"
+          ]
+        },
+        {
+          "title": "Reforma Tributária (IBS/CBS) e Impacto no Preço (1h30)",
+          "items": [
+            "Estrutura do novo modelo: IBS e CBS",
+            "Mudança de lógica: tributação no consumo e não cumulatividade plena",
+            "Impacto na formação de preço",
+            "Aumento de carga em serviços e extinção de distorções"
+          ]
+        },
+        {
+          "title": "Casos Práticos e Simulações (1h)",
+          "items": [
+            "Simulação de formação de preço: antes e depois da reforma",
+            "Cálculo de margem e impacto tributário",
+            "Discussão de casos reais"
+          ]
+        }
+      ],
+      "methodologyTitle": "Metodologia",
+      "methodologyList": [
+        "Aula expositiva com abordagem executiva",
+        "Estudo de casos reais",
+        "Simulações numéricas simplificadas",
+        "Discussão aplicada ao contexto jurídico"
+      ],
+      "resultsTitle": "Resultados Esperados",
+      "resultsList": [
+        "Interpretar estruturas de custos empresariais",
+        "Avaliar economicamente contratos e operações",
+        "Compreender o impacto tributário no preço",
+        "Aplicar conceitos de precificação em serviços jurídicos",
+        "Analisar os efeitos da reforma tributária na formação de preço"
+      ],
+      "formatTitle": "Formato",
+      "formatList": [
+        "Duração: 8 horas (1 dia intensivo)",
+        "Modalidade: presencial ou online ao vivo",
+        "Material incluso: slides, planilhas de apoio e casos práticos",
+        "Número ideal de participantes: até 30"
+      ],
+      "differentialTitle": "Diferencial",
+      "differentialText": "Curso estruturado para advogados, com integração entre Direito, Contabilidade, Tributação e Estratégia Empresarial. Atualizado com base na Reforma Tributária (EC 132/2023 e LC 214/2025).",
+      "ctaTitle": "Garanta sua vaga",
+      "ctaText": "Vagas limitadas e turmas reduzidas. Entre em contato para informações sobre inscrições e condições."
+    },
+    "nr1Responsabilidade": {
+      "tag": "Trabalhista",
+      "duration": "8 horas (1 dia)",
+      "title": "NR-1 na Prática: Responsabilidade Civil e Criminal no Ambiente de Trabalho",
+      "subtitle": "Entenda quando a falha na gestão de riscos gera responsabilização — e como se proteger.",
+      "intro": "Este curso intensivo foi desenhado para condensar o conteúdo essencial da NR-1 e da responsabilização jurídica em SST, com foco prático, decisório e estratégico. A proposta não é apenas ensinar a norma, mas responder à pergunta central: quando a falha na gestão de riscos gera responsabilização — e como se proteger?",
+      "targetTitle": "Para quem é este curso",
+      "targetList": [
+        "Advogados trabalhistas",
+        "Engenheiros e técnicos de segurança",
+        "Profissionais de RH e gestores",
+        "Empresários",
+        "Peritos e consultores"
+      ],
+      "programTitle": "Estrutura do Curso",
+      "modules": [
+        {
+          "title": "NR-1 como Base da Responsabilização (2h)",
+          "items": [
+            "Estrutura da NR-1 e seu papel sistêmico",
+            "Direitos e deveres do empregador",
+            "Princípios da prevenção e gestão de riscos",
+            "Interface com CLT e demais NRs",
+            "Quando a NR-1 passa de norma técnica para fonte de responsabilidade jurídica"
+          ]
+        },
+        {
+          "title": "GRO e PGR como Prova e Defesa (2h)",
+          "items": [
+            "Estrutura do GRO e PGR: inventário de riscos e plano de ação",
+            "Integração com PCMSO e treinamentos",
+            "O PGR como instrumento de gestão e prova em processos judiciais",
+            "Erros críticos: PGR formal sem efetividade, ausência de evidência documental"
+          ]
+        },
+        {
+          "title": "Acidente do Trabalho e Responsabilidade do Empregador (2h)",
+          "items": [
+            "Conceito de acidente e doença ocupacional",
+            "Nexo causal e concausalidade",
+            "Responsabilidade subjetiva e objetiva",
+            "Culpa in vigilando, in eligendo e in omittendo",
+            "Indenizações, estabilidade acidentária e ação regressiva do INSS"
+          ]
+        },
+        {
+          "title": "Responsabilidade dos Profissionais de SST (1h30)",
+          "items": [
+            "Engenheiro vs. Técnico: limites de atuação",
+            "Responsabilidade por laudos e documentos",
+            "Omissão e falha técnica",
+            "Quando o profissional responde individualmente, solidariamente ou é excluído"
+          ]
+        },
+        {
+          "title": "Responsabilidade Administrativa, Civil e Criminal (1h30)",
+          "items": [
+            "Autos de infração e fiscalização",
+            "Prova técnica e perícia",
+            "Responsabilidade criminal: lesão corporal culposa, homicídio culposo, crimes de perigo",
+            "Posição de garantidor e omissão penal relevante",
+            "Caso prático integrado: análise de acidente com falha no PGR"
+          ]
+        }
+      ],
+      "methodologyTitle": "Metodologia",
+      "methodologyList": [
+        "Aulas expositivas com foco decisório",
+        "Análise de casos reais",
+        "Discussão interdisciplinar (jurídico + técnico)",
+        "Aplicação prática imediata"
+      ],
+      "resultsTitle": "Resultados Esperados",
+      "resultsList": [
+        "Identificar riscos jurídicos antes que eles se concretizem",
+        "Avaliar se a empresa está exposta juridicamente",
+        "Utilizar o PGR como instrumento de proteção",
+        "Entender quem responde — e por quê",
+        "Tomar decisões preventivas com segurança"
+      ],
+      "formatTitle": "Formato",
+      "formatList": [
+        "Duração: 8 horas (1 dia ou 2 encontros de 4 horas)",
+        "Modalidade: presencial, online ao vivo ou híbrido",
+        "Material de apoio incluído"
+      ],
+      "differentialTitle": "Diferencial",
+      "differentialText": "Integra Direito do Trabalho, Responsabilidade Civil, Responsabilidade Penal, Engenharia de Segurança e Gestão de Riscos. Baseado em NR-1, CLT, Código Civil, Código Penal, Lei 8.213/91 e jurisprudência atual. Foco em responsabilização real, não apenas teoria.",
+      "ctaTitle": "Proteja sua empresa",
+      "ctaText": "Curso aplicável para prevenção de passivos, defesa em processos e auditorias de SST. Entre em contato para informações."
+    },
+    "nr1Psicossocial": {
+      "tag": "Saúde e Segurança",
+      "duration": "8 horas (1 dia)",
+      "title": "NR-1 e Risco Psicossocial nas Organizações",
+      "subtitle": "Prevenção, Gestão e Responsabilidade Jurídica nas Empresas.",
+      "intro": "A NR-1 passou a exigir uma nova postura das organizações. Hoje, não basta cumprir normas formais de segurança do trabalho — é necessário identificar, gerir e documentar riscos psicossociais. Pressão por metas, burnout, assédio, sobrecarga e ambiente tóxico já estão gerando condenações trabalhistas, responsabilização de gestores e aumento de custos previdenciários.",
+      "targetTitle": "Para quem é este curso",
+      "targetList": [
+        "Advogados",
+        "Profissionais de RH e DHO",
+        "Contadores",
+        "Engenheiros e técnicos de segurança",
+        "Psicólogos organizacionais",
+        "Gestores e empresários"
+      ],
+      "programTitle": "Estrutura do Curso",
+      "modules": [
+        {
+          "title": "NR-1, GRO e PGR — Visão Prática e Estratégica (2h)",
+          "items": [
+            "Estrutura da NR-1 no sistema de SST",
+            "GRO (Gerenciamento de Riscos Ocupacionais)",
+            "PGR: estrutura essencial e aplicação prática",
+            "Inventário de riscos e plano de ação",
+            "Integração com governança, compliance e prova jurídica"
+          ]
+        },
+        {
+          "title": "Risco Psicossocial: Identificação e Impacto (2h)",
+          "items": [
+            "Conceito de risco psicossocial e diferença entre risco e doença",
+            "Fatores organizacionais críticos: metas abusivas, sobrecarga, pressão por performance",
+            "Assédio moral e violência psicológica",
+            "Burnout, estresse e fadiga mental",
+            "Indicadores de adoecimento organizacional"
+          ]
+        },
+        {
+          "title": "Saúde Mental e Responsabilidade do Empregador (2h)",
+          "items": [
+            "Meio ambiente do trabalho saudável (CF + CLT)",
+            "Dever de prevenção (dever geral de cautela)",
+            "Cultura organizacional e falhas de gestão",
+            "Responsabilidade: trabalhista, civil, previdenciária e criminal",
+            "Nexo causal e concausalidade"
+          ]
+        },
+        {
+          "title": "Implementação Prática e Redução de Passivos (2h)",
+          "items": [
+            "Como mapear risco psicossocial",
+            "Como documentar corretamente (prova)",
+            "PGR na prática incluindo risco psicossocial",
+            "Treinamentos, políticas e canais de denúncia",
+            "Integração entre RH, jurídico e SESMT",
+            "Estudo de caso aplicado"
+          ]
+        }
+      ],
+      "methodologyTitle": "Metodologia",
+      "methodologyList": [
+        "Abordagem prática, jurídica e estratégica",
+        "Análise de casos reais",
+        "Discussão interdisciplinar",
+        "Foco em aplicação imediata"
+      ],
+      "resultsTitle": "Resultados Esperados",
+      "resultsList": [
+        "Identificar riscos psicossociais na sua organização",
+        "Compreender onde nasce a responsabilidade jurídica",
+        "Estruturar medidas de prevenção",
+        "Atuar estrategicamente na redução de passivos",
+        "Alinhar jurídico, RH e gestão"
+      ],
+      "formatTitle": "Formato",
+      "formatList": [
+        "Duração: 8 horas (imersão em 1 dia)",
+        "Modalidade: presencial ou online ao vivo",
+        "Metodologia: prática + jurídica + estratégica",
+        "Ideal para empresas e equipes"
+      ],
+      "differentialTitle": "Diferencial",
+      "differentialText": "Integra NR-1, saúde mental e direito. Conteúdo aplicável imediatamente, com foco em prevenção de passivos. A prevenção deixou de ser opcional.",
+      "ctaTitle": "Prepare sua empresa",
+      "ctaText": "A ausência de gestão de risco psicossocial pode gerar condenações por assédio e burnout, indenizações elevadas e responsabilização pessoal de gestores."
+    },
+    "tributosImobiliarios": {
+      "tag": "Imobiliário",
+      "duration": "8 horas (1 dia)",
+      "title": "Tributação Imobiliária e Regularização de Imóveis",
+      "subtitle": "Uma imersão prática e estratégica sobre os principais riscos, tributos e oportunidades do mercado imobiliário.",
+      "intro": "O mercado imobiliário exige muito mais do que conhecimento jurídico isolado. Hoje, proprietários, investidores, advogados, contadores, consultores e gestores precisam compreender como a tributação, a regularização documental e a estruturação patrimonial impactam diretamente a segurança e a rentabilidade das operações. Este curso reúne, em linguagem clara e enfoque objetivo, os pontos centrais que realmente fazem diferença na prática.",
+      "targetTitle": "Para quem é este curso",
+      "targetList": [
+        "Advogados e profissionais da área jurídica",
+        "Contadores, tributaristas e consultores",
+        "Corretores e profissionais do mercado imobiliário",
+        "Empresários, investidores e administradores de patrimônio",
+        "Gestores de holdings patrimoniais e familiares",
+        "Profissionais que buscam atualização prática"
+      ],
+      "programTitle": "Programa do Curso",
+      "modules": [
+        {
+          "title": "Visão Geral Estratégica da Tributação Imobiliária (1h)",
+          "items": [
+            "Estrutura da tributação imobiliária no Brasil",
+            "Competências tributárias (União, Estados e Municípios)",
+            "Principais tributos sobre imóveis",
+            "Lógica prática da incidência tributária"
+          ]
+        },
+        {
+          "title": "Tributos na Prática: IPTU, ITR, ITBI, ITCMD e IR (2h)",
+          "items": [
+            "IPTU e ITR: diferenças práticas e riscos",
+            "ITBI: incidência, base de cálculo e controvérsias",
+            "ITCMD: doação e herança",
+            "IR sobre ganho de capital (PF e PJ)",
+            "Erros comuns em operações imobiliárias"
+          ]
+        },
+        {
+          "title": "Operações Imobiliárias e Estruturação (2h)",
+          "items": [
+            "Compra e venda, locação (PF x PJ)",
+            "Integralização em holding e permuta",
+            "Incorporação imobiliária",
+            "Comparação: pessoa física, pessoa jurídica e holding patrimonial"
+          ]
+        },
+        {
+          "title": "Reforma Tributária no Setor Imobiliário (1h30)",
+          "items": [
+            "IBS e CBS no setor imobiliário",
+            "Incidência sobre locação, venda e cessão",
+            "Redutores: constitucional, legal e social",
+            "Regime opcional de 3,65% (transição)",
+            "Impactos práticos no preço e na rentabilidade"
+          ]
+        },
+        {
+          "title": "Regularização de Imóveis (1h)",
+          "items": [
+            "Matrícula, escritura e registro",
+            "Construção não averbada e habite-se",
+            "Regularização municipal",
+            "Usucapião e adjudicação compulsória",
+            "Erros mais comuns em imóveis"
+          ]
+        },
+        {
+          "title": "Planejamento Patrimonial e Casos Práticos (30min)",
+          "items": [
+            "Holding patrimonial e sucessão com imóveis",
+            "Proteção patrimonial",
+            "Análise de casos reais",
+            "Simulação prática"
+          ]
+        }
+      ],
+      "methodologyTitle": "Metodologia",
+      "methodologyList": [
+        "Abordagem prática e aplicada ao mercado",
+        "Integração entre direito tributário, imobiliário, registro de imóveis e planejamento patrimonial",
+        "Discussão de situações reais",
+        "Análise objetiva dos impactos da reforma tributária"
+      ],
+      "resultsTitle": "Resultados Esperados",
+      "resultsList": [
+        "Identificar riscos tributários e documentais em operações imobiliárias",
+        "Analisar com segurança estruturas patrimoniais envolvendo imóveis",
+        "Compreender os reflexos da reforma tributária no mercado imobiliário",
+        "Atuar com mais segurança em consultoria, planejamento e tomada de decisão",
+        "Orientar clientes, investidores e empresas com visão estratégica"
+      ],
+      "formatTitle": "Formato",
+      "formatList": [
+        "Duração: 8 horas (1 dia intensivo)",
+        "Modalidade: presencial, online ao vivo ou híbrido",
+        "Foco prático e estratégico"
+      ],
+      "differentialTitle": "Diferencial",
+      "differentialText": "No mercado imobiliário, erros de estruturação custam caro. Este curso integra direito tributário, direito imobiliário, registro de imóveis e planejamento patrimonial para quem deseja ir além da teoria.",
+      "ctaTitle": "Domine o mercado imobiliário",
+      "ctaText": "Participe desta imersão e esteja preparado para atuar com mais segurança, estratégia e visão de oportunidade."
     }
   },
   "news": {
@@ -682,6 +1279,34 @@
     "articleSinief": {
       "title": "Ajuste SINIEF nº 49/2025 | Open-Book Assessoria Contábil",
       "description": "Novas regras de emissão de NF-e: o que muda para vendas com entrega futura, perdas de estoque, devoluções e ajustes de valores."
+    },
+    "coursePrecificacao": {
+      "title": "Custos e Precificação para Advogados | Open-Book",
+      "description": "Curso intensivo de 8 horas sobre custos, precificação e impactos da reforma tributária para advogados e profissionais jurídicos."
+    },
+    "courseNr1Responsabilidade": {
+      "title": "NR-1: Responsabilidade Civil e Criminal | Open-Book",
+      "description": "Curso intensivo de 8 horas sobre NR-1, responsabilização em SST, GRO, PGR e gestão de riscos no ambiente de trabalho."
+    },
+    "courseNr1Psicossocial": {
+      "title": "NR-1 e Risco Psicossocial | Open-Book",
+      "description": "Curso intensivo de 8 horas sobre riscos psicossociais nas organizações: prevenção, gestão e responsabilidade jurídica."
+    },
+    "courseTributosImobiliarios": {
+      "title": "Tributação Imobiliária | Open-Book",
+      "description": "Curso intensivo de 8 horas sobre tributação imobiliária, regularização de imóveis e impactos da reforma tributária no setor."
+    },
+    "articleReformaGestores": {
+      "title": "Reforma Tributária para Gestores | Open-Book",
+      "description": "Treinamento executivo sobre os impactos da reforma tributária na indústria: IVA Dual, CBS/IBS, split payment e formação de preços."
+    },
+    "articleReformaTecnicos": {
+      "title": "Reforma Tributária para Técnicos | Open-Book",
+      "description": "Capacitação técnica sobre notas fiscais, processos e obrigações no novo regime tributário brasileiro."
+    },
+    "articleCbenef": {
+      "title": "Obrigatoriedade cBenef NF-e SP | Open-Book",
+      "description": "Aviso sobre a Portaria SRE 70/2025: campo cBenef obrigatório em NF-e e NFC-e a partir de abril de 2026."
     }
   }
 }

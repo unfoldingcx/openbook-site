@@ -7,6 +7,8 @@ import {
   Users,
   Globe,
   GraduationCap,
+  Clock,
+  ArrowRight,
 } from "lucide-react"
 import { Link } from "react-router-dom"
 import SEO from "../components/seo/SEO"
@@ -45,6 +47,37 @@ export default function Training() {
       icon: GraduationCap,
       title: t("training.topics.taxReform.title"),
       description: t("training.topics.taxReform.description"),
+    },
+  ]
+
+  const coursesList = [
+    {
+      title: t("training.coursesList.precificacao.title"),
+      description: t("training.coursesList.precificacao.description"),
+      tag: t("training.coursesList.precificacao.tag"),
+      duration: t("training.coursesList.precificacao.duration"),
+      to: "/training/precificacao-advogados",
+    },
+    {
+      title: t("training.coursesList.nr1Responsabilidade.title"),
+      description: t("training.coursesList.nr1Responsabilidade.description"),
+      tag: t("training.coursesList.nr1Responsabilidade.tag"),
+      duration: t("training.coursesList.nr1Responsabilidade.duration"),
+      to: "/training/nr1-responsabilidade",
+    },
+    {
+      title: t("training.coursesList.nr1Psicossocial.title"),
+      description: t("training.coursesList.nr1Psicossocial.description"),
+      tag: t("training.coursesList.nr1Psicossocial.tag"),
+      duration: t("training.coursesList.nr1Psicossocial.duration"),
+      to: "/training/nr1-risco-psicossocial",
+    },
+    {
+      title: t("training.coursesList.tributosImobiliarios.title"),
+      description: t("training.coursesList.tributosImobiliarios.description"),
+      tag: t("training.coursesList.tributosImobiliarios.tag"),
+      duration: t("training.coursesList.tributosImobiliarios.duration"),
+      to: "/training/tributos-imobiliarios",
     },
   ]
 
@@ -198,6 +231,61 @@ export default function Training() {
                     {t("training.approach.delivery.description")}
                   </p>
                 </motion.div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        {/* Courses Section */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              variants={staggerContainer}
+              initial="initial"
+              whileInView="whileInView"
+              viewport={{ once: true, margin: "-50px" }}
+            >
+              <motion.h2
+                variants={fadeInUp}
+                className="text-3xl font-semibold text-[#034633] mb-4 text-center"
+              >
+                {t("training.coursesTitle")}
+              </motion.h2>
+              <motion.p
+                variants={fadeInUp}
+                className="text-gray-600 text-center mb-12 max-w-2xl mx-auto"
+              >
+                {t("training.coursesSubtitle")}
+              </motion.p>
+
+              <div className="grid md:grid-cols-2 gap-8">
+                {coursesList.map((course, index) => (
+                  <motion.div key={index} variants={fadeInUp}>
+                    <Link to={course.to} className="group block h-full">
+                      <div className="bg-[#F6F6F6] p-6 rounded-xl border border-gray-100 group-hover:border-[#9f7423]/30 group-hover:shadow-md transition-all h-full flex flex-col">
+                        <div className="flex items-center gap-3 mb-4">
+                          <span className="px-3 py-1 bg-[#034633]/10 text-[#034633] text-xs font-medium rounded-full">
+                            {course.tag}
+                          </span>
+                          <span className="flex items-center gap-1 text-[#9f7423] text-xs font-medium">
+                            <Clock className="w-3.5 h-3.5" />
+                            {course.duration}
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-semibold text-[#034633] mb-2 group-hover:text-[#9f7423] transition-colors">
+                          {course.title}
+                        </h3>
+                        <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
+                          {course.description}
+                        </p>
+                        <span className="inline-flex items-center gap-1.5 text-[#9f7423] text-sm font-medium">
+                          {t("training.viewCourse")}
+                          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        </span>
+                      </div>
+                    </Link>
+                  </motion.div>
+                ))}
               </div>
             </motion.div>
           </div>

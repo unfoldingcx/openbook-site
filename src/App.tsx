@@ -24,6 +24,13 @@ const Training = lazy(() => import("./pages/Training"));
 const Content = lazy(() => import("./pages/Content"));
 const TaxReform = lazy(() => import("./pages/content/TaxReform"));
 const Sinief = lazy(() => import("./pages/content/Sinief"));
+const ReformaTributariaGestores = lazy(() => import("./pages/content/ReformaTributariaGestores"));
+const ReformaTributariaTecnicos = lazy(() => import("./pages/content/ReformaTributariaTecnicos"));
+const CBenefNfe = lazy(() => import("./pages/content/CBenefNfe"));
+const PrecificacaoAdvogados = lazy(() => import("./pages/training/PrecificacaoAdvogados"));
+const NR1Responsabilidade = lazy(() => import("./pages/training/NR1Responsabilidade"));
+const NR1Psicossocial = lazy(() => import("./pages/training/NR1Psicossocial"));
+const TributosImobiliarios = lazy(() => import("./pages/training/TributosImobiliarios"));
 
 // Hoisted static fallback — avoids re-creation on each render (rendering-hoist-jsx)
 const pageLoader = (
@@ -101,6 +108,13 @@ function AnimatedRoutes() {
             <Route path="/content" element={<Content />} />
             <Route path="/content/reforma-tributaria-e-imoveis" element={<TaxReform />} />
             <Route path="/content/ajuste-sinief-49" element={<Sinief />} />
+            <Route path="/content/reforma-tributaria-gestores" element={<ReformaTributariaGestores />} />
+            <Route path="/content/reforma-tributaria-tecnicos" element={<ReformaTributariaTecnicos />} />
+            <Route path="/content/cbenef-nfe-sp" element={<CBenefNfe />} />
+            <Route path="/training/precificacao-advogados" element={<PrecificacaoAdvogados />} />
+            <Route path="/training/nr1-responsabilidade" element={<NR1Responsabilidade />} />
+            <Route path="/training/nr1-risco-psicossocial" element={<NR1Psicossocial />} />
+            <Route path="/training/tributos-imobiliarios" element={<TributosImobiliarios />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact" element={<Contact />} />

@@ -1,0 +1,21 @@
+Informamos uma importante atualização na legislação tributária do Estado de São Paulo relacionada à emissão de documentos fiscais eletrônicos.
+
+Conforme a Portaria SRE 70/2025, publicada em 21/10/2025, passa a ser obrigatório, a partir de 06/04/2026, o preenchimento do campo cBenef (Código de Benefício Fiscal) nas NF-e (modelo 55) e NFC-e (modelo 65) sempre que a operação estiver amparada por benefício tributário. A norma alcança operações com isenção, não incidência, redução de base de cálculo, regime especial de tributação sobre a receita bruta, suspensão e diferimento.
+
+De acordo com a página oficial da SEFAZ-SP, o preenchimento do cBenef é exigido nas operações ou prestações amparadas por esses tratamentos tributários, e os códigos válidos devem ser observados na tabela CST x cBenef disponibilizada pelo Fisco paulista. A versão publicada no portal está identificada como 20260313.
+
+Assim, todas as operações beneficiadas que envolvam isenção, não incidência, redução de base de cálculo, suspensão, diferimento ou regime especial deverão conter, no arquivo XML, o respectivo código cBenef a partir de 06/04/2026. A ausência dessa informação poderá causar rejeição na autorização de uso das notas fiscais eletrônicas, impactando a emissão da NF-e (DANFE modelo 55) e da NFC-e (modelo 65). A obrigatoriedade da informação no documento fiscal eletrônico decorre diretamente da Portaria SRE 70/2025.
+
+Nos materiais encaminhados, observa-se que a tabela da SEFAZ-SP já relaciona diversos códigos de benefício fiscal por CST. Como exemplo, a operação de saída de mercadoria remetida para demonstração, prevista no artigo 319 do RICMS, está vinculada ao código SP053190. Também consta orientação para situações em que a UF exige o campo, mas não haja código específico, hipótese em que deve ser informada a expressão “SEM CBENEF”, em maiúsculas, com a devida fundamentação legal nas informações complementares do documento fiscal.
+
+Chamamos atenção para o fato de que essa adequação demandará revisão de cadastros fiscais, parametrizações de CST, regras tributárias e rotinas de emissão no ERP, a fim de identificar corretamente quais operações possuem benefício fiscal e qual código deve ser levado ao XML em cada caso. A própria página da SEFAZ-SP informa que os códigos devem ser preenchidos conforme a tabela oficial por CST.
+
+Recomendamos as seguintes providências imediatas:
+
+Revisar todas as operações fiscais beneficiadas realizadas pela empresa;
+Identificar o enquadramento legal e o respectivo código cBenef aplicável;
+Validar com o fornecedor do sistema/ERP a parametrização do campo no XML;
+Testar antecipadamente as emissões de NF-e e NFC-e antes do início da obrigatoriedade;
+Atualizar a equipe fiscal e faturamento quanto às novas regras.
+
+Permanecemos à disposição para auxiliar na análise das operações da empresa, no mapeamento dos códigos aplicáveis e na validação das parametrizações necessárias para atendimento da nova exigência legal.

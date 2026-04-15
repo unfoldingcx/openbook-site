@@ -1,0 +1,41 @@
+Treinamento 2 – Reforma Tributária para Técnicos: Notas Fiscais, Processos e Obrigações
+Carga horária: 8 horas
+
+Público-alvo: Profissionais técnicos das áreas fiscal, contábil, faturamento, compras, logística e TI.
+Objetivos Gerais
+•	Capacitar equipes operacionais para aplicar corretamente as mudanças da Reforma Tributária na rotina diária.
+•	Apresentar os novos modelos de documentos fiscais, regras de creditamento, tratamento de operações interestaduais e impactos nos processos de negócios.
+•	Preparar os profissionais para entender os conceitos relacionados aos ajustes a serem feitos nos ERPs, para eficácia das parametrizações a partir de cadastros e integrações.
+
+Conteúdo Programático
+1. Estrutura do IVA e Regras Técnicas
+•	Composição do CBS e IBS.
+•	Métodos de apuração e escrituração.
+•	Regime de transição operacional.
+2. Alterações nas Notas Fiscais
+•	Novos campos e leiautes da NF-e.
+•	Regras de destaque do imposto.
+•	Procedimentos para split payment.
+•	Classificação das operações industriais no novo modelo.
+•	Ajustes de código de produtos (NBS, GTIN, etc.).
+3. Crédito Tributário – Operacionalização
+•	Regras de aproveitamento do crédito.
+•	Compras industriais, insumos, energia e serviços.
+•	Devoluções, estornos e ressarcimentos.
+•	Controles e conciliações.
+4. Processos de Faturamento e Compras
+•	Impactos nos fluxos internos:
+o	Faturamento
+o	Expedição
+o	Recebimento
+o	Compras
+o	Importações e exportações
+•	Novos checkpoints de compliance.
+5. Obrigações Acessórias e Integrações
+•	Mudanças esperadas na EFD, declarações digitais e novas obrigações.
+•	Discussão sobre as adequações necessárias ao bom funcionamento dos ERP (parametrização, tabelas, cadastros) tendo em vista as mudanças trazidas pela Reforma Tributaria.
+•	Integração com sistemas de gestão e automação industrial.
+6. Casos Práticos e Exercícios Aplicados
+•	Emissão de notas fiscais no novo modelo.
+•	Simulações de operações industriais reais.
+•	Checklists de transição para equipes técnicas.

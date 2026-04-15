@@ -16,7 +16,14 @@ type PageType =
   | "payroll"
   | "content"
   | "articleTaxReform"
-  | "articleSinief";
+  | "articleSinief"
+  | "coursePrecificacao"
+  | "courseNr1Responsabilidade"
+  | "courseNr1Psicossocial"
+  | "courseTributosImobiliarios"
+  | "articleReformaGestores"
+  | "articleReformaTecnicos"
+  | "articleCbenef";
 
 interface SEOProps {
   page: PageType;
@@ -34,7 +41,13 @@ const LOCALE_MAP: Record<string, { og: string; alt: string }> = {
   en: { og: "en_US", alt: "pt_BR" },
 };
 
-const ARTICLE_PAGES = new Set<PageType>(["articleTaxReform", "articleSinief"]);
+const ARTICLE_PAGES = new Set<PageType>([
+  "articleTaxReform",
+  "articleSinief",
+  "articleReformaGestores",
+  "articleReformaTecnicos",
+  "articleCbenef",
+]);
 
 // Wrapped with React.memo — page/path change infrequently (rerender-memo)
 const SEO = memo(function SEO({ page, path = "" }: SEOProps) {
