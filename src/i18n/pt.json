@@ -551,6 +551,11 @@
         "title": "Obrigatoriedade do cBenef nas NF-e e NFC-e em São Paulo",
         "description": "Aviso sobre a Portaria SRE 70/2025: preenchimento obrigatório do campo cBenef a partir de 06/04/2026.",
         "tag": "Aviso Fiscal"
+      },
+      "proLabore": {
+        "title": "Pró-labore e Distribuição de Lucros",
+        "description": "Entenda a diferença entre pró-labore e distribuição de lucros e evite problemas fiscais e previdenciários na sua empresa.",
+        "tag": "Fiscal"
       }
     },
     "cta": {
@@ -818,6 +823,66 @@
       ],
       "ctaTitle": "Conte com o nosso apoio",
       "ctaText": "Permanecemos à disposição para auxiliar na análise das operações da empresa, no mapeamento dos códigos aplicáveis e na validação das parametrizações necessárias para atendimento da nova exigência legal."
+    },
+    "proLabore": {
+      "tag": "Fiscal",
+      "author": "Open-Book Assessoria Contábil e Financeira",
+      "title": "Pró-labore e Distribuição de Lucros",
+      "subtitle": "Entenda a diferença fiscal e evite problemas na sua empresa.",
+      "intro": "Muitos empresários ainda têm dúvidas sobre a diferença entre pró-labore e distribuição de lucros. Embora os dois envolvam valores pagos aos sócios, eles têm naturezas completamente diferentes e precisam ser tratados de forma correta pela empresa. Entender essa distinção é essencial para manter o negócio em conformidade com as exigências fiscais, previdenciárias e contábeis, além de evitar erros que podem gerar autuações, inconsistências nas obrigações acessórias e riscos para os sócios.",
+      "whatIsProLaboreTitle": "O que é pró-labore?",
+      "whatIsProLaboreText1": "O pró-labore é a remuneração paga ao sócio que efetivamente trabalha na empresa. Ele corresponde ao valor recebido pelo exercício de atividades como administração, gestão, atendimento, direção, coordenação ou qualquer outra função desempenhada no dia a dia do negócio.",
+      "whatIsProLaboreText2": "Em outras palavras, quando o sócio atua diretamente na empresa, o valor pago a ele pelo seu trabalho deve ser tratado como pró-labore.",
+      "isMandatoryTitle": "O pró-labore é obrigatório?",
+      "isMandatoryText1": "Sim. Quando o sócio exerce atividade na empresa, é necessário que essa remuneração seja reconhecida corretamente, pois essa exigência está relacionada às regras previdenciárias do INSS.",
+      "isMandatoryText2": "Isso significa que o sócio que trabalha na empresa não deve receber apenas por meio de distribuição de lucros, como se não houvesse prestação de serviço ou atividade efetiva. O correto é que exista a separação entre:",
+      "separationList": [
+        "Pró-labore, como remuneração pelo trabalho do sócio",
+        "Distribuição de lucros, como repasse do resultado da empresa"
+      ],
+      "separationNote": "Essa diferença é fundamental para que a empresa cumpra corretamente suas obrigações perante o governo.",
+      "taxesTitle": "Sobre o pró-labore incidem INSS e Imposto de Renda",
+      "taxesText": "Por ter natureza remuneratória, o pró-labore está sujeito à incidência de INSS e também de Imposto de Renda, conforme a faixa de tributação aplicável. Além disso, esse valor deve ser informado de forma separada nas obrigações acessórias da empresa, já que não pode ser confundido com lucro distribuído aos sócios.",
+      "importantNote": "Por isso, é importante destacar:",
+      "importantNoteList": [
+        "O pró-labore deve ser pago mensalmente",
+        "Ele representa a remuneração do sócio que trabalha na empresa",
+        "Sobre ele incidem encargos e tributos específicos",
+        "Sua declaração deve ocorrer separadamente das demais retiradas dos sócios"
+      ],
+      "whatIsProfitTitle": "O que é distribuição de lucros?",
+      "whatIsProfitText1": "A distribuição de lucros é o repasse do lucro da empresa aos sócios, de acordo com o resultado obtido pelo negócio. Diferentemente do pró-labore, a distribuição de lucros não remunera o trabalho do sócio. Ela está relacionada à participação societária e ao desempenho financeiro da empresa.",
+      "whatIsProfitText2": "Ou seja:",
+      "keyDifferenceList": [
+        "Pró-labore é pagamento pelo trabalho",
+        "Distribuição de lucros é repasse do resultado da empresa"
+      ],
+      "keyDifferenceNote": "Essa distinção precisa estar muito clara na rotina financeira e contábil do negócio.",
+      "doesNotReplaceTitle": "Distribuição de lucros não substitui pró-labore",
+      "doesNotReplaceText1": "Esse é um dos erros mais comuns nas empresas. Muitos empresários acreditam que, ao fazer retiradas como distribuição de lucros, não precisam definir pró-labore para os sócios que trabalham na empresa. No entanto, esse entendimento pode gerar problemas fiscais e previdenciários.",
+      "doesNotReplaceText2": "A distribuição de lucros não deve ser utilizada para substituir a remuneração mensal do sócio que atua na operação do negócio. Cada verba possui finalidade, tratamento tributário e forma de declaração próprios.",
+      "whyImportantTitle": "Por que essa separação é tão importante?",
+      "whyImportantText": "Quando a empresa não diferencia corretamente pró-labore e distribuição de lucros, podem surgir diversos problemas, como:",
+      "problemsList": [
+        "Recolhimento incorreto de INSS",
+        "Apuração inadequada de Imposto de Renda",
+        "Inconsistências nas obrigações enviadas ao governo",
+        "Falhas no controle contábil e financeiro",
+        "Aumento do risco em fiscalizações"
+      ],
+      "organizationBenefit": "Além de evitar riscos, essa organização traz mais clareza para a gestão da empresa e mais segurança para os próprios sócios.",
+      "howToActTitle": "Como sua empresa deve agir?",
+      "howToActText": "Para manter a regularidade do negócio, o ideal é que a empresa:",
+      "howToActList": [
+        "Defina corretamente o valor do pró-labore dos sócios que trabalham no negócio",
+        "Faça esse pagamento de forma mensal",
+        "Separe adequadamente o que é remuneração e o que é lucro distribuído",
+        "Mantenha os registros contábeis e fiscais atualizados",
+        "Informe cada verba corretamente nas obrigações exigidas pelo governo"
+      ],
+      "ctaTitle": "Conte com apoio contábil para fazer isso da forma certa",
+      "ctaText1": "A correta definição entre pró-labore e distribuição de lucros não é apenas uma questão de organização interna. Trata-se de uma medida importante para proteger a empresa, reduzir riscos e manter a conformidade com a legislação.",
+      "ctaText2": "Se a sua empresa tem dúvidas sobre como estruturar essas retiradas dos sócios, nossa equipe pode orientar você com segurança, clareza e acompanhamento técnico. Fale conosco e mantenha sua empresa organizada, regular e em conformidade."
     }
   },
   "courses": {
@@ -1307,6 +1372,10 @@
     "articleCbenef": {
       "title": "Obrigatoriedade cBenef NF-e SP | Open-Book",
       "description": "Aviso sobre a Portaria SRE 70/2025: campo cBenef obrigatório em NF-e e NFC-e a partir de abril de 2026."
+    },
+    "articleProLabore": {
+      "title": "Pró-labore e Distribuição de Lucros | Open-Book",
+      "description": "Entenda a diferença entre pró-labore e distribuição de lucros e evite problemas fiscais e previdenciários na sua empresa."
     }
   }
 }

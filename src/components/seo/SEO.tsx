@@ -23,7 +23,8 @@ type PageType =
   | "courseTributosImobiliarios"
   | "articleReformaGestores"
   | "articleReformaTecnicos"
-  | "articleCbenef";
+  | "articleCbenef"
+  | "articleProLabore";
 
 interface SEOProps {
   page: PageType;
@@ -47,6 +48,7 @@ const ARTICLE_PAGES = new Set<PageType>([
   "articleReformaGestores",
   "articleReformaTecnicos",
   "articleCbenef",
+  "articleProLabore",
 ]);
 
 // Wrapped with React.memo — page/path change infrequently (rerender-memo)
