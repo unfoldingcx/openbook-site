@@ -30,7 +30,7 @@ const footerLogoMark = (
   <img
     src="/logo.png"
     alt="Open-Book"
-    className="h-8 w-auto flex-shrink-0 brightness-200 contrast-50"
+    className="h-11 w-auto flex-shrink-0"
   />
 );
 
