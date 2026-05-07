@@ -41,6 +41,12 @@ export default function Content() {
       tag: t("content.articles.cbenef.tag"),
       to: "/content/cbenef-nfe-sp",
     },
+    {
+      title: t("content.articles.proLabore.title"),
+      description: t("content.articles.proLabore.description"),
+      tag: t("content.articles.proLabore.tag"),
+      to: "/content/pro-labore-distribuicao-lucros",
+    },
   ];
 
   return (

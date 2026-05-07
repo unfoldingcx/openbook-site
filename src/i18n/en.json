@@ -551,6 +551,11 @@
         "title": "Mandatory cBenef Field in NF-e and NFC-e in Sao Paulo",
         "description": "Notice regarding Ordinance SRE 70/2025: mandatory cBenef field starting 04/06/2026.",
         "tag": "Tax Notice"
+      },
+      "proLabore": {
+        "title": "Pro-Labore and Profit Distribution",
+        "description": "Understand the difference between pro-labore and profit distribution and avoid tax and social security issues in your company.",
+        "tag": "Tax"
       }
     },
     "cta": {
@@ -818,6 +823,66 @@
       ],
       "ctaTitle": "Count on our support",
       "ctaText": "We remain available to assist in analyzing the company's operations, mapping applicable codes and validating the parameterizations required to comply with the new legal requirement."
+    },
+    "proLabore": {
+      "tag": "Tax",
+      "author": "Open-Book Accounting and Financial Advisory",
+      "title": "Pro-Labore and Profit Distribution",
+      "subtitle": "Understand the tax difference and avoid problems in your company.",
+      "intro": "Many business owners still have questions about the difference between pro-labore and profit distribution. Although both involve amounts paid to partners, they have completely different natures and must be handled correctly by the company. Understanding this distinction is essential to keep the business in compliance with tax, social security and accounting requirements, as well as avoiding errors that can generate penalties, inconsistencies in ancillary obligations and risks for the partners.",
+      "whatIsProLaboreTitle": "What is pro-labore?",
+      "whatIsProLaboreText1": "Pro-labore is the compensation paid to a partner who effectively works in the company. It corresponds to the amount received for performing activities such as administration, management, customer service, direction, coordination or any other function performed in the day-to-day business operations.",
+      "whatIsProLaboreText2": "In other words, when a partner actively works in the company, the amount paid to them for their work must be treated as pro-labore.",
+      "isMandatoryTitle": "Is pro-labore mandatory?",
+      "isMandatoryText1": "Yes. When a partner performs activities in the company, this compensation must be properly recognized, as this requirement is related to INSS (social security) rules.",
+      "isMandatoryText2": "This means that a partner who works in the company should not receive only through profit distribution, as if there were no service provision or effective activity. The correct approach is to maintain a separation between:",
+      "separationList": [
+        "Pro-labore, as compensation for the partner's work",
+        "Profit distribution, as a transfer of the company's results"
+      ],
+      "separationNote": "This difference is fundamental for the company to properly fulfill its obligations to the government.",
+      "taxesTitle": "Pro-labore is subject to INSS and Income Tax",
+      "taxesText": "Due to its compensatory nature, pro-labore is subject to INSS contributions and also Income Tax, according to the applicable tax bracket. Additionally, this amount must be reported separately in the company's ancillary obligations, as it cannot be confused with profit distributed to partners.",
+      "importantNote": "Therefore, it is important to note:",
+      "importantNoteList": [
+        "Pro-labore must be paid monthly",
+        "It represents the compensation of the partner who works in the company",
+        "Specific charges and taxes apply to it",
+        "Its declaration must occur separately from other partner withdrawals"
+      ],
+      "whatIsProfitTitle": "What is profit distribution?",
+      "whatIsProfitText1": "Profit distribution is the transfer of the company's profit to partners, according to the results obtained by the business. Unlike pro-labore, profit distribution does not compensate for the partner's work. It is related to equity participation and the company's financial performance.",
+      "whatIsProfitText2": "In other words:",
+      "keyDifferenceList": [
+        "Pro-labore is payment for work",
+        "Profit distribution is transfer of company results"
+      ],
+      "keyDifferenceNote": "This distinction must be very clear in the financial and accounting routine of the business.",
+      "doesNotReplaceTitle": "Profit distribution does not replace pro-labore",
+      "doesNotReplaceText1": "This is one of the most common mistakes in companies. Many business owners believe that, by making withdrawals as profit distribution, they do not need to define pro-labore for partners who work in the company. However, this understanding can generate tax and social security problems.",
+      "doesNotReplaceText2": "Profit distribution should not be used to replace the monthly compensation of a partner who works in the business operations. Each payment type has its own purpose, tax treatment and reporting requirements.",
+      "whyImportantTitle": "Why is this separation so important?",
+      "whyImportantText": "When the company does not correctly differentiate pro-labore and profit distribution, several problems can arise, such as:",
+      "problemsList": [
+        "Incorrect INSS collection",
+        "Inadequate Income Tax calculation",
+        "Inconsistencies in obligations sent to the government",
+        "Failures in accounting and financial control",
+        "Increased risk in tax audits"
+      ],
+      "organizationBenefit": "In addition to avoiding risks, this organization brings more clarity to company management and more security for the partners themselves.",
+      "howToActTitle": "How should your company act?",
+      "howToActText": "To maintain business compliance, the ideal is for the company to:",
+      "howToActList": [
+        "Correctly define the pro-labore amount for partners who work in the business",
+        "Make this payment on a monthly basis",
+        "Properly separate what is compensation and what is distributed profit",
+        "Keep accounting and tax records up to date",
+        "Report each payment correctly in the obligations required by the government"
+      ],
+      "ctaTitle": "Count on accounting support to do this correctly",
+      "ctaText1": "The correct definition between pro-labore and profit distribution is not just a matter of internal organization. It is an important measure to protect the company, reduce risks and maintain compliance with legislation.",
+      "ctaText2": "If your company has questions about how to structure these partner withdrawals, our team can guide you with security, clarity and technical support. Contact us and keep your company organized, compliant and in order."
     }
   },
   "courses": {
@@ -1307,6 +1372,10 @@
     "articleCbenef": {
       "title": "Mandatory cBenef NF-e SP | Open-Book",
       "description": "Notice regarding Ordinance SRE 70/2025: mandatory cBenef field in NF-e and NFC-e starting April 2026."
+    },
+    "articleProLabore": {
+      "title": "Pro-Labore and Profit Distribution | Open-Book",
+      "description": "Understand the difference between pro-labore and profit distribution and avoid tax and social security issues in your company."
     }
   }
 }

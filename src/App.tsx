@@ -27,6 +27,7 @@ const Sinief = lazy(() => import("./pages/content/Sinief"));
 const ReformaTributariaGestores = lazy(() => import("./pages/content/ReformaTributariaGestores"));
 const ReformaTributariaTecnicos = lazy(() => import("./pages/content/ReformaTributariaTecnicos"));
 const CBenefNfe = lazy(() => import("./pages/content/CBenefNfe"));
+const ProLabore = lazy(() => import("./pages/content/ProLabore"));
 const PrecificacaoAdvogados = lazy(() => import("./pages/training/PrecificacaoAdvogados"));
 const NR1Responsabilidade = lazy(() => import("./pages/training/NR1Responsabilidade"));
 const NR1Psicossocial = lazy(() => import("./pages/training/NR1Psicossocial"));
@@ -111,6 +112,7 @@ function AnimatedRoutes() {
             <Route path="/content/reforma-tributaria-gestores" element={<ReformaTributariaGestores />} />
             <Route path="/content/reforma-tributaria-tecnicos" element={<ReformaTributariaTecnicos />} />
             <Route path="/content/cbenef-nfe-sp" element={<CBenefNfe />} />
+            <Route path="/content/pro-labore-distribuicao-lucros" element={<ProLabore />} />
             <Route path="/training/precificacao-advogados" element={<PrecificacaoAdvogados />} />
             <Route path="/training/nr1-responsabilidade" element={<NR1Responsabilidade />} />
             <Route path="/training/nr1-risco-psicossocial" element={<NR1Psicossocial />} />
