@@ -39,6 +39,46 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export default function Footer() {
   const { t } = useTranslation();
+  const newsItems = [
+    {
+      category: "Atualização Fiscal",
+      title:
+        "NFS-e nacional será obrigatória para serviços do Simples Nacional",
+      body: "A partir de 1º de setembro de 2026, ME e EPP do Simples Nacional que prestam serviços sujeitos ao ISS deverão emitir nota exclusivamente pelo Emissor Nacional da NFS-e (web ou API). A NFS-e nacional terá validade em todo o território e não se aplica a operações sujeitas apenas ao ICMS.",
+      highlights: [
+        "Validade nacional e emissão padronizada",
+        "Obrigatória para serviços sujeitos ao ISS",
+        "Empresas que usam sistema municipal precisarão se adequar",
+      ],
+      guidance:
+        "Recomenda-se revisar acessos, dados cadastrais e fluxo de emissão com antecedência para evitar riscos fiscais.",
+    },
+    {
+      category: "Legislação Tributária",
+      title: "LC nº 224/2025 reduz benefícios e incentivos tributários federais",
+      body: "A Lei Complementar nº 224/2025 estabeleceu redução linear de 10% em diversos benefícios fiscais federais, com impacto sobre regimes e incentivos relacionados a PIS/Cofins, IRPJ, CSLL, IPI, Imposto de Importação e contribuição previdenciária patronal, entre outros.",
+      highlights: [
+        "Créditos e reduções passam a ficar limitados, em regra, a 90%",
+        "No lucro presumido, há acréscimo de presunção sobre receita anual acima de R$ 5 milhões",
+        "Há exceções relevantes (ex.: Zona Franca, cesta básica, Minha Casa Minha Vida, Prouni e outras hipóteses legais)",
+      ],
+      guidance:
+        "Vigências principais: 01/01/2026 (IRPJ e II) e 01/04/2026 (PIS, Cofins, PIS/Cofins-Importação, IPI, CSLL e CPP). Fonte: Lei Complementar nº 224/2025.",
+    },
+    {
+      category: "IOF e Operações de Crédito",
+      title:
+        "IOF pode incidir sobre mútuo em dinheiro entre empresas fora do sistema financeiro",
+      body: "A incidência do IOF pode ocorrer em empréstimos em dinheiro concedidos por pessoa jurídica, mesmo não financeira, quando caracterizada operação de crédito. O fato gerador ocorre na concessão do crédito, com regras específicas de base de cálculo, alíquotas e recolhimento.",
+      highlights: [
+        "Alíquota diária geral: 0,0082% ao dia + alíquota adicional de 0,38% (conforme regras vigentes)",
+        "Para Simples/MEI, há hipótese de alíquota reduzida em operações até R$ 30 mil, mediante requisitos formais",
+        "Atrasos podem gerar Selic, multa de mora e penalidades mais gravosas em lançamento de ofício",
+      ],
+      guidance:
+        "Empresas devem manter documentação detalhada das operações e observar obrigações declaratórias, inclusive na DCTFWeb, conforme regulamentação aplicável.",
+    },
+  ];
 
   const quickLinks = [
     { path: "/", label: t("nav.home") },
@@ -76,9 +116,9 @@ export default function Footer() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[0, 1, 2].map((index) => (
+              {newsItems.map((item, index) => (
                 <motion.div
-                  key={index}
+                  key={item.title}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -88,13 +128,28 @@ export default function Footer() {
                   <div className="flex items-center gap-2 mb-3">
                     <span className="w-2 h-2 rounded-full bg-[#d4a84b]" />
                     <span className="text-xs text-white/40 uppercase tracking-wider">
-                      {t("news.comingSoon")}
+                      {item.category}
                     </span>
                   </div>
-                  <div className="h-3 w-3/4 bg-white/10 rounded mb-3" />
-                  <div className="h-3 w-1/2 bg-white/5 rounded mb-4" />
-                  <p className="text-white/30 text-sm italic">
-                    {t("news.placeholder")}
+
+                  <h4 className="text-white font-semibold leading-snug mb-3">
+                    {item.title}
+                  </h4>
+
+                  <p className="text-white/70 text-sm leading-relaxed mb-4">
+                    {item.body}
+                  </p>
+
+                  <ul className="space-y-2 mb-4">
+                    {item.highlights.map((point) => (
+                      <li key={point} className="text-white/70 text-sm leading-relaxed">
+                        • {point}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <p className="text-white/60 text-xs leading-relaxed">
+                    {item.guidance}
                   </p>
                 </motion.div>
               ))}

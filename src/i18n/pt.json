@@ -105,6 +105,34 @@
       "text": "Com mais de 13 anos de experiência, a Open-Book Assessoria Contábil e Financeira oferece soluções contábeis e financeiras personalizadas para empresas de diferentes portes, atuando no Brasil e no exterior. A empresa conta com uma equipe especializada em normas contábeis nacionais e internacionais, tributos e gestão financeira, proporcionando atendimento completo e estratégico.",
       "text2": "Além dos serviços contábeis tradicionais, a Open-Book também terceiriza a gestão financeira, com foco em planejamento, controle e desempenho. Sua atuação é baseada em transparência, confiabilidade e orientação para resultados, apoiando decisões com dados precisos e atualizados, sempre alinhados aos princípios da contabilidade aberta.",
       "founders": "Liliane Segura & Leni Segura"
+    },
+    "leadership": {
+      "title": "Liderança",
+      "subtitle": "A Open-Book é conduzida por sócias com trajetória executiva, acadêmica e internacional em contabilidade, finanças, governança e direito empresarial.",
+      "profiles": [
+        {
+          "name": "Liliane Cristina Segura",
+          "role": "Sócia-diretora, consultora contábil e financeira, professora pesquisadora",
+          "bio": "Profissional com 30 anos de experiência em finanças corporativas, contabilidade corporativa, governança e consultoria empresarial. Atua na Open-Book e na L&L Segura Cursos Técnicos e Gerenciais, além de desenvolver atividades de ensino e pesquisa na Universidade Presbiteriana Mackenzie.",
+          "highlights": [
+            "Doutora em Administração de Empresas (Mackenzie), mestre em Administração (FEA-USP) e bacharel em Ciências Contábeis (FEA-USP)",
+            "Pós-doutorado em Administração na Universidad de Salamanca (Espanha) e formação internacional em empreendedorismo pela California State University, Fresno (EUA)",
+            "Certificação internacional em IFRS (IACAFM) e ampla atuação em projetos no Brasil e no exterior",
+            "Produção científica relevante em governança, ESG, finanças corporativas e contabilidade"
+          ]
+        },
+        {
+          "name": "Leni Regina Segura",
+          "role": "Sócia-fundadora, advogada e contadora, especialista em estruturação societária e tributária",
+          "bio": "Executiva com sólida experiência em direito empresarial, tributário e societário, com atuação em planejamento de grupos empresariais, investimento estrangeiro no Brasil e internacionalização de empresas brasileiras. Na Open-Book, lidera temas tributários e obrigações acessórias relacionadas ao Banco Central do Brasil.",
+          "highlights": [
+            "Doutoranda e mestre em Controladoria Empresarial (Mackenzie), mestre em Direito Empresarial (ESEADE) e bacharel em Direito (PUC-SP)",
+            "Bacharel em Ciências Contábeis (Mackenzie), especialista em Direito dos Contratos, Direito Empresarial e Direito Tributário",
+            "Inscrita na OAB-SP, OAB-RJ e no CRC, com atuação integrada entre direito e contabilidade",
+            "Experiência internacional em projetos em Moçambique e Angola, além de atuação docente em pós-graduação e MBA"
+          ]
+        }
+      ]
     }
   },
   "services": {

@@ -105,6 +105,34 @@
       "text": "With more than 13 years of experience, Open-Book Accounting and Financial Advisory offers customized accounting and financial solutions for companies of different sizes, operating in Brazil and abroad. The company has a team specialized in national and international accounting standards, taxes and financial management, providing complete and strategic service.",
       "text2": "In addition to traditional accounting services, Open-Book also outsources financial management, with a focus on planning, control, and performance. Its performance is based on transparency, reliability and results orientation, supporting decisions with accurate and up-to-date data, always aligned with the principles of open accounting.",
       "founders": "Liliane Segura & Leni Segura"
+    },
+    "leadership": {
+      "title": "Leadership",
+      "subtitle": "Open-Book is led by partners with executive, academic, and international backgrounds in accounting, finance, governance, and business law.",
+      "profiles": [
+        {
+          "name": "Liliane Cristina Segura",
+          "role": "Managing partner, accounting and financial consultant, research professor",
+          "bio": "Professional with 30 years of experience in corporate finance, corporate accounting, governance, and business consulting. She leads work at Open-Book and L&L Segura Technical and Management Courses, while also teaching and conducting research at Universidade Presbiteriana Mackenzie.",
+          "highlights": [
+            "PhD in Business Administration (Mackenzie), MSc in Administration (FEA-USP), and Bachelor's degree in Accounting Sciences (FEA-USP)",
+            "Postdoctoral studies in Administration at Universidad de Salamanca (Spain) and international business planning education at California State University, Fresno (USA)",
+            "International IFRS certification (IACAFM) and broad participation in projects in Brazil and abroad",
+            "Relevant scientific output in governance, ESG, corporate finance, and accounting"
+          ]
+        },
+        {
+          "name": "Leni Regina Segura",
+          "role": "Founding partner, attorney and accountant, specialist in corporate and tax structuring",
+          "bio": "Executive with strong experience in corporate, tax, and business law, focused on group structuring, foreign investment in Brazil, and international expansion of Brazilian companies. At Open-Book, she leads tax matters and ancillary obligations related to the Central Bank of Brazil.",
+          "highlights": [
+            "PhD candidate and MSc in Business Controllership (Mackenzie), MSc in Business Law (ESEADE), and Bachelor's degree in Law (PUC-SP)",
+            "Bachelor's degree in Accounting Sciences (Mackenzie), with postgraduate specialization in Contract Law, Business Law, and Tax Law",
+            "Registered with OAB-SP, OAB-RJ, and CRC, combining legal and accounting expertise",
+            "International project experience in Mozambique and Angola, plus teaching roles in postgraduate and MBA programs"
+          ]
+        }
+      ]
     }
   },
   "services": {
